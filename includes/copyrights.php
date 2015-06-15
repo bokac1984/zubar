@@ -1,0 +1,1 @@
+<div class="copyrights">Copyrights ©<?php echo date('Y'); ?>: Kecman Stomatologija</div>

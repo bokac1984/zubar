@@ -1,0 +1,46 @@
+/* 
+    Created on : Jun 14, 2015, 11:42:01 AM
+    Author     : Bokac
+*/
+
+.lista-poslova li input, .lista-poslova li label {
+    display: inline;
+}
+
+#careerform iframe {
+  width:35px !important;
+  height:30px !important;
+  display:inline-block;
+  vertical-align: middle;
+  border:0;
+}
+#careerform iframe html{
+  width: 100%;
+}
+
+#careerform input.verify{
+  display: inline-block;
+  width: 1.5em !important;
+  vertical-align: middle;
+  height: 21px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 0;
+  line-height: 1;
+}
+#careerform .captcha-wrapper {
+  display:inline-block;
+  line-height: 50px;
+  padding-left: 10px;
+}
+#careerform button[type="submit"]{
+  display:block;
+  float:right;
+}
+#career_form_response{
+  margin:1.5em 0;
+}
+#career_form_response p{
+  text-indent:0;
+}
