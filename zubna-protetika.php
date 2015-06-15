@@ -129,7 +129,7 @@ include_once("lang/lang.php");
                         <!--/ list -->	
                         
                         <!-- list -->
-                        <div><a class="widget-title" name="section4"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></div>
+                        <div><a class="widget-title" name="section5"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></div>
                         <?php echo $lang['page']['protetika']['opis']; ?>
                         <p><?php echo $lang['page']['protetika']['inleji']['opis'] ?></p>
                         <?php echo $lang['page']['protetika']['kandidati']; ?>
@@ -138,7 +138,7 @@ include_once("lang/lang.php");
                         <p><?php echo $lang['page']['protetika']['inleji']['materijali']; ?></p><br>
                         <!--/ list -->	
                         <!-- list -->
-                        <div><a class="widget-title" name="section4"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></div>
+                        <div><a class="widget-title" name="section6"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></div>
                         <?php echo $lang['page']['protetika']['opis']; ?>
                         <p><?php echo $lang['page']['protetika']['proteza']['opis'] ?></p>
                         <?php echo $lang['page']['protetika']['kandidati']; ?>
@@ -148,17 +148,7 @@ include_once("lang/lang.php");
                         <!--/ list -->	
                         
                         <!-- list -->
-                        <div><a class="widget-title" name="section4"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['proteza']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['proteza']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
-                        <p><?php echo $lang['page']['protetika']['proteza']['materijali']; ?></p><br>
-                        <!--/ list -->
-                        
-                        <!-- list -->
-                        <div><a class="widget-title" name="section4"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></div>
+                        <div><a class="widget-title" name="section7"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></div>
                         <?php echo $lang['page']['protetika']['opis']; ?>
                         <p><?php echo $lang['page']['protetika']['akrilatna']['opis'] ?></p>
                         <?php echo $lang['page']['protetika']['kandidati']; ?>
