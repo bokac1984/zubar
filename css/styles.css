@@ -6751,3 +6751,17 @@ margin-left: 70px;
     margin-right: auto;
     width: 650px;
 }
+
+.second-level-nav {
+    width: 100px;
+}
+
+.second-level-nav li {
+    margin-bottom: 5px;
+}
+
+.footer-logo img {
+  width: 78%;
+  margin-left: -2px;
+  margin-top: -8px;
+}
