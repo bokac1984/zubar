@@ -1,7 +1,10 @@
 <footer class="page-footer">
     <a href="#" id="top-link" class="top-link"><i class="fa fa-angle-double-up"></i></a>
 
-    <div class="grid-row copy-resp">
+    <div class="grid-row">
+        <!-- mobile nav -->
+        <?php include("includes/mobile-nav.php"); ?>
+        <!--/ mobile nav -->
         <nav  class="footer-nav">
             <ul>
                 <li class="first-level-nav">
@@ -70,7 +73,7 @@
             </ul>
         </nav>
     </div>
-    <div class="grid-row location copy-resp">
+    <div class="grid-row copy-resp socijalne">
         <?php include('includes/social.php'); ?>
     </div>
     <div class="grid-row copy-resp">

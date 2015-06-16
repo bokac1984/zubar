@@ -1401,7 +1401,7 @@ nav p{
   }
 }
 @media screen and (max-width: 767px) { /* phone */
-  .main-nav {
+  .main-nav, .footer-nav {
     display: none;
   }
 }
@@ -6728,10 +6728,26 @@ font-size: 12px;}
 }
 
 .copy-resp {
-margin-bottom: 20px;}
+margin-bottom: 20px;
+}
 
 .location nav a {
 margin-left: 70px;
 }
 
 .col.cjenovnik { width: 100%;}
+
+.copy-resp nav ul li {
+    display: inline;
+}
+
+.socijalne.copy-resp nav a.soc-icon.soc-icon-alt {
+    background: rgba(255, 255, 255, 0);
+    margin-left: 3em;
+}
+
+.socijalne nav ul  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
