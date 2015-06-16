@@ -508,7 +508,31 @@ $lang['page']['kontakt']['telefoni1'] = "Tel. +387 51 215 215";
 $lang['page']['kontakt']['telefoni2'] = "Besplatni info tel. 080 05 02 19";
 $lang['page']['kontakt']['widget']['mapa'] = "Mapa";
 
+$lang['page']['kontakt']['narucise']['title'] = "Naruči se odmah preko našeg online obrasca";
+$lang['page']['kontakt']['narucise']['content'] = "Rezervišite svoj termin za besplatni pregled i konsultacije ili profesionalno čišćenje i poliranje zuba preko našeg obrazca za rezervacije. Naše osoblje će vas kontaktirati u roku od 24 sata putem telefona i ponuditi vam termin koji vam najviše odgovara.";
+
+$lang['page']['kontakt']['forma']['label']['ime'] = "Vaše ime";
+$lang['page']['kontakt']['forma']['label']['email'] = "Vaš email";
+$lang['page']['kontakt']['forma']['label']['cat'] = "Kategorija";
+$lang['page']['kontakt']['forma']['label']['subject'] = "Tema";
+$lang['page']['kontakt']['forma']['label']['message'] = "Poruka";
+$lang['page']['kontakt']['forma']['label']['submit'] = "Pošalji";
 // FOOTER CONTENT
+
+////// QUICK ORDER ///////
+$lang['quickorder']['legend'] = "Narudžba";
+$lang['quickorder']['order4what'] = "Želim se naručiti za";
+$lang['quickorder']['option']['value1'] = "Opšti stomatološki pregled i konsultacije";
+$lang['quickorder']['option']['value2'] = "Pregled za protetsko zbrinjavanje";
+$lang['quickorder']['option']['value3'] = "Pregled za ortodontsku terapiju";
+$lang['quickorder']['option']['value4'] = "Pregled za oralnohirurški zahvat";
+$lang['quickorder']['option']['value5'] = "Pregled za ugradnju implantata";
+$lang['quickorder']['option']['value6'] = "Pregled za biljeljenje zuba";
+$lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje zuba";
+$lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
+$lang['quickorder']['forma']['label']['submit'] = "Dalje";
+$lang['quickorder']['forma']['opener'] = "Naruči se";
+////// QUICK ORDER ///////
 $lang['page']['footer']['copyright'] = "Sadržaj ovog internet sajta štite autorska prava čiji je nosilac i koje zadržava Zdravstvena ustanova “Stomatologija Kecman”, Kralja Alfonsa XIII broj 46a, 78 000 Banjaluka, BiH. Svi korisnici slobodni su da čitaju sadržaj. Svaka druga upotreba i umnožavanje sadržaja ovog internet sajta zabranjeni su. Dio sadržaja ovog internet sajta je prikupljen putem javnih izvora na internetu. Ukoliko autorska prava bilo kojeg sadržaja ovog internet sajta pripadaju Vama, kontaktirajte nas i mi ćemo ih ukloniti. ";
 
 $lang['page']['footer']['responsability'] = 'Sve informacije koje se nalaze na ovom internet sajtu služe isključivo za svrhu davanja opštih informacija, te kao takve ne predstavljaju konkretan medicinski savijet. Zdravstvena ustanova “Stomatologija Kecman” ne prihvata bilo kakvu odgovornost ya štetu koja eventualno nastane pristupanjem informacijama sadržanim na ovom internet sajtu ili oslanjanjem na iste.';

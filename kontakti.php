@@ -1,5 +1,9 @@
 <?php
 include_once("lang/lang.php");
+var_dump($_REQUEST);
+if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
+    echo 'radi';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -123,32 +127,32 @@ include_once("lang/lang.php");
                     <div class="grid-col grid-col-9">
                         <!-- feedback -->
                         <article class="feedback">
-                            <div class="widget-title">Naruči se odmah preko našeg online obrasca</div>										
-                            <p>Rezervišite svoj termin za besplatni pregled i konsultacije ili profesionalno čišćenje i poliranje zuba preko našeg obrazca za rezervacije. Naše osoblje će vas kontaktirati u roku od 24 sata putem telefona i ponuditi vam termin koji vam najviše odgovara.</p>
+                            <div class="widget-title"><?php echo $lang['page']['kontakt']['narucise']['title']; ?></div>										
+                            <p><?php echo $lang['page']['kontakt']['narucise']['content']; ?></p>
 
                             <form action="php/contact-send.php" id="contactform">
                                 <fieldset>
                                     <div class="clearfix">
                                         <div class="input">
-                                            <label>Your name:</label>
+                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['ime'] ?>:</label>
                                             <input type="text" name="name">
                                         </div>
                                         <div class="input">
-                                            <label>Your email:</label>
+                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['email'] ?>:</label>
                                             <input type="text" name="email">
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                         <div class="input">
-                                            <label>Category:</label>
+                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['cat'] ?>:</label>
                                             <input type="text" name="category">
                                         </div>
                                         <div class="input">
-                                            <label>Subject:</label>
-                                            <input type="text" name="subject">
+                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['subject'] ?>:</label>
+                                            <input type="text" name="subject" value="<?php echo isset($_SESSION['contact-subject']) ? $_SESSION['contact-subject'] : ''; ?>">
                                         </div>
                                     </div>
-                                    <label>Message:</label>
+                                    <label><?php echo $lang['page']['kontakt']['forma']['label']['message'] ?>:</label>
                                     <textarea rows="6" name="message"></textarea>
                                     <div class="clearfix captcha">
                                         <div class="captcha-wrapper">
@@ -156,7 +160,7 @@ include_once("lang/lang.php");
 
                                             <input class="verify" type="text" id="verify" name="verify" />
                                         </div>
-                                        <button type="submit" class="button" value="Submit">Submit</button>
+                                        <button type="submit" class="button" value="Submit"><?php echo $lang['page']['kontakt']['forma']['label']['submit']; ?></button>
 
                                     </div>
                                 </fieldset>
