@@ -41,7 +41,7 @@ include_once("lang/lang.php");
                         <!-- logo -->
                         <section id="logo" class="logo">
                             <div>
-                                <a href="index.php"><img src="img/cyan/logo.png" alt="Kecman"></a>
+                                <a href="/"><img src="img/cyan/logo.png" alt="Kecman"></a>
                             </div>
                         </section>
                         <!--/ logo -->

@@ -533,6 +533,19 @@ $lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta 
 $lang['quickorder']['forma']['label']['submit'] = "Dalje";
 $lang['quickorder']['forma']['opener'] = "Naruči se";
 ////// QUICK ORDER ///////
+
+
+
+////// ASK US WIDGET ///////
+$lang['askus']['legend'] = "Pitajte nas";
+$lang['askus']['placeholders']['imeprezime'] = "Ime i Prezime";
+$lang['askus']['placeholders']['datrodj'] = "Datum Rođenja";
+$lang['askus']['placeholders']['email'] = "Email Adresa";
+$lang['askus']['placeholders']['tel'] = "Telefon";
+$lang['askus']['placeholders']['pitanje'] = "Pitanje";
+$lang['askus']['form']['submit'] = "Pošalji pitanje";
+////// ASK US WIDGET ///////
+
 $lang['page']['footer']['copyright'] = "Sadržaj ovog internet sajta štite autorska prava čiji je nosilac i koje zadržava Zdravstvena ustanova “Stomatologija Kecman”, Kralja Alfonsa XIII broj 46a, 78 000 Banjaluka, BiH. Svi korisnici slobodni su da čitaju sadržaj. Svaka druga upotreba i umnožavanje sadržaja ovog internet sajta zabranjeni su. Dio sadržaja ovog internet sajta je prikupljen putem javnih izvora na internetu. Ukoliko autorska prava bilo kojeg sadržaja ovog internet sajta pripadaju Vama, kontaktirajte nas i mi ćemo ih ukloniti. ";
 
 $lang['page']['footer']['responsability'] = 'Sve informacije koje se nalaze na ovom internet sajtu služe isključivo za svrhu davanja opštih informacija, te kao takve ne predstavljaju konkretan medicinski savijet. Zdravstvena ustanova “Stomatologija Kecman” ne prihvata bilo kakvu odgovornost ya štetu koja eventualno nastane pristupanjem informacijama sadržanim na ovom internet sajtu ili oslanjanjem na iste.';

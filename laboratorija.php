@@ -38,7 +38,7 @@
 						<!-- logo -->
 						<section id="logo" class="logo">
 							<div>
-								<a href="index.php"><img src="img/cyan/logo.png" alt="Kecman" width="190" height="50"></a>
+								<a href="/"><img src="img/cyan/logo.png" alt="Kecman" width="190" height="50"></a>
 							</div>
 						</section>
 						<!--/ logo -->
@@ -67,7 +67,7 @@
 				<div class="grid-row clearfix">
 					<h1>Zubna Laboratorija</h1>					
 					<nav class="bread-crumbs">
-						<a href="index.php">Početna</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+						<a href="/">Početna</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
 						<a href="#">Laboratorija</a>
 					</nav>
 				</div>

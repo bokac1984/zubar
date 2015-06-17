@@ -1,9 +1,7 @@
 <?php
 include_once("lang/lang.php");
-
-if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
-    ;
-}
+$kategorija = htmlentities($_REQUEST['whatfor']);
+$name = htmlentities($_REQUEST['full-name']);
 ?>
 <!DOCTYPE html>
 <html>
@@ -45,7 +43,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
                         <!-- logo -->
                         <section id="logo" class="logo">
                             <div>
-                                <a href="index.php"><img src="img/cyan/logo.png" alt="Kecman" width="190" height="50"></a>
+                                <a href="/"><img src="img/cyan/logo.png" alt="Kecman" width="190" height="50"></a>
                             </div>
                         </section>
                         <!--/ logo -->
@@ -75,7 +73,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
                     <h1:<?php echo $lang['page']['kontakt']['title']; ?></h1>
 
                         <nav class="bread-crumbs">
-                            <a href="index.php"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                            <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
                             <a href="#"><?php echo $lang['page']['kontakt']['title']; ?></a>
                         </nav>
                 </div>
@@ -127,6 +125,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
                     <div class="grid-col grid-col-9">
                         <!-- feedback -->
                         <article class="feedback">
+                            <a class="widget-title" name="section1"></a>
                             <div class="widget-title"><?php echo $lang['page']['kontakt']['narucise']['title']; ?></div>										
                             <p><?php echo $lang['page']['kontakt']['narucise']['content']; ?></p>
 
@@ -135,7 +134,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['ime'] ?>:</label>
-                                            <input type="text" name="name">
+                                            <input type="text" name="name" value="<?php echo isset($name) ? $name : ""; ?>">
                                         </div>
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['email'] ?>:</label>
@@ -145,11 +144,11 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['cat'] ?>:</label>
-                                            <input type="text" name="category">
+                                            <input type="text" name="category" value="<?php echo isset($kategorija) ? $kategorija : ''; ?>">
                                         </div>
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['subject'] ?>:</label>
-                                            <input type="text" name="subject" value="<?php echo isset($_SESSION['contact-subject']) ? $_SESSION['contact-subject'] : ''; ?>">
+                                            <input type="text" name="subject">
                                         </div>
                                     </div>
                                     <label><?php echo $lang['page']['kontakt']['forma']['label']['message'] ?>:</label>

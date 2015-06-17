@@ -41,7 +41,7 @@ include_once("lang/lang.php");
                         <!-- logo -->
                         <section id="logo" class="logo">
                             <div>
-                                <a href="index.php"><img src="img/cyan/logo.png" alt="Kecman" width="190" height="50"></a>
+                                <a href="/"><img src="img/cyan/logo.png" alt="Kecman" width="190" height="50"></a>
                             </div>
                         </section>
                         <!--/ logo -->
@@ -78,7 +78,7 @@ include_once("lang/lang.php");
                 <div class="grid-row clearfix">
                     <h1><?php echo $lang['page']['oralnahirurgija']['title'] ?></h1>					
                     <nav class="bread-crumbs">
-                        <a href="index.php"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
                         <a href="#"><?php echo $lang['page']['oralnahirurgija']['title'] ?></a>
                     </nav>
                 </div>

@@ -1,33 +1,33 @@
 <section class="widget widget-appointment">
-    <div class="widget-title">Pitajte nas</div>
+    <div class="widget-title"><?php echo $lang['askus']['legend']; ?></div>
     <form action="php/contact-send.php" id="contactform">
         <fieldset>
             <div class="row">
-                <input type="text" placeholder="Ime i Prezime" name="ime">
+                <input type="text" placeholder="<?php echo $lang['askus']['placeholders']['imeprezime']; ?>" name="ime">
                 <i class="fa fa-user"></i>
             </div>
             <div class="row">
-                <input type="tel" placeholder="Datum Rođenja" name="datum-rodjenja">
+                <input type="tel" placeholder="<?php echo $lang['askus']['placeholders']['datrodj']; ?>" name="datum-rodjenja">
                 <i class="fa fa-calendar"></i>
             </div>
             <div class="row">
-                <input type="email" placeholder="Email Adresa" name="email">
+                <input type="email" placeholder="<?php echo $lang['askus']['placeholders']['email']; ?>" name="email">
                 <i class="fa fa-envelope"></i>
             </div>
             <div class="row">
-                <input type="text" placeholder="Telefon" name="telefon">
+                <input type="text" placeholder="<?php echo $lang['askus']['placeholders']['tel']; ?>" name="telefon">
                 <i class="fa fa-phone"></i>
             </div>
             <div class="row">
-                <textarea cols="30" rows="5" placeholder="Pitanje" name="pitanje"></textarea>
+                <textarea cols="30" rows="5" placeholder="<?php echo $lang['askus']['placeholders']['pitanje']; ?>" name="pitanje"></textarea>
                 <i class="fa fa-align-left"></i>
             </div>
             <div class="clearfix captcha">
-                <button type="submit" class="button" value="Submit">Pošalji pitanje</button>
                 <div class="captcha-wrapper">
                     <iframe src="php/capcha.php" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>
                     <input class="verify" type="text" id="verify" name="verify" />
                 </div>
+                <button type="submit" name="askusbtn" class="button" value="Submit"><?php echo $lang['askus']['form']['submit']; ?></button>
             </div>
         </fieldset>
     </form>
