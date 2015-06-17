@@ -89,7 +89,6 @@ include_once("lang/lang.php");
 
             <!-- page content -->
             <main class="page-content">				
-
                 <div class="grid-row">
                     <!-- services -->
                     <section class="services">
@@ -111,51 +110,6 @@ include_once("lang/lang.php");
                         </ul>
                     </section>
                     <!--/ services -->	
-                </div>
-
-                <div class="grid-row">
-                    <div class="grid-col grid-col-4">
-                        <!-- departments -->
-                        <section class="widget widget-departments">
-                            <div class="widget-title">Departments</div>
-                            <dl>
-                                <dt><i class="fa fa-medkit"></i>Primary Health Care</dt>
-                                <dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
-                                <dt><i class="fa fa-user-md"></i>Gynaecological Clinic</dt>
-                                <dd>Donec lacinia suscipit magna, et pulvinar tortor facilisis quis. Donec tempor erat vel scelerisque posuere.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
-                                <dt><i class="fa fa-stethoscope"></i>Diagnosis With Precise</dt>
-                                <dd>Nam elementum elit eget  tellus faucibus euismod. Aliquam turpis nibh, dictum eu consequat ac, facilisis eu elit. Pellentesque pellentesque orci quam, nec tempus nibh congue ut.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
-                                <dt><i class="fa fa-heart"></i>Cardiac Clinic</dt>
-                                <dd>Nulla nec rutrum tortor, in fermentum nisl.accumsan pulvinar scelerisque tincidunt, adipiscing eget risus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
-                                <dt><i class="fa fa-scissors"></i>General Surgery</dt>
-                                <dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus pulvinar. Urna, quis facilisis magna dolor ac lacus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
-                                <dt class="opened"><i class="fa fa-wheelchair"></i>Rehabilitation Studio</dt>
-                                <dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus pulvinar. Urna, quis facilisis magna dolor ac lacus.<br/><a href="timetable-week.html"><i class="soc-icon fa fa-clock-o"></i> TIMETABLE</a></dd>
-                            </dl>
-                        </section>
-                        <!--/ departments -->
-                    </div>
-
-                    <div class="grid-col grid-col-4">
-                        <!-- sevices -->
-                        <section class="widget widget-sevices">
-                            <div class="widget-title">Naše usluge</div>
-                            <ul>
-                                <li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Estetska Stomatologija</a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Oralna Hirurgija</a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Implantologija</a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Laboratorija</a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Ostale Usluge</a></li>
-                            </ul>
-                        </section>
-                        <!--/ sevices -->
-                    </div>
-
-                    <div class="grid-col grid-col-4">
-                        <!-- appointment -->
-                        <?php include("includes/widget-ask-us.php"); ?>
-                        <!--/ appointment -->	
-                    </div>
                 </div>
             </main>
             <!--/ page content -->
