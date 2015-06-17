@@ -1151,11 +1151,11 @@ textarea {
 }
 .logo div {
   height: 100%;
-  padding: 31px 0;
+  padding: 24px 0;
   box-sizing: border-box;
 }
 .second-sticky.sticky-container .logo div{
-  padding: 12px 0;
+  padding: 2px 0;
 }
 .logo div>a{
   height: 100%;
@@ -1401,7 +1401,7 @@ nav p{
   }
 }
 @media screen and (max-width: 767px) { /* phone */
-  .main-nav {
+  .main-nav, .footer-nav {
     display: none;
   }
 }
@@ -6728,10 +6728,40 @@ font-size: 12px;}
 }
 
 .copy-resp {
-margin-bottom: 20px;}
+margin-bottom: 20px;
+}
 
 .location nav a {
 margin-left: 70px;
 }
 
 .col.cjenovnik { width: 100%;}
+
+.copy-resp nav ul li {
+    display: inline;
+}
+
+.socijalne.copy-resp nav a.soc-icon.soc-icon-alt {
+    background: rgba(255, 255, 255, 0);
+    margin-left: 3em;
+}
+
+.socijalne nav ul  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.second-level-nav {
+    width: 100px;
+}
+
+.second-level-nav li {
+    margin-bottom: 5px;
+}
+
+.footer-logo img {
+  width: 78%;
+  margin-left: -2px;
+  margin-top: -8px;
+}
