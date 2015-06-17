@@ -5,13 +5,13 @@ if(!session_id()) {
 error_reporting(0);
 
 if (isset($_REQUEST['action'])) {
-    if ($_REQUEST['action'] == "contact_form_request") {
+    if ($_REQUEST['action'] == "internacionala_form_request") {
 
         $ourMail = "djordjehrnjez@gmail.com"; //Insert your email address here
 
-        $required_fields = array("ime", "datum-rodjenja", "email", "telefon", "pitanje");
+        $required_fields = array("imeprezime", "rtg", "email", "dodatneinfo");
         $pre_messagebody_info = "";
-        $subject = "Website forma: Pitajte nas";
+        $subject = "Website forma: Internacionalni pacijenti";
         $errors = array();
         $data = array();
         parse_str($_REQUEST['values'], $data);

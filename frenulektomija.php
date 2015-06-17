@@ -76,10 +76,11 @@ include_once("lang/lang.php");
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['oralnahirurgija']['title'] ?></h1>					
+                    <h1><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['title']; ?></h1>					
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['oralnahirurgija']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['oralnahirurgija']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="#"><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -89,50 +90,11 @@ include_once("lang/lang.php");
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
                         <!-- list -->
-                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['oralnahirurgija']['ekstrakcija']['title']; ?></a></div>
-                        <?php echo $lang['page']['oralnahirurgija']['opis']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['ekstrakcija']['opis'] ?></p>
-                        <?php echo $lang['page']['oralnahirurgija']['kandidati']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['ekstrakcija']['kandidati']; ?></p><br>	
-
-                        <!-- list -->
-                        <div><a class="widget-title" name="section2"><?php echo $lang['page']['oralnahirurgija']['apikotomija']['title']; ?></a></div>
-                        <?php echo $lang['page']['oralnahirurgija']['opis']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['apikotomija']['opis'] ?></p>
-                        <?php echo $lang['page']['oralnahirurgija']['kandidati']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['apikotomija']['kandidati']; ?></p><br>
-                        <!--/ list -->	
-
-
-                        <!-- list -->
-                        <div><a class="widget-title" name="section3"><?php echo $lang['page']['oralnahirurgija']['Cistektomija']['title']; ?></a></div>
-                        <?php echo $lang['page']['oralnahirurgija']['opis']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['Cistektomija']['opis'] ?></p>
-                        <?php echo $lang['page']['oralnahirurgija']['kandidati']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['Cistektomija']['kandidati']; ?></p><br>
-                        <!--/ list -->
-
-                        <!-- list -->
-                        <div><a class="widget-title" name="section4"><?php echo $lang['page']['oralnahirurgija']['Incizija']['title']; ?></a></div>
-                        <?php echo $lang['page']['oralnahirurgija']['opis']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['Incizija']['opis'] ?></p>
-                        <?php echo $lang['page']['oralnahirurgija']['kandidati']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['Incizija']['kandidati']; ?></p><br>
-                        <!--/ list -->	
-                        
-                        <!-- list -->
                         <div><a class="widget-title" name="section5"><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['title']; ?></a></div>
                         <?php echo $lang['page']['oralnahirurgija']['opis']; ?>
                         <p><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['opis'] ?></p>
                         <?php echo $lang['page']['oralnahirurgija']['kandidati']; ?>
                         <p><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['kandidati']; ?></p><br>
-                        <!--/ list -->	
-                        <!-- list -->
-                        <div><a class="widget-title" name="section6"><?php echo $lang['page']['oralnahirurgija']['Nivelacija']['title']; ?></a></div>
-                        <?php echo $lang['page']['oralnahirurgija']['opis']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['Nivelacija']['opis'] ?></p>
-                        <?php echo $lang['page']['oralnahirurgija']['kandidati']; ?>
-                        <p><?php echo $lang['page']['oralnahirurgija']['Nivelacija']['kandidati']; ?></p><br>
                         <!--/ list -->	
                     </div>
                     <div class="grid-col grid-col-3">
@@ -141,12 +103,12 @@ include_once("lang/lang.php");
                         <section class="widget widget-sevices">
                             <div class="widget-title"><?php echo $lang['page']['oralnahirurgija']['usluge']; ?></div>
                             <ul>
-                                <li><i class="fa fa-bookmark"></i><a href="#section1"><?php echo $lang['page']['oralnahirurgija']['ekstrakcija']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section2"><?php echo $lang['page']['oralnahirurgija']['apikotomija']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section3"><?php echo $lang['page']['oralnahirurgija']['Cistektomija']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section4"><?php echo $lang['page']['oralnahirurgija']['Incizija']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section5"><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section6"><?php echo $lang['page']['oralnahirurgija']['Nivelacija']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="ekstrakcija-zuba"><?php echo $lang['page']['oralnahirurgija']['ekstrakcija']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="apikotomija"><?php echo $lang['page']['oralnahirurgija']['apikotomija']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="cistektomija"><?php echo $lang['page']['oralnahirurgija']['Cistektomija']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="incizija-apscesa"><?php echo $lang['page']['oralnahirurgija']['Incizija']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="frenulektomija"><?php echo $lang['page']['oralnahirurgija']['Frenulektomija']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="nivelacija-alveolarnog-grebena"><?php echo $lang['page']['oralnahirurgija']['Nivelacija']['title']; ?></a></li>
                             </ul>
                         </section>
                         <!--/ categories -->

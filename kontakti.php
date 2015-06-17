@@ -1,7 +1,7 @@
 <?php
 include_once("lang/lang.php");
-$kategorija = htmlentities($_REQUEST['whatfor']);
-$name = htmlentities($_REQUEST['full-name']);
+$kategorija = htmlentities(isset($_REQUEST['whatfor']) ? $_REQUEST['whatfor'] : "");
+$name = htmlentities(isset($_REQUEST['full-name']) ? $_REQUEST['full-name'] : "");
 ?>
 <!DOCTYPE html>
 <html>
@@ -50,7 +50,7 @@ $name = htmlentities($_REQUEST['full-name']);
 
                         <!-- main nav -->
                         <?php
-                        $typeActive = 7;
+                        $typeActive = 8;
                         include("includes/main-nav.php");
                         ?>
                         <!--/ main nav -->

@@ -10,6 +10,7 @@
 		progress_bar_loader ();
 		contact_form_init();
                 career_form_init();
+                internacionala_form_init();
 		chart_circle_init();
 		sticky ()
 		$(document).scroll(milestone_counter);
@@ -847,8 +848,80 @@ function career_form_init() {
             });
         });
 
+    }
+}
+
+function internacionala_form_init() {
+    if ($('#internacionala').length) {
+console.log('ima forme inter');
+        var $form = $('#internacionala'),
+        $loader = '<img src="php/preloader.gif" alt="Loading..." />';
+        $form.find("fieldset").prepend('<div id="career_form_response">');
+
+        var $response = $('#career_form_response');
+        $response.append("<div class='wpb_alert'><div class='messagebox_text clearfix'><h1></h1><p></p></div></div>");
+        $response.css("display", "none");
+
+        $form.submit(function (e) {
+            e.preventDefault();
+            $response.css("display", "block");
+            $response.find('p').html($loader);
+
+            var data = {
+                action: "internacionala_form_request",
+                values: $("#internacionala").serialize()
+            };
+            //send data to server    
+            $.post("php/internacionalni-send.php", data, function (response) {
+
+                response = $.parseJSON(response);
+
+                $(".wrong-data").removeClass("wrong-data");
+                $response.find('img').remove();
+
+                if (response.is_errors) {
+                    $response.find('.wpb_alert').removeClass().addClass('wpb_alert');
+                    $.each(response.info, function (input_name, input_label) {
+
+                        $("[name=" + input_name + "]").addClass("wrong-data");
+                        $response.find('p').append(input_label + '!</br>');
+                    });
+
+                } else {
+                    if (response.info == 'success') {
+                        $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_confirm');
+                        $response.find('p').append('Vaša prijava je uspješno poslata!');
+                        $response.find('p').delay(5000).hide(500, function () {
+                            $(this).removeClass().text("").fadeIn(500);
+                            $response.css("display", "none");
+                        })
+                        $form.find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
+                    }
+
+                    if (response.info == 'server_fail') {
+                        $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_error');
+                        $response.find('p').append('Greška na serveru. Molimo pokušajte kasnije!');
+                    }
+                }
+
+                // Scroll to bottom of the form to show respond message
+                var topPosition = $("#career_form_response").offset().top;
+
+                if (($(document).scrollTop() - $(document).height()) < topPosition) {
+                    $('html, body').animate({
+                        scrollTop: topPosition
+                    });
+                }
+
+                if (!$('#career_form_response').css('display') == 'block') {
+                    $response.show(450);
+                }
+
+            });
+        });
+
     } else {
-        console.log('nema ga');
+        console.log('nema ga internacionalaS');
     }
 }
 

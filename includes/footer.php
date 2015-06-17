@@ -2,9 +2,6 @@
     <a href="#" id="top-link" class="top-link"><i class="fa fa-angle-double-up"></i></a>
 
     <div class="grid-row" style="margin-bottom: 0;">
-        <!-- mobile nav -->
-        <?php include("includes/mobile-nav.php"); ?>
-        <!--/ mobile nav -->
         <nav  class="footer-nav">
         <?php include('includes/footer-nav.php'); ?>
         </nav>

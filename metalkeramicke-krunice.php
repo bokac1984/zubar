@@ -76,10 +76,11 @@ include_once("lang/lang.php");
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['protetika']['title'] ?></h1>					
+                    <h1><?php echo $lang['page']['protetika']['inline']['title'] ?></h1>					
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['protetika']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['protetika']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="#"><?php echo $lang['page']['protetika']['inline']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -96,64 +97,6 @@ include_once("lang/lang.php");
                         <p><?php echo $lang['page']['protetika']['inline']['kandidati']; ?></p>
                         <?php echo $lang['page']['protetika']['materijali']; ?>
                         <p><?php echo $lang['page']['protetika']['inline']['materijali']; ?></p><br>	
-
-                        <!-- list -->
-                        <div><a class="widget-title" name="section2"><?php echo $lang['page']['protetika']['bezmetalne']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['bezmetalne']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['bezmetalne']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
-                        <p><?php echo $lang['page']['protetika']['bezmetalne']['materijali']; ?></p><br>
-                        <!--/ list -->	
-
-
-                        <!-- list -->
-                        <div><a class="widget-title" name="section3"><?php echo $lang['page']['protetika']['cirkonujum']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['cirkonujum']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['cirkonujum']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
-                        <p><?php echo $lang['page']['protetika']['cirkonujum']['materijali']; ?></p><br>
-                        <!--/ list -->
-
-                        <!-- list -->
-                        <div><a class="widget-title" name="section4"><?php echo $lang['page']['protetika']['kerveniri']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['kerveniri']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['kerveniri']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
-                        <p><?php echo $lang['page']['protetika']['kerveniri']['materijali']; ?></p><br>
-                        <!--/ list -->	
-                        
-                        <!-- list -->
-                        <div><a class="widget-title" name="section5"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['inleji']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['inleji']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
-                        <p><?php echo $lang['page']['protetika']['inleji']['materijali']; ?></p><br>
-                        <!--/ list -->	
-                        <!-- list -->
-                        <div><a class="widget-title" name="section6"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['proteza']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['proteza']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
-                        <p><?php echo $lang['page']['protetika']['proteza']['materijali']; ?></p><br>
-                        <!--/ list -->	
-                        
-                        <!-- list -->
-                        <div><a class="widget-title" name="section7"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['akrilatna']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['akrilatna']['kandidati']; ?></p>
-                        <!--/ list -->
                     </div>
                     <div class="grid-col grid-col-3">
 
@@ -161,13 +104,13 @@ include_once("lang/lang.php");
                         <section class="widget widget-sevices">
                             <div class="widget-title"><?php echo $lang['page']['protetika']['usluge']; ?></div>
                             <ul>
-                                <li><i class="fa fa-bookmark"></i><a href="#section1"><?php echo $lang['page']['protetika']['inline']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section2"><?php echo $lang['page']['protetika']['bezmetalne']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section3"><?php echo $lang['page']['protetika']['cirkonujum']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section4"><?php echo $lang['page']['protetika']['kerveniri']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section2"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section3"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></li>
-                                <li><i class="fa fa-bookmark"></i><a href="#section4"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="metalkeramicke-krunice"><?php echo $lang['page']['protetika']['inline']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-bezmetalne-krunice"><?php echo $lang['page']['protetika']['bezmetalne']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="cirkonijum-dioksid-krunice"><?php echo $lang['page']['protetika']['cirkonujum']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-keramicki-veniri"><?php echo $lang['page']['protetika']['kerveniri']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-keramicki-inlej"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="skeletirana-proteza"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="akrilatna-proteza"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></li>
                             </ul>
                         </section>
                         <!--/ categories -->

@@ -111,6 +111,17 @@ include_once("lang/lang.php");
                     </section>
                     <!--/ services -->	
                 </div>
+                <div class="grid-row">
+                    <section class="savremena-tehnologija">
+                        <p>Savremena tehnologija i materijali visokog kvaliteta</p>
+                        <ul>
+                            <li><img src="img/homepage/chirana.png" width="250" height="82"/></li>
+                            <li><img src="img/homepage/straumann.png" width="250" height="60"/></li>
+                            <li><img src="img/homepage/gci.png"  width="250" height="60"/></li>
+                            <li><img src="img/homepage/ivoclar.png" /></li>
+                        </ul>
+                    </section>
+                </div>
             </main>
             <!--/ page content -->
 

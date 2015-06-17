@@ -1,11 +1,10 @@
 <?php
 include_once("lang/lang.php");
-
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $lang['page']['rate']['title'] . ' - ' . $lang['site']['title']; ?></title>
+        <title><?php echo $lang['page']['protetika']['title'] . ' - ' . $lang['site']['title']; ?></title>
 
         <!-- metas -->
         <meta charset="utf-8">        
@@ -26,8 +25,7 @@ include_once("lang/lang.php");
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/color-cyan.css">
-        <link rel="stylesheet" type="text/css" href="css/internacionala.css">
+        <link rel="stylesheet" type="text/css" href="css/color-cyan.css">		
         <!--/ styles -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -50,7 +48,7 @@ include_once("lang/lang.php");
 
                         <!-- main nav -->
                         <?php
-                        $typeActive = -1;
+                        $typeActive = 2;
                         include("includes/main-nav.php");
                         ?>
                         <!--/ main nav -->
@@ -66,13 +64,23 @@ include_once("lang/lang.php");
             <!-- quick search -->
             <?php include("includes/quick-order.php"); ?>
             <!--/ quick search -->
+            <!-- slider -->
+            <div class="slider-wrapper">
+                <section class="slider" id="slider">
+                    <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
+                        <img src="img/pages/protetika.jpg" alt="" class="ls-bg">
+                    </div>
+                </section>
+            </div>
+            <!--/ slider -->
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['inernacionala']['title'] ?></h1>					
+                    <h1><?php echo $lang['page']['protetika']['title'] ?></h1>					
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['inernacionala']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['protetika']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -80,53 +88,35 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <a name="section5"></a>
                     <div class="grid-col grid-col-9">
-                        <!-- feedback -->
-                        <article class="feedback">
-                            <div class="widget-title"><?php echo $lang['page']['inernacionala']['title']; ?></div>										
-                            <p><?php echo $lang['page']['inernacionala']['content']; ?></p><br>
-                            <p><?php echo $lang['page']['inernacionala']['forma']['informacije']; ?></p>
-                            <form action="php/internacionalni-send.php" id="internacionala" enctype="multipart/form-data">
-                                <fieldset>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['inernacionala']['forma']['imeprezime']; ?></label>
-                                            <input type="text" name="imeprezime">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label>Email:</label>
-                                            <input type="text" name="email">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['inernacionala']['forma']['rtg']; ?></label>
-                                            <input type="file" name="rtg">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['inernacionala']['forma']['dodatneinfo']; ?></label>
-                                            <textarea cols="30" rows="5" name="dodatneinfo"></textarea>                                            
-                                        </div>
-                                    </div>
-                                    <div class="clearfix captcha">
-                                        <div class="captcha-wrapper">
-                                            <iframe src="php/capcha.php" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                        <!-- list -->
+                        <div><a class="widget-title" name="section7"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></div>
+                        <?php echo $lang['page']['protetika']['opis']; ?>
+                        <p><?php echo $lang['page']['protetika']['akrilatna']['opis'] ?></p>
+                        <?php echo $lang['page']['protetika']['kandidati']; ?>
+                        <p><?php echo $lang['page']['protetika']['akrilatna']['kandidati']; ?></p>
+                        <!--/ list -->
+                    </div>
+                    <div class="grid-col grid-col-3">
 
-                                            <input class="verify" type="text" id="verify" name="verify" />
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <button type="submit" class="button" value="Submit" style="float: left;"><?php echo $lang['page']['onama']['partneri']['form']['submit']; ?></button>
-                                    </div>
-                                </fieldset>
-                            </form>							
-                        </article>
-                        <!--/ feedback -->
+                        <!-- categories -->
+                        <section class="widget widget-sevices">
+                            <div class="widget-title"><?php echo $lang['page']['protetika']['usluge']; ?></div>
+                            <ul>
+                                <li><i class="fa fa-bookmark"></i><a href="metalkeramicke-krunice"><?php echo $lang['page']['protetika']['inline']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-bezmetalne-krunice"><?php echo $lang['page']['protetika']['bezmetalne']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="cirkonijum-dioksid-krunice"><?php echo $lang['page']['protetika']['cirkonujum']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-keramicki-veniri"><?php echo $lang['page']['protetika']['kerveniri']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-keramicki-inlej"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="skeletirana-proteza"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="akrilatna-proteza"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></li>
+                            </ul>
+                        </section>
+                        <!--/ categories -->
+
+                        <!-- ask us -->
+                        <?php include("includes/widget-ask-us.php"); ?>
+                        <!--/ ask us -->
                     </div>
                 </div>
             </main>

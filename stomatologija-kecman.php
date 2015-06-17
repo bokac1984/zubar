@@ -1,11 +1,10 @@
 <?php
 include_once("lang/lang.php");
-
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $lang['page']['rate']['title'] . ' - ' . $lang['site']['title']; ?></title>
+        <title><?php echo $lang['page']['onama']['title'] . ' - ' . $lang['site']['title']; ?></title>
 
         <!-- metas -->
         <meta charset="utf-8">        
@@ -27,7 +26,7 @@ include_once("lang/lang.php");
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/color-cyan.css">
-        <link rel="stylesheet" type="text/css" href="css/internacionala.css">
+        <link rel="stylesheet" type="text/css" href="css/onama.css">
         <!--/ styles -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -50,7 +49,7 @@ include_once("lang/lang.php");
 
                         <!-- main nav -->
                         <?php
-                        $typeActive = -1;
+                        $typeActive = 7;
                         include("includes/main-nav.php");
                         ?>
                         <!--/ main nav -->
@@ -66,13 +65,23 @@ include_once("lang/lang.php");
             <!-- quick search -->
             <?php include("includes/quick-order.php"); ?>
             <!--/ quick search -->
+            <!-- slider -->
+            <div class="slider-wrapper">
+                <section class="slider" id="slider">
+                    <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
+                        <img src="img/pages/onama.jpg" alt="" class="ls-bg">
+                    </div>
+                </section>
+            </div>
+            <!--/ slider -->
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['inernacionala']['title'] ?></h1>					
+                    <h1><?php echo $lang['page']['onama']['title'] ?></h1>
+
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['inernacionala']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>
                     </nav>
                 </div>
             </section>
@@ -80,57 +89,28 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <a name="section5"></a>
-                    <div class="grid-col grid-col-9">
-                        <!-- feedback -->
-                        <article class="feedback">
-                            <div class="widget-title"><?php echo $lang['page']['inernacionala']['title']; ?></div>										
-                            <p><?php echo $lang['page']['inernacionala']['content']; ?></p><br>
-                            <p><?php echo $lang['page']['inernacionala']['forma']['informacije']; ?></p>
-                            <form action="php/internacionalni-send.php" id="internacionala" enctype="multipart/form-data">
-                                <fieldset>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['inernacionala']['forma']['imeprezime']; ?></label>
-                                            <input type="text" name="imeprezime">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label>Email:</label>
-                                            <input type="text" name="email">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['inernacionala']['forma']['rtg']; ?></label>
-                                            <input type="file" name="rtg">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['inernacionala']['forma']['dodatneinfo']; ?></label>
-                                            <textarea cols="30" rows="5" name="dodatneinfo"></textarea>                                            
-                                        </div>
-                                    </div>
-                                    <div class="clearfix captcha">
-                                        <div class="captcha-wrapper">
-                                            <iframe src="php/capcha.php" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                    <a name="section1"></a>
+                    <div class="grid-col grid-col-12">
+                        <!-- philosophy -->
+                        <section class="widget">	
+                            <div class="widget-title"><?php echo $lang['page']['onama']['title'] ?></div>
 
-                                            <input class="verify" type="text" id="verify" name="verify" />
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <button type="submit" class="button" value="Submit" style="float: left;"><?php echo $lang['page']['onama']['partneri']['form']['submit']; ?></button>
-                                    </div>
-                                </fieldset>
-                            </form>							
-                        </article>
-                        <!--/ feedback -->
+                            <div class="wpb_text_column wpb_content_element">
+                                <div class="wpb_wrapper">			
+                                    <img src="pic/our-logo.png" width="260" height="93" alt="" class="alignleft">
+                                    <?php echo $lang['page']['onama']['content']; ?>
+                                </div>
+                            </div>
+                        </section>
+                        <!--/ philosophy -->
                     </div>
+                    <hr>
                 </div>
             </main>
 
+
+
+            <!-- FOOTERS -->
             <!-- page footer -->
             <?php include("includes/footer.php"); ?>
             <!--/ page footer -->
