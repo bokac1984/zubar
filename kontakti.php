@@ -1,8 +1,8 @@
 <?php
 include_once("lang/lang.php");
-var_dump($_REQUEST);
+
 if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'kontakti'){
-    echo 'radi';
+    ;
 }
 ?>
 <!DOCTYPE html>

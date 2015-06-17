@@ -6709,9 +6709,9 @@ i.appointment{
 
 /* footer menu */
 .footer-nav li.first-level-nav {
-float: left;
-display: block;
-margin: 7px;
+    float: left;
+    display: block;
+    margin: 0.688em;
 }
 
 .footer-nav li.first-level-nav ul li{
