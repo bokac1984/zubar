@@ -83,9 +83,14 @@ $lang['page']['inernacionala']['forma']['rtg'] = "RTG snimak";
 $lang['page']['inernacionala']['forma']['dodatneinfo'] = "Dodatne informacije";
 $lang['page']['inernacionala']['forma']['informacije'] = "Pošaljite nam RTG snimak, a mi ćemo Vam u roku od 24 sata poslati neobavezujuću ponudu. Ako budete zadovoljni našom ponudom, možemo početi planirati Vaš dolazak.";
 
+$lang['page']['inernacionala']['email']['success'] = "Uspješno poslana email poruka.";
 $lang['page']['inernacionala']['imeprezime']['error'] = "Unesite ime i prezime";
 $lang['page']['inernacionala']['rtg']['error'] = "Odaberite RTG snimak";
+$lang['page']['rtg']['general']['error'] = "Greška prilikom upload fajla";
+$lang['page']['rtg']['mime']['error'] = "Fajl pogrešne ekstenzije, dozvoljene: jpg, png";
+$lang['page']['rtg']['size']['error'] = "Pogresna veličina slike, dozvoljeno ";
 $lang['page']['inernacionala']['email']['error'] = "Unesite email";
+$lang['page']['inernacionala']['email2']['error'] = "Neispravna email adresa";
 $lang['page']['inernacionala']['captcha']['error'] = "Unesite Captcha";
 
 
