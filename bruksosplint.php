@@ -4,7 +4,7 @@ include_once("lang/lang.php");
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $lang['page']['onama']['title'] . ' - ' . $lang['site']['title']; ?></title>
+        <title><?php echo $lang['page']['protetika']['title'] . ' - ' . $lang['site']['title']; ?></title>
 
         <!-- metas -->
         <meta charset="utf-8">        
@@ -25,8 +25,7 @@ include_once("lang/lang.php");
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/color-cyan.css">
-        <link rel="stylesheet" type="text/css" href="css/onama.css">
+        <link rel="stylesheet" type="text/css" href="css/color-cyan.css">		
         <!--/ styles -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -49,7 +48,7 @@ include_once("lang/lang.php");
 
                         <!-- main nav -->
                         <?php
-                        $typeActive = 7;
+                        $typeActive = 2;
                         include("includes/main-nav.php");
                         ?>
                         <!--/ main nav -->
@@ -69,7 +68,7 @@ include_once("lang/lang.php");
             <div class="slider-wrapper">
                 <section class="slider" id="slider">
                     <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
-                        <img src="img/pages/kanalikomunikacije.jpg" alt="" class="ls-bg">
+                        <img src="img/pages/zubnaprotetika.jpg" alt="" class="ls-bg">
                     </div>
                 </section>
             </div>
@@ -77,12 +76,11 @@ include_once("lang/lang.php");
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['onama']['kanali']['title'] ?></h1>
-
+                    <h1><?php echo $lang['page']['protetika']['Bruksosplint']['title'] ?></h1>					
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['onama']['kanali']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['protetika']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['protetika']['Bruksosplint']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -90,22 +88,40 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <a name="section3"></a>
-                    <div class="grid-col grid-col-12">
-                        <!-- philosophy -->
-                        <section class="widget">	
-                            <div class="widget-title"><?php echo $lang['page']['onama']['kanali']['title'] ?></div>
-                            <p><?php echo $lang['page']['onama']['kanali']['content']; ?> </p>
-                            <div class="socijalne-ikone"><?php include('includes/social.php'); ?></div>
+                    <div class="grid-col grid-col-9">
+                        <!-- list -->
+                        <div><a class="widget-title" name="section7"><?php echo $lang['page']['protetika']['Bruksosplint']['title']; ?></a></div>
+                        <?php echo $lang['page']['protetika']['opis']; ?>
+                        <p><?php echo $lang['page']['protetika']['Bruksosplint']['opis'] ?></p>
+                        <?php echo $lang['page']['protetika']['kandidati']; ?>
+                        <p><?php echo $lang['page']['protetika']['Bruksosplint']['kandidati']; ?></p>
+                        <!--/ list -->
+                    </div>
+                    <div class="grid-col grid-col-3">
+
+                        <!-- categories -->
+                        <section class="widget widget-sevices">
+                            <div class="widget-title"><?php echo $lang['page']['protetika']['usluge']; ?></div>
+                            <ul>
+                                <li><i class="fa fa-bookmark"></i><a href="metalkeramicke-krunice"><?php echo $lang['page']['protetika']['inline']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-bezmetalne-krunice"><?php echo $lang['page']['protetika']['bezmetalne']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="cirkonijum-dioksid-krunice"><?php echo $lang['page']['protetika']['cirkonujum']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-keramicki-veniri"><?php echo $lang['page']['protetika']['kerveniri']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="press-keramicki-inlej"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="skeletirana-proteza"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="akrilatna-proteza"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="bruksosplint"><?php echo $lang['menu']['bruksosplint'] ?></a></li>
+                            </ul>
                         </section>
-                        <!--/ philosophy -->
+                        <!--/ categories -->
+
+                        <!-- ask us -->
+                        <?php include("includes/widget-ask-us.php"); ?>
+                        <!--/ ask us -->
                     </div>
                 </div>
             </main>
 
-
-
-            <!-- FOOTERS -->
             <!-- page footer -->
             <?php include("includes/footer.php"); ?>
             <!--/ page footer -->

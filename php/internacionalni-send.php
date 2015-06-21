@@ -1,13 +1,17 @@
 <?php
+
 if(!session_id()) {
 	session_start();
 }
 error_reporting(0);
 
+include_once("../lang/lang.php");
+include_once("../includes/config.php");
+
 if (isset($_REQUEST['action'])) {
     if ($_REQUEST['action'] == "internacionala_form_request") {
 
-        $ourMail = "djordjehrnjez@gmail.com"; //Insert your email address here
+        $ourMail = $emailAddress; //Insert your email address here
 
         $required_fields = array("imeprezime", "rtg", "email", "dodatneinfo");
         $pre_messagebody_info = "";

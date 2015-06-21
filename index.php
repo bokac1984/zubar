@@ -69,7 +69,7 @@ include_once("lang/lang.php");
             <div class="slider-wrapper">
                 <section class="slider" id="slider">
                     <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
-                        <img src="img/pages/naslovna.jpg" alt="" class="ls-bg">
+                        <img src="img/pages/homepage.jpg" alt="" class="ls-bg">
 
 
                     </div>
@@ -111,7 +111,7 @@ include_once("lang/lang.php");
                     </section>
                     <!--/ services -->	
                 </div>
-                <div class="grid-row">
+<!--                <div class="grid-row">
                     <section class="savremena-tehnologija">
                         <p>Savremena tehnologija i materijali visokog kvaliteta</p>
                         <ul>
@@ -121,7 +121,7 @@ include_once("lang/lang.php");
                             <li><img src="img/homepage/ivoclar.png" /></li>
                         </ul>
                     </section>
-                </div>
+                </div>-->
             </main>
             <!--/ page content -->
 

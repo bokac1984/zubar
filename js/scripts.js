@@ -10,7 +10,7 @@
 		progress_bar_loader ();
 		contact_form_init();
                 career_form_init();
-                internacionala_form_init();
+                //internacionala_form_init();
 		chart_circle_init();
 		sticky ()
 		$(document).scroll(milestone_counter);

@@ -1,6 +1,59 @@
 <?php
+if(!session_id()) {
+    session_start();
+}
+error_reporting(0);
 include_once("lang/lang.php");
-
+include 'php/CSFR.Class.php';
+$csrf = new CSFR();
+//echo "SESSION <pre>";print_r($_SESSION);echo "</pre><br>";
+// Generate Token Id and Valid
+$token_id = $csrf->get_token_id();
+$token_value = $csrf->get_token($token_id);
+$posted = false;
+// Generate Random Form Names
+$form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), false);
+$required_fields = array(
+    $form_names['imeprezime'] => $lang['page']['inernacionala']['imeprezime']['error'],
+    $form_names['email'] => $lang['page']['inernacionala']['email']['error'],
+    $form_names['rtg'] => $lang['page']['inernacionala']['rtg']['error'],
+    $form_names['verifikuj'] => $lang['page']['inernacionala']['captcha']['error']
+);
+//echo "POST <pre>";print_r($_POST);echo "</pre><br>";
+//echo "required_fields <pre>";print_r($required_fields);echo "</pre><br>";
+//echo "FILES <pre>";print_r($_FILES);echo "</pre><br>";
+if (isset($_POST[$form_names['imeprezime']]
+        )
+    ) {
+    // Check if token id and token value are valid.
+    if ($csrf->check_valid('post')) {
+        // Get the Form Variables.
+        $data[$form_names['imeprezime']] = htmlspecialchars($_POST[$form_names['imeprezime']]);
+        $data[$form_names['email']] = htmlspecialchars($_POST[$form_names['email']]);
+        $data[$form_names['verifikuj']]= htmlspecialchars($_POST[$form_names['verifikuj']]);
+        // pregledaj da li su prisutni svi potrebni podaci
+        if (!empty($data)) {
+            foreach ($data as $key => $value) {
+                $name = strtolower(trim($key));
+                if (array_key_exists($name, $required_fields)) {
+                    //echo $name." Vrijednost <br>";
+                    if (empty($value)) {
+                        $errors[$name] = $required_fields[$name];
+                    }
+                }
+            }
+        }
+        // da li je fajl odabran
+        $data[$form_names['rtg']] = $_FILES[$form_names['rtg']];
+        if ($data[$form_names['rtg']]['size'] == 0) {
+            echo 'nema fajla';
+           $errors[$form_names['rtg']] = $required_fields[$form_names['rtg']]; 
+        } 
+    }
+    // Regenerate a new random value for the form.
+    $form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), true);
+    $posted = true;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -66,6 +119,15 @@ include_once("lang/lang.php");
             <!-- quick search -->
             <?php include("includes/quick-order.php"); ?>
             <!--/ quick search -->
+            <!-- slider -->
+            <div class="slider-wrapper">
+                <section class="slider" id="slider">
+                    <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
+                        <img src="img/pages/internacionalnipacijenti.jpg" alt="" class="ls-bg">
+                    </div>
+                </section>
+            </div>
+            <!--/ slider -->
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
@@ -87,42 +149,58 @@ include_once("lang/lang.php");
                             <div class="widget-title"><?php echo $lang['page']['inernacionala']['title']; ?></div>										
                             <p><?php echo $lang['page']['inernacionala']['content']; ?></p><br>
                             <p><?php echo $lang['page']['inernacionala']['forma']['informacije']; ?></p>
-                            <form action="php/internacionalni-send.php" id="internacionala" enctype="multipart/form-data">
+                            <form action="internacionalni-pacijenti.php" id="internacionala" enctype="multipart/form-data" method="post">
                                 <fieldset>
+                                    <?php if (!empty($errors)) { ?>
+                                    <div id="contact_form_responce" style="display: block;">
+                                        <div class="wpb_alert">
+                                            <div class="messagebox_text clearfix"><h1></h1>
+                                                <p>
+                                                    <?php
+                                                    foreach($errors as $k => $v){
+                                                        echo "$v<br>";
+                                                    }
+                                                    ?>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php } ?>
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['inernacionala']['forma']['imeprezime']; ?></label>
-                                            <input type="text" name="imeprezime">
+                                            <input type="text" name="<?php echo $form_names['imeprezime']; ?>" <?php echo (!empty($errors[$form_names['imeprezime']]) || !$posted) ? "" : 'class="wrong-data"'; ?>>
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                         <div class="input">
                                             <label>Email:</label>
-                                            <input type="text" name="email">
+                                            <input type="text" name="<?php echo $form_names['email']; ?>" <?php echo !empty($errors[$form_names['email']]) || !$posted ? "" : 'class="wrong-data"'; ?>>
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['inernacionala']['forma']['rtg']; ?></label>
-                                            <input type="file" name="rtg">
+                                            <input type="file" name="<?php echo $form_names['rtg']; ?>" <?php echo !empty($errors[$form_names['rtg']]) || !$posted ? "" : 'class="wrong-data"'; ?>>
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['inernacionala']['forma']['dodatneinfo']; ?></label>
-                                            <textarea cols="30" rows="5" name="dodatneinfo"></textarea>                                            
+                                            <textarea cols="30" rows="5" name="<?php echo $form_names['dodatneinfo']; ?>"></textarea>                                            
                                         </div>
                                     </div>
                                     <div class="clearfix captcha">
                                         <div class="captcha-wrapper">
                                             <iframe src="php/capcha.php" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
-                                            <input class="verify" type="text" id="verify" name="verify" />
+                                            <input class="verify <?php echo !empty($errors[$form_names['verifikuj']]) || !$posted ? "" : ' wrong-data'; ?>" type="text" id="verify" name="<?php echo $form_names['verifikuj']; ?>" >
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                         <button type="submit" class="button" value="Submit" style="float: left;"><?php echo $lang['page']['onama']['partneri']['form']['submit']; ?></button>
                                     </div>
+                                    <input type="hidden" name="<?php echo $token_id; ?>" value="<?php echo $token_value; ?>" />
                                 </fieldset>
                             </form>							
                         </article>

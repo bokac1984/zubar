@@ -4,7 +4,7 @@ include_once("lang/lang.php");
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $lang['page']['onama']['title'] . ' - ' . $lang['site']['title']; ?></title>
+        <title><?php echo $lang['page']['estetska']['title'] . ' - ' . $lang['site']['title']; ?></title>
 
         <!-- metas -->
         <meta charset="utf-8">        
@@ -25,8 +25,7 @@ include_once("lang/lang.php");
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/color-cyan.css">
-        <link rel="stylesheet" type="text/css" href="css/onama.css">
+        <link rel="stylesheet" type="text/css" href="css/color-cyan.css">		
         <!--/ styles -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -49,7 +48,7 @@ include_once("lang/lang.php");
 
                         <!-- main nav -->
                         <?php
-                        $typeActive = 7;
+                        $typeActive = 1;
                         include("includes/main-nav.php");
                         ?>
                         <!--/ main nav -->
@@ -69,7 +68,7 @@ include_once("lang/lang.php");
             <div class="slider-wrapper">
                 <section class="slider" id="slider">
                     <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
-                        <img src="img/pages/kanalikomunikacije.jpg" alt="" class="ls-bg">
+                        <img src="img/pages/antiaging.jpg" alt="" class="ls-bg">
                     </div>
                 </section>
             </div>
@@ -77,12 +76,11 @@ include_once("lang/lang.php");
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['onama']['kanali']['title'] ?></h1>
-
+                    <h1><?php echo $lang['page']['estetska']['antiaging']['title'] ?></h1>					
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['onama']['kanali']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['estetska']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="#"><?php echo $lang['page']['estetska']['antiaging']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -90,22 +88,37 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <a name="section3"></a>
-                    <div class="grid-col grid-col-12">
-                        <!-- philosophy -->
-                        <section class="widget">	
-                            <div class="widget-title"><?php echo $lang['page']['onama']['kanali']['title'] ?></div>
-                            <p><?php echo $lang['page']['onama']['kanali']['content']; ?> </p>
-                            <div class="socijalne-ikone"><?php include('includes/social.php'); ?></div>
+                    <div class="grid-col grid-col-9">
+                        <!-- list -->
+                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['estetska']['antiaging']['title']; ?></a></div>
+                        <?php echo $lang['page']['estetska']['opis']; ?>
+                        <p><?php echo $lang['page']['estetska']['antiaging']['opis'] ?></p>
+                        <?php echo $lang['page']['estetska']['kandidati']; ?>
+                        <p><?php echo $lang['page']['estetska']['antiaging']['kandidati']; ?></p>
+                    </div>
+                    <div class="grid-col grid-col-3">
+
+                        <!-- categories -->
+                        <section class="widget widget-sevices">
+                            <div class="widget-title"><?php echo $lang['page']['estetska']['usluge']; ?></div>
+                            <ul>
+                                <li><i class="fa fa-bookmark"></i><a href="evetric-kompozitni-ispun"><?php echo $lang['page']['estetska']['everic']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="fuji-glas-jonomer-ispun"><?php echo $lang['page']['estetska']['fuji']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="bijeljenje-zuba"><?php echo $lang['page']['estetska']['bijeljenje']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="airjet-tretman"><?php echo $lang['page']['estetska']['airjet']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="anti-aging-stomatologija"><?php echo $lang['menu']['antiaging'] ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="kreiranje-osmijeha"><?php echo $lang['menu']['kreiranje-osmijeha'] ?></a></li>
+                            </ul>
                         </section>
-                        <!--/ philosophy -->
+                        <!--/ categories -->
+
+                        <!-- ask us -->
+                        <?php include("includes/widget-ask-us.php"); ?>
+                        <!--/ ask us -->
                     </div>
                 </div>
             </main>
 
-
-
-            <!-- FOOTERS -->
             <!-- page footer -->
             <?php include("includes/footer.php"); ?>
             <!--/ page footer -->

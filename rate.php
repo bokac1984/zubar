@@ -64,6 +64,17 @@ include_once("lang/lang.php");
             <!-- quick search -->
             <?php include("includes/quick-order.php"); ?>
             <!--/ quick search -->
+            
+            <!-- slider -->
+            <div class="slider-wrapper">
+                <section class="slider" id="slider">
+                    <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
+                        <img src="img/pages/rate.jpg" alt="" class="ls-bg">
+                    </div>
+                </section>
+            </div>
+            <!--/ slider -->
+            
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">

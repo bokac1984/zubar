@@ -13,7 +13,10 @@ else
         <li><a href="evetric-kompozitni-ispun"><?php echo $lang['menu']['everic'] ?></a></li>
         <li><a href="fuji-glas-jonomer-ispun"><?php echo $lang['menu']['fuji'] ?></a></li>
         <li><a href="bijeljenje-zuba"><?php echo $lang['menu']['bijeljenje'] ?></a></li>
-        <li><a href="airjet-tretman"><?php echo $lang['menu']['airjet'] ?></a></li>    
+        <li><a href="airjet-tretman"><?php echo $lang['menu']['airjet'] ?></a></li>
+        <li><a href="anti-aging-stomatologija"><?php echo $lang['menu']['antiaging'] ?></a></li>
+        <li><a href="kreiranje-osmijeha"><?php echo $lang['menu']['kreiranje-osmijeha'] ?></a></li>
+        
     </ul>
 </li>
 <li>
@@ -26,6 +29,7 @@ else
         <li><a href="press-keramicki-inlej"><?php echo $lang['menu']['inlej'] ?></a></li>
         <li><a href="skeletirana-proteza"><?php echo $lang['menu']['sk-proteza'] ?></a></li>
         <li><a href="akrilatna-proteza"><?php echo $lang['menu']['akrilatna'] ?></a></li>  
+        <li><a href="bruksosplint"><?php echo $lang['menu']['bruksosplint'] ?></a></li>
     </ul>
 </li>
 <li>
@@ -35,7 +39,7 @@ else
     </ul>
 </li>
 <li>
-    <a href="oralna-hirurgija" <?php echo $typeActive == 4 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['oralna-hirurgija'] ?></a>		
+    <a href="#" <?php echo $typeActive == 4 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['oralna-hirurgija'] ?></a>		
      <ul>
         <li><a href="ekstrakcija-zuba"><?php echo $lang['menu']['ekstrakcija-zuba'] ?></a></li>
         <li><a href="apikotomija"><?php echo $lang['menu']['apikotomija'] ?></a></li>
@@ -46,14 +50,15 @@ else
     </ul>							
 </li>
 <li>
-    <a href="ortodoncija" <?php echo $typeActive == 5 ? 'class="active "' : 'class=""' ?>><?php echo $lang['menu']['ortodoncija'] ?></a>
+    <a href="#" <?php echo $typeActive == 5 ? 'class="active "' : 'class=""' ?>><?php echo $lang['menu']['ortodoncija'] ?></a>
 </li>
 <li>
-    <a href="opsta-stomatologija" <?php echo $typeActive == 6 ? 'class="active two-row"' : 'class="two-row"' ?>><?php echo $lang['menu']['opsta-stomatologija'] ?></a>
+    <a href="#" <?php echo $typeActive == 6 ? 'class="active two-row"' : 'class="two-row"' ?>><?php echo $lang['menu']['opsta-stomatologija'] ?></a>
     <ul>
         <li><a href="endodoncija"><?php echo $lang['menu']['endodoncija'] ?></a></li>
         <li><a href="parodontologija"><?php echo $lang['menu']['parodontologija'] ?></a></li>
         <li><a href="pedodoncija"><?php echo $lang['menu']['pedodoncija'] ?></a></li>
+        <li><a href="stomatoloska-radiologija"><?php echo $lang['menu']['stomradiologija'] ?></a></li>
     </ul>
 </li>	
 <li>

@@ -69,7 +69,7 @@ include_once("lang/lang.php");
             <div class="slider-wrapper">
                 <section class="slider" id="slider">
                     <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
-                        <img src="img/pages/onama.jpg" alt="" class="ls-bg">
+                        <img src="img/pages/opsteinfo.jpg" alt="" class="ls-bg">
                     </div>
                 </section>
             </div>

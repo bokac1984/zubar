@@ -68,7 +68,7 @@ include_once("lang/lang.php");
             <div class="slider-wrapper">
                 <section class="slider" id="slider">
                     <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
-                        <img src="img/pages/protetika.jpg" alt="" class="ls-bg">
+                        <img src="img/pages/zubnaprotetika.jpg" alt="" class="ls-bg">
                     </div>
                 </section>
             </div>
@@ -111,6 +111,7 @@ include_once("lang/lang.php");
                                 <li><i class="fa fa-bookmark"></i><a href="press-keramicki-inlej"><?php echo $lang['page']['protetika']['inleji']['title']; ?></a></li>
                                 <li><i class="fa fa-bookmark"></i><a href="skeletirana-proteza"><?php echo $lang['page']['protetika']['proteza']['title']; ?></a></li>
                                 <li><i class="fa fa-bookmark"></i><a href="akrilatna-proteza"><?php echo $lang['page']['protetika']['akrilatna']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="bruksosplint"><?php echo $lang['menu']['bruksosplint'] ?></a></li>
                             </ul>
                         </section>
                         <!--/ categories -->

@@ -109,6 +109,8 @@ include_once("lang/lang.php");
                                 <li><i class="fa fa-bookmark"></i><a href="fuji-glas-jonomer-ispun"><?php echo $lang['page']['estetska']['fuji']['title']; ?></a></li>
                                 <li><i class="fa fa-bookmark"></i><a href="bijeljenje-zuba"><?php echo $lang['page']['estetska']['bijeljenje']['title']; ?></a></li>
                                 <li><i class="fa fa-bookmark"></i><a href="airjet-tretman"><?php echo $lang['page']['estetska']['airjet']['title']; ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="anti-aging-stomatologija"><?php echo $lang['menu']['antiaging'] ?></a></li>
+                                <li><i class="fa fa-bookmark"></i><a href="kreiranje-osmijeha"><?php echo $lang['menu']['kreiranje-osmijeha'] ?></a></li>
                             </ul>
                         </section>
                         <!--/ categories -->

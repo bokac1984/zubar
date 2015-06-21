@@ -5,12 +5,17 @@ global $lang;
 $lang = array();
 $lang['site']['title'] = 'Kecman Stomatologija';
 $lang['menu']['home'] = 'Početna';
+
+// MENU //
+$lang['menu']['title'] = 'Navigacija';
 //Estetska stomatologija
 $lang['menu']['estetska'] = 'Estetska</br>stomatologija';
 $lang['menu']['everic'] = 'Evetric kompozitni ispun';
 $lang['menu']['fuji'] = 'Fuji glas jonomer ispun';
 $lang['menu']['bijeljenje'] = 'Bijeljenje zuba';
 $lang['menu']['airjet'] = 'Air Jet tretman';
+$lang['menu']['antiaging'] = 'Anti agening stomatologija';
+$lang['menu']['kreiranje-osmijeha'] = 'Kreiranje osmijeha';
 
 // Zubna protetika
 $lang['menu']['zubna-protetika'] = 'Zubna protetika';
@@ -21,6 +26,7 @@ $lang['menu']['veniri'] = 'Press keramički veniri';
 $lang['menu']['inlej'] = 'Press keramički inlej';
 $lang['menu']['sk-proteza'] = 'Skeletirana proteza';
 $lang['menu']['akrilatna'] = 'Akrilatna proteza';
+$lang['menu']['bruksosplint'] = 'Bruksosplint';
 
 // Implantologija
 $lang['menu']['implantologija'] = 'Implantologija';
@@ -43,6 +49,8 @@ $lang['menu']['opsta-stomatologija'] = 'Opšta<br>stomatologija';
 $lang['menu']['endodoncija'] = 'Endodoncija';
 $lang['menu']['parodontologija'] = 'Parodontologija';
 $lang['menu']['pedodoncija'] = 'Pedodoncija';
+$lang['menu']['pedodoncija'] = 'Pedodoncija';
+$lang['menu']['stomradiologija'] = 'Stomatološka radiologija';
 
 // O nama
 $lang['menu']['o-nama'] = 'O nama';
@@ -121,7 +129,7 @@ $lang['page']['implantologija']['straumann']['materijali']['content'] = "Zubni i
 //// estetska stomatologija ////
 $lang['page']['estetska']['title'] = 'Estetska Stomatologija';
 $lang['page']['estetska']['opis'] = '<b>Opis terapije</b>';
-$lang['page']['estetska']['kandidati'] = '<b>Kandidati za bijeljenje</b>';
+$lang['page']['estetska']['kandidati'] = '<b>Kandidati za terapiju</b>';
 $lang['page']['estetska']['materijali'] = '<b>Materijali koji se koriste</b>';
 $lang['page']['estetska']['usluge'] = 'Usluge';
 
@@ -162,12 +170,21 @@ $lang['page']['estetska']['airjet']['title'] = 'Air Jet tretman';
 $lang['page']['estetska']['airjet']['opis'] = "Air Jet aparat pod velikim pritiskom oslobađa vodu u kombinaciji sa sodom bikarbonom, što dovodi do skidanja plaka, naslaga od duvana i kafe, čajeva i ostale obojene hrane i pića. Air Jet pjeskari zube i tako skida naslage koje su se nakupile na zubima, a zubi na taj način mogu da postanu za nijansu svjetliji. ";
 
 $lang['page']['estetska']['airjet']['kandidati'] = "Air Jet tretman indikovan je kod pušača, kod kojih se preporučuje pjeskarenje zuba Air Jet-om dva puta u toku jedne godine. Pored pušača, ljudi koji često konzumiraju kafu ili čaj, takođe su kandidati za Air Jet tretman. ";
+
+$lang['page']['estetska']['antiaging']['title'] = 'Anti agening stomatologija';
+$lang['page']['estetska']['antiaging']['kandidati'] = "Istrošeni zubi ili nepotpun zubni niz može učiniti da obrazi izgledaju šuplje, usne tanke i neprimjetne, a vilica mala. Pacijenti sa ovakvim efektima, žutim i kratkim zubima izgledaju i do 10 ili 15 godina stariji nego što stvarno jesu, te mogu da budu kandidati za anti age tretman u stomatologiji.";
+$lang['page']['estetska']['antiaging']['opis'] = 'Koristeći znanja i vještine anti ageing stomatologije moguće je bez hirurške intervencije izbrisati godine sa lica. Anti ageing stomatologija pokriva širok spektar restaurativnih i estetskih tretmana koji podmlađuju crte lica promjenom strukture i oblika zuba. Umjesto injekcija botoksa staračke linije oko usta moguće je ublažiti ili potpuno izbrisati koristeći terapiju krunicama ili venirima koji će da pružaju bolju podršku i oslonac obrazima. Usne i koža lica zahtijevaju stabilan i dobar oslonac od strane zuba. Ako je oslonac dobar, koža lica sigurno neće biti mnogo opuštena, a usne će izgledati prirodnije i punije.';
+
+$lang['page']['estetska']['kreiranjeosmjeha']['title'] = 'Kreiranje osmijeha';
+$lang['page']['estetska']['kreiranjeosmjeha']['kandidati'] = "Pacijenti kod kojih su zubi različite boje, predugački ili prekratki zubi, neskladan odnos između zuba, desni i usana, razmak između zuba ili pak pacijenti koji prosto nisu zadovoljni izgledom svog osmijeha potencijalni su kandidati za kreiranje osmijeha. Takođe, pacijenti sa nepotpunim zubnim nizom definitivno su kandidati za kreiranje osmijeha.";
+$lang['page']['estetska']['kreiranjeosmjeha']['opis'] = 'Kreiranje osmijeha podrazumijeva analizu karakteristika lica kako bi se stvorio prirodan izgled, a pritom pacijentu daje mogućnost da učestvuje u kreiranju vlastitog osmijeha. Primarni cilj kreiranja osmijeha podrazumijeva oralnu rehabilitaciju koja će zadovoljiti sve estetske zahtjeve pacijenta. Analiza osmijeha pruža novi uvid u odnose zuba, desni, usana i osmijeha uopšte. Takođe u obzir uzima i karakteristike lica tokom pokreta i određenih emocija kako bi krajnji rezultat bio prirodan. Savremena stomatologija pruža širok spektar postupaka kojima možemo osmijeh učiniti lijepim i privlačnim kao što su promjena položaja zuba, izbjeljivanje zuba, izrada keramičkih ljuskica, izrada keramičkih krunica, ugradnja implantata, itd.';
+
 //// estetska stomatologija ////
 
 //// ZUBNA PROTETIKA ////
 $lang['page']['protetika']['title'] = 'Zubna protetika';
 $lang['page']['protetika']['opis'] = '<b>Opis terapije</b>';
-$lang['page']['protetika']['kandidati'] = '<b>Kandidati za bijeljenje</b>';
+$lang['page']['protetika']['kandidati'] = '<b>Kandidati za terapiju</b>';
 $lang['page']['protetika']['materijali'] = '<b>Materijali koji se koriste</b>';
 $lang['page']['protetika']['usluge'] = 'Usluge';
 
@@ -206,6 +223,10 @@ $lang['page']['protetika']['akrilatna']['title'] = 'Akrilatna proteza';
 $lang['page']['protetika']['akrilatna']['opis'] = "Izrađuje se od akrilata, a može da bude izrađena u vidu totalne proteze u slučaju potpune bezubosti ili parcijalne proteze u slučaju krezubosti. Akrilatne proteze predstavljaju finansijski najpovoljniji način rješavanja nedostatka jednog ili više zuba. Retencija kod totalne akrilatne proteze se postiže pomoću sniženog pritiska ispod proteze efektom prisisavanja proteze na sluzokoži. Kod parcijalne proteze retencija se ostvaruje kukicama koje obuhvataju postojeće zube. ";
 $lang['page']['protetika']['akrilatna']['kandidati'] = "U slučajevima kada je vilica bezuba, a ukoliko ugradnja implantata nije moguća akrilatna proteza predstavlja jedino protetsko rješenje.";
 // ovo izgleda nema kod ovoe vrste $lang['page']['protetika']['akrilatna']['materijali'] = "";
+
+$lang['page']['protetika']['Bruksosplint']['title'] = 'Bruksosplint';
+$lang['page']['protetika']['Bruksosplint']['opis'] = "Liječenje bruskizma važno je radi sprečavanja oštećenja zuba, ali i očuvanja zdravlja temporomandibularnog zgloba. Izradom bruksosplinta moguće je spriječiti štetne posljedice po tvrda zubna tkiva. Individualno izrađeni bruksosplintovi se postavljaju na grizne površine zuba i nose se za vrijeme spavanja. Kad su zubi u zagrizu, bruksosplintovi djeluju kao amortizeri koji sprečavaju neželjene pokrete i dodire zuba. Ako eventualno dođe do nekontrolisanih pokreta, klizanje i trenje se javlja između površina bruksosplintova, umjesto između zubnih površina. Bruksosplintovi ograničavaju kretnju, te sprečavaju nastanak oštećenja zuba.";
+$lang['page']['protetika']['Bruksosplint']['kandidati'] = "Pacijenti obično nisu svjesni škrgutanja koje se javlja tokom sna, ali pacijenti često ne prepoznaju ni parafunkcije koje se dešavaju u budnom stanju. Stiskanje, škripanje i škrgutanje zubima su znakovi nevoljnih funkcija donje vilice.";
 
 //// ZUBNA PROTETIKA ////
 
@@ -269,6 +290,14 @@ $lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['subtitle'] 
 $lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['content'] = 'Rani dječiji karijes je agresivan oblik karijesa koji se javlja kod djece do treće godine života i vrlo brzo uništava mliječne zube. Razvoju ranog dječijeg karijesa pogoduje noćno hranjenje djeteta, davanje sokova ili slatkih napitaka noću, kao i prehrana bogata ugljenim hidratima, te loša oralna higijena. Ako terapija ranog dječijeg karijesa ne započne na vrijeme, u vrlo kratkom vremenu dolazi do razaranja cijele krune mliječnih zuba.';
 $lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['subtitle'] = 'Fluorizacija zuba';
 $lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['content'] = 'Jedan od najboljih oblika prevencije nastanka karijesa je fluor koji štiti gleđ i čini je otpornijom. Fluor podstiče remineralizaciju tkiva i ojačava odbranu zuba od karijesa. Razvoj bakterija na zubima na koje je nanesen fluor je otežano. Mliječni i stalni zubi se premazuju fluorom koji je u tečnom stanju ili može biti i u obliku gela. Sam postupak je brz i bezbolan, a odlična je metoda sprječavanja karijesa kod mliječnih zuba.';
+
+$lang['page']['opstastomatologija']['stomradiologija']['title'] = 'Stomatološka radiologija';
+$lang['page']['opstastomatologija']['useofrtg']['title'] = 'Upotreba RTG snimaka';
+$lang['page']['opstastomatologija']['useofrtg']['content'] = 'Rendgenske snimke neizostavan su dio stomatološke dijagnostike, ali i planiranja i sprovođenja terapije. Na RTG snimcima vidljive su promjene koje se vizuelnim pregledom ne mogu uočiti. Na RTG snimcima najbolje se uočavaju promjene na tvrdim tkivima, dakle na zubima i kostima. Postoje različite tehnike snimanja, a najčešće se koriste ortopantomogram i retroalveolarni snimak.';
+$lang['page']['opstastomatologija']['Ortopantomogram']['title'] = 'Ortopantomogram';
+$lang['page']['opstastomatologija']['Ortopantomogram']['content'] = 'Ortopantomogram ili ortopan je snimak koji obuhvata sve zube, gornju i donju vilicu, vilični zglob, a dijelom i strukture smještene iznad usta (nosnu šupljinu, maksilarne sinuse). Koristi se u situacijama kada je potrebno dobiti uvid u sve zube i okolne koštane strukture. Često se izrađuje kao orijentacioni snimak pri prvom pregledu. Ortopantomogram se koristi i u planiranju protetske terapije, te ortodonciji.';
+$lang['page']['opstastomatologija']['Retroalveolarni']['title'] = 'Retroalveolarni snimak';
+$lang['page']['opstastomatologija']['Retroalveolarni']['content'] = 'Retroalveolarni snimak prikazuje nekoliko zuba i okolnu kost. Koristi se kada je potrebno dobiti detaljan i kvalitetan prikaz određenog zuba. Na snimku je vidljiv cijeli zub - njegova kruna, korijen i kost oko vrha korijena.';
 //// OPSTA STOMATOLOGIJA ////
 
 // O NAMA
@@ -508,7 +537,44 @@ $lang['page']['kontakt']['telefoni1'] = "Tel. +387 51 215 215";
 $lang['page']['kontakt']['telefoni2'] = "Besplatni info tel. 080 05 02 19";
 $lang['page']['kontakt']['widget']['mapa'] = "Mapa";
 
+$lang['page']['kontakt']['narucise']['title'] = "Naruči se odmah preko našeg online obrasca";
+$lang['page']['kontakt']['narucise']['content'] = "Rezervišite svoj termin za besplatni pregled i konsultacije ili profesionalno čišćenje i poliranje zuba preko našeg obrazca za rezervacije. Naše osoblje će vas kontaktirati u roku od 24 sata putem telefona i ponuditi vam termin koji vam najviše odgovara.";
+
+$lang['page']['kontakt']['forma']['label']['ime'] = "Vaše ime";
+$lang['page']['kontakt']['forma']['label']['email'] = "Vaš email";
+$lang['page']['kontakt']['forma']['label']['cat'] = "Kategorija";
+$lang['page']['kontakt']['forma']['label']['subject'] = "Tema";
+$lang['page']['kontakt']['forma']['label']['message'] = "Poruka";
+$lang['page']['kontakt']['forma']['label']['submit'] = "Pošalji";
 // FOOTER CONTENT
+
+////// QUICK ORDER ///////
+$lang['quickorder']['legend'] = "Narudžba";
+$lang['quickorder']['order4what'] = "Želim se naručiti za";
+$lang['quickorder']['option']['value1'] = "Opšti stomatološki pregled i konsultacije";
+$lang['quickorder']['option']['value2'] = "Pregled za protetsko zbrinjavanje";
+$lang['quickorder']['option']['value3'] = "Pregled za ortodontsku terapiju";
+$lang['quickorder']['option']['value4'] = "Pregled za oralnohirurški zahvat";
+$lang['quickorder']['option']['value5'] = "Pregled za ugradnju implantata";
+$lang['quickorder']['option']['value6'] = "Pregled za biljeljenje zuba";
+$lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje zuba";
+$lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
+$lang['quickorder']['forma']['label']['submit'] = "Dalje";
+$lang['quickorder']['forma']['opener'] = "Naruči se";
+////// QUICK ORDER ///////
+
+
+
+////// ASK US WIDGET ///////
+$lang['askus']['legend'] = "Pitajte nas";
+$lang['askus']['placeholders']['imeprezime'] = "Ime i Prezime";
+$lang['askus']['placeholders']['datrodj'] = "Datum Rođenja";
+$lang['askus']['placeholders']['email'] = "Email Adresa";
+$lang['askus']['placeholders']['tel'] = "Telefon";
+$lang['askus']['placeholders']['pitanje'] = "Pitanje";
+$lang['askus']['form']['submit'] = "Pošalji pitanje";
+////// ASK US WIDGET ///////
+
 $lang['page']['footer']['copyright'] = "Sadržaj ovog internet sajta štite autorska prava čiji je nosilac i koje zadržava Zdravstvena ustanova “Stomatologija Kecman”, Kralja Alfonsa XIII broj 46a, 78 000 Banjaluka, BiH. Svi korisnici slobodni su da čitaju sadržaj. Svaka druga upotreba i umnožavanje sadržaja ovog internet sajta zabranjeni su. Dio sadržaja ovog internet sajta je prikupljen putem javnih izvora na internetu. Ukoliko autorska prava bilo kojeg sadržaja ovog internet sajta pripadaju Vama, kontaktirajte nas i mi ćemo ih ukloniti. ";
 
 $lang['page']['footer']['responsability'] = 'Sve informacije koje se nalaze na ovom internet sajtu služe isključivo za svrhu davanja opštih informacija, te kao takve ne predstavljaju konkretan medicinski savijet. Zdravstvena ustanova “Stomatologija Kecman” ne prihvata bilo kakvu odgovornost ya štetu koja eventualno nastane pristupanjem informacijama sadržanim na ovom internet sajtu ili oslanjanjem na iste.';
