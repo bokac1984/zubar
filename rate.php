@@ -90,16 +90,12 @@ include_once("lang/lang.php");
             <main class="page-content">
                 <div class="grid-row">
                     <div class="grid-col grid-col-12">
-                        <!-- list -->
-                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['rate']['title']; ?></a></div>
-                        <br><p><?php echo $lang['page']['rate']['content']; ?></p><br>	
+                        <p><?php echo $lang['page']['rate']['content']; ?></p>
                     </div>
                 </div>
                 <div class="grid-row">
                     <div class="grid-col grid-col-12">
                         <!-- list -->
-                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['rate']['title']; ?></a></div>
-                        <br>
                         <style type="text/css">
                         .tg  {border-collapse:collapse;border-spacing:0;}
                         .tg td{border-color: rgb(226, 226, 226);color: #7c7c7c;font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -172,7 +168,7 @@ include_once("lang/lang.php");
                 <div class="grid-row">
                     <div class="grid-col grid-col-12">
                         <!-- list -->
-                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['rate']['napomenta']['title']; ?></a></div>
+                        <h3 style="font-size: 20px;"><?php echo $lang['page']['rate']['napomenta']['title']; ?></h3>
                         <br><p><?php echo $lang['page']['rate']['napomenta']['content']; ?></p><br>
                         <p><?php echo $lang['page']['rate']['napomenta']['content2']; ?></p>
                     </div>
