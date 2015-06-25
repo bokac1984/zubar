@@ -89,13 +89,17 @@ include_once("lang/lang.php");
             <main class="page-content">
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
-                        <!-- list -->
-                        <div><a class="widget-title" name="section2"><?php echo $lang['page']['estetska']['fuji']['title']; ?></a></div>
-                        <?php echo $lang['page']['estetska']['opis']; ?>
-                        <p><?php echo $lang['page']['estetska']['fuji']['opis'] ?></p>
-                        <?php echo $lang['page']['estetska']['kandidati']; ?>
-                        <p><?php echo $lang['page']['estetska']['fuji']['kandidati']; ?></p>
-                        <?php echo $lang['page']['estetska']['materijali']; ?>
+                        <div class="opis">
+                            <b><?php echo $lang['page']['estetska']['opis']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['estetska']['fuji']['opis'] ?></p><br>
+                        <div class="kandidat">
+                            <b><?php echo $lang['page']['estetska']['kandidati']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['estetska']['fuji']['kandidati']; ?></p><br>
+                        <div class="materijal">
+                            <b><?php echo $lang['page']['estetska']['materijali']; ?></b>
+                        </div>
                         <p><?php echo $lang['page']['estetska']['fuji']['materijali']; ?></p><br>
                         <!--/ list -->	
                     </div>
