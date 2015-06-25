@@ -50,7 +50,7 @@ else
     </ul>							
 </li>
 <li>
-    <a href="#" <?php echo $typeActive == 5 ? 'class="active "' : 'class=""' ?>><?php echo $lang['menu']['ortodoncija'] ?></a>
+    <a href="ortodoncija" <?php echo $typeActive == 5 ? 'class="active "' : 'class=""' ?>><?php echo $lang['menu']['ortodoncija'] ?></a>
 </li>
 <li>
     <a href="#" <?php echo $typeActive == 6 ? 'class="active two-row"' : 'class="two-row"' ?>><?php echo $lang['menu']['opsta-stomatologija'] ?></a>

@@ -100,7 +100,7 @@ include_once("lang/lang.php");
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['onama']['partneri']['form']['imeprezime']; ?></label>
-                                            <input type="text" name="name">
+                                            <input type="text" name="ime">
                                         </div>
                                     </div>
                                     <div class="clearfix">

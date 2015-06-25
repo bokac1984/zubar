@@ -115,6 +115,16 @@ $name = htmlentities(isset($_REQUEST['full-name']) ? $_REQUEST['full-name'] : ""
                                 </dd>
 
                             </dl>
+                            <dl>
+                                <dt class="opened"><?php echo $lang['page']['kontakt']['radnovrijeme']['title'] ?></dt>
+                                <dd>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i><?php echo $lang['page']['kontakt']['radnovrijeme']['radnidani'] ?></li>
+                                        <li><i class="fa fa-clock-o"></i><?php echo $lang['page']['kontakt']['radnovrijeme']['vikend']; ?></li>
+                                    </ul>
+                                </dd>
+
+                            </dl>
                         </section>
                         <!--/ contacts -->
                         <!--/ follow -->
@@ -124,9 +134,7 @@ $name = htmlentities(isset($_REQUEST['full-name']) ? $_REQUEST['full-name'] : ""
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
                         <!-- feedback -->
-                        <article class="feedback">
-                            <a class="widget-title" name="section1"></a>
-                            <div class="widget-title"><?php echo $lang['page']['kontakt']['narucise']['title']; ?></div>										
+                        <article class="feedback">										
                             <p><?php echo $lang['page']['kontakt']['narucise']['content']; ?></p>
 
                             <form action="php/contact-send.php" id="contactform">
@@ -139,16 +147,6 @@ $name = htmlentities(isset($_REQUEST['full-name']) ? $_REQUEST['full-name'] : ""
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['email'] ?>:</label>
                                             <input type="text" name="email">
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['cat'] ?>:</label>
-                                            <input type="text" name="category" value="<?php echo isset($kategorija) ? $kategorija : ''; ?>">
-                                        </div>
-                                        <div class="input">
-                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['subject'] ?>:</label>
-                                            <input type="text" name="subject">
                                         </div>
                                     </div>
                                     <label><?php echo $lang['page']['kontakt']['forma']['label']['message'] ?>:</label>

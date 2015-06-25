@@ -90,11 +90,17 @@ include_once("lang/lang.php");
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
                         <!-- list -->
-                        <div><a class="widget-title" name="section7"><?php echo $lang['page']['protetika']['Bruksosplint']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['Bruksosplint']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['Bruksosplint']['kandidati']; ?></p>
+                        <div class="opis">
+                            <b><?php echo $lang['page']['protetika']['opis']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['protetika']['Bruksosplint']['opis'] ?></p><br>
+                        <div class="kandidat">
+                            <b><?php echo $lang['page']['protetika']['kandidati']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['protetika']['Bruksosplint']['kandidati']; ?></p><br>
+                        <!-- rezervacije -->
+                        <?php include("includes/make-reservation.php"); ?>
+                        <!--/ rezervacije -->                         
                         <!--/ list -->
                     </div>
                     <div class="grid-col grid-col-3">

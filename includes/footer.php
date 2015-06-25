@@ -1,7 +1,7 @@
 <footer class="page-footer">
     <a href="#" id="top-link" class="top-link"><i class="fa fa-angle-double-up"></i></a>
 
-    <div class="grid-row" style="margin-bottom: 0;">
+    <div class="grid-row futer" style="margin-bottom: 0;">
         <nav  class="footer-nav">
         <?php include('includes/footer-nav.php'); ?>
         </nav>

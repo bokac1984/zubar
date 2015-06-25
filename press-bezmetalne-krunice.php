@@ -90,14 +90,21 @@ include_once("lang/lang.php");
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
                         <!-- list -->
-                        <div><a class="widget-title" name="section2"><?php echo $lang['page']['protetika']['bezmetalne']['title']; ?></a></div>
-                        <?php echo $lang['page']['protetika']['opis']; ?>
-                        <p><?php echo $lang['page']['protetika']['bezmetalne']['opis'] ?></p>
-                        <?php echo $lang['page']['protetika']['kandidati']; ?>
-                        <p><?php echo $lang['page']['protetika']['bezmetalne']['kandidati']; ?></p>
-                        <?php echo $lang['page']['protetika']['materijali']; ?>
+                        <div class="opis">
+                            <b><?php echo $lang['page']['protetika']['opis']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['protetika']['bezmetalne']['opis'] ?></p><br><br>
+                        <div class="kandidat">
+                            <b><?php echo $lang['page']['protetika']['kandidati']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['protetika']['bezmetalne']['kandidati']; ?></p><br>
+                        <div class="materijal">
+                            <b><?php echo $lang['page']['protetika']['materijali']; ?></b>
+                        </div>
                         <p><?php echo $lang['page']['protetika']['bezmetalne']['materijali']; ?></p><br>
-                        <!--/ list -->	
+                        <!-- rezervacije -->
+                        <?php include("includes/make-reservation.php"); ?>
+                        <!--/ rezervacije --> 
                     </div>
                     <div class="grid-col grid-col-3">
 

@@ -70,18 +70,6 @@ include_once("lang/lang.php");
                 <section class="slider" id="slider">
                     <div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
                         <img src="img/pages/homepage.jpg" alt="" class="ls-bg">
-
-
-                    </div>
-                    <div class="ls-slide" data-ls="transition2d:40;slidedelay:7000;">				
-                        <img src="pic/medical-slide-2.jpg" alt="" class="ls-bg">
-
-
-                    </div>
-                    <div class="ls-slide" data-ls="transition2d:11;slidedelay:7000;">
-                        <img src="pic/medical-slide-3.jpg" alt="" class="ls-bg">
-
-
                     </div>
                 </section>
             </div>
@@ -94,15 +82,15 @@ include_once("lang/lang.php");
                     <section class="services">
                         <ul>
                             <li>
-                                <a class="pic"><i class="fa fa-money"></i></a>
-                                <h2><a href="#"><?php echo $lang['home']['rate']['title']; ?></a></h2>
+                                <a class="pic" href="rate"><i class="fa fa-money"></i></a>
+                                <h2><a href="rate"><?php echo $lang['home']['rate']['title']; ?></a></h2>
                                 <p><?php echo $lang['home']['rate']['content']; ?></p>
                                 <a href="rate" class="more fa fa-long-arrow-right"></a>
                             </li>
                             <li>
-                                <a class="pic"><i class="fa fa-user-md"></i></a>
+                                <a class="pic" href="internacionalni-pacijenti"><i class="fa fa-user-md"></i></a>
                                 <div class="text">
-                                    <h2><a href="#"><?php echo $lang['home']['inernacionala']['title']; ?></a></h2>
+                                    <h2><a href="internacionalni-pacijenti"><?php echo $lang['home']['inernacionala']['title']; ?></a></h2>
                                     <p><?php echo $lang['home']['inernacionala']['content']; ?></p>
                                     <a href="internacionalni-pacijenti" class="more fa fa-long-arrow-right"></a>
                                 </div>

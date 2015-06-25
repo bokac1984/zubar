@@ -23,11 +23,6 @@ $required_fields = array(
     $form_names['rtg'] => $lang['page']['inernacionala']['rtg']['error'],
     $form_names['verifikuj'] => $lang['page']['inernacionala']['captcha']['error']
 );
-//echo "POST <pre>";print_r($_POST);echo "</pre><br>";
-//echo "required_fields <pre>";print_r($required_fields);echo "</pre><br>";
-//echo "FILES <pre>";
-//print_r($_FILES);
-//echo "</pre><br>";
 if (isset($_POST[$form_names['imeprezime']]
         )
 ) {
@@ -252,7 +247,6 @@ function check_email_address($email) {
                     <div class="grid-col grid-col-9">
                         <!-- feedback -->
                         <article class="feedback">
-                            <div class="widget-title"><?php echo $lang['page']['inernacionala']['title']; ?></div>										
                             <p><?php echo $lang['page']['inernacionala']['content']; ?></p><br>
                             <p><?php echo $lang['page']['inernacionala']['forma']['informacije']; ?></p>
                             <form action="internacionalni-pacijenti.php" id="internacionala" enctype="multipart/form-data" method="post">

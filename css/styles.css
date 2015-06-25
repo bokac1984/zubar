@@ -637,8 +637,8 @@ table, thead, tbody, tfoot, tr, th, td {
   border: 0;
   outline: none;
   background: none;
-  font-size: 100%;
-  font: inherit;
+  font-size: 15px;
+  /*font: inherit;*/
   vertical-align: baseline;
 }
 html, body, iframe, header, footer, main, aside, nav, section, article, div,
@@ -6715,7 +6715,7 @@ i.appointment{
     width: 80px;
     height: 80px;
     float: left;
-    margin: 0 6px 0 0;
+    margin: 5px 6px 0 0;
 }
 
 .kandidat:before {
@@ -6726,7 +6726,7 @@ i.appointment{
     width: 80px;
     height: 80px;
     float: left;
-    margin: 0 6px 0 0;
+    margin: 5px 6px 0 0;
 }
 
 .materijal:before {
@@ -6737,10 +6737,30 @@ i.appointment{
     width: 80px;
     height: 80px;
     float: left;
-    margin: 0 6px 0 0;
+    margin: 5px 6px 0 0;
+}
+
+.opis + p, .kandidat + p, .materijal + p {
+/*    padding-left: 86px;*/
 }
 
 /* KRAJ estetska i otale strane */
+
+/* rezervacija termina */
+
+.rezervisite-termin {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.reserve-top {
+    font-size: 1.6em;
+}
+
+@media screen and (max-width: 767px) { /* phone */
+
+}
+/* KRAJ rezervacija termina */
 
 /* footer menu */
 .footer-nav li.first-level-nav {
@@ -6749,7 +6769,7 @@ i.appointment{
     margin: 0.688em;
 }
 
-.footer-nav li.first-level-nav ul li{
+.footer-nav li.first-level-nav ul li a, .footer-nav li.first-level-nav ul li {
     font-size: 12px;
 }
 .footer-nav li.first-level-nav:last-child {
@@ -6763,6 +6783,8 @@ i.appointment{
 	font-size: 14px;
 	font-weight: 600;
 }
+
+
 
 .social-icons-footer  li{
 	float: left;

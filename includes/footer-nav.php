@@ -66,9 +66,9 @@
     <li class="first-level-nav">
         <a href="kontakti" <?php echo $typeActive == 8 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['kontakt'] ?></a>
     </li>
-    <li class="first-level-nav" style="width:150px;">
+    <li class="first-level-nav">
         <a href="/" class="footer-logo"><img src="img/cyan/logo.png" alt="Kecman"></a>
-        <ul class="second-level-nav" style="width:180px;">
+        <ul class="second-level-nav">
             <li><?php echo $lang['page']['kontakt']['naziv'] ?></li>
             <li><?php echo $lang['page']['kontakt']['adresa'] ?></li>
             <li><?php echo $lang['page']['kontakt']['telefoni2'] ?></li>

@@ -99,6 +99,9 @@ include_once("lang/lang.php");
                             <b><?php echo $lang['page']['estetska']['kandidati']; ?></b>
                         </div>
                         <p><?php echo $lang['page']['estetska']['antiaging']['kandidati']; ?></p>
+                        <!-- rezervacije -->
+                        <?php include("includes/make-reservation.php"); ?>
+                        <!--/ rezervacije -->
                     </div>
                     <div class="grid-col grid-col-3">
 
