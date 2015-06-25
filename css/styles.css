@@ -6706,6 +6706,41 @@ i.appointment{
   word-break:normal;
   padding-right:65px;
 }
+/* estetska i otale strane */
+.opis:before {
+    content: "";
+    display: block;
+    background: url("../img/opis.png") no-repeat;
+    background-size: 80px 74px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.kandidat:before {
+    content: "";
+    display: block;
+    background: url("../img/kandidat.png") no-repeat;
+    background-size: 80px 74px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.materijal:before {
+    content: "";
+    display: block;
+    background: url("../img/materijal.png") no-repeat;
+    background-size: 80px 74px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+/* KRAJ estetska i otale strane */
 
 /* footer menu */
 .footer-nav li.first-level-nav {
@@ -6715,8 +6750,15 @@ i.appointment{
 }
 
 .footer-nav li.first-level-nav ul li{
-font-size: 12px;}
+    font-size: 12px;
+}
+.footer-nav li.first-level-nav:last-child {
+    width: 9.375em;
+}
 
+.footer-nav li.first-level-nav:last-child  .second-level-nav {
+    width: 11.250em;
+}
 .footer-nav li.first-level-nav > a{
 	font-size: 14px;
 	font-weight: 600;
@@ -6762,7 +6804,7 @@ margin-left: 70px;
 }
 
 .second-level-nav {
-    width: 100px;
+    width: 6.25em;
 }
 
 .second-level-nav li {
@@ -6792,6 +6834,10 @@ margin-left: 70px;
     margin: 0 23px;
 }
 
+.copy-resp nav ul li div ul li {
+    display: block !important;
+}
+
 @media screen and (max-width: 767px) { /* phone */
    .savremena-tehnologija ul li img{
         margin: 0 auto;
@@ -6799,5 +6845,22 @@ margin-left: 70px;
     } 
     .socijalne.copy-resp nav a.soc-icon.soc-icon-alt {
         margin: 16px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1190px) { /* phone */
+    .footer-nav li.first-level-nav {
+        width: 5.45em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) { /* phone */
+    .futer {
+        width: 98%;
+        margin: 0 auto;
+    }
+    
+    .footer-nav li.first-level-nav {
+        width: 8%;
     }
 }
