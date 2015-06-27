@@ -82,13 +82,15 @@ include_once("lang/lang.php");
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
                         <!-- list -->
-                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['opstastomatologija']['stomradiologija']['title']; ?></a></div>
-                        <br><b><?php echo $lang['page']['opstastomatologija']['useofrtg']['title']; ?></b>
+                        <b><?php echo $lang['page']['opstastomatologija']['useofrtg']['title']; ?></b>
                         <p><?php echo $lang['page']['opstastomatologija']['useofrtg']['content'] ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Ortopantomogram']['title']; ?></b>
                         <p><?php echo $lang['page']['opstastomatologija']['Ortopantomogram']['content']; ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Retroalveolarni']['title']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Retroalveolarni']['content']; ?></p><br>                        
+                        <p><?php echo $lang['page']['opstastomatologija']['Retroalveolarni']['content']; ?></p><br>    
+                        <!-- rezervacije -->
+                        <?php include("includes/make-reservation.php"); ?>
+                        <!--/ rezervacije -->  
                     </div>
                     <div class="grid-col grid-col-3">
 

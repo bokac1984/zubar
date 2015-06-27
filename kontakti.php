@@ -1,7 +1,5 @@
 <?php
 include_once("lang/lang.php");
-$kategorija = htmlentities(isset($_REQUEST['whatfor']) ? $_REQUEST['whatfor'] : "");
-$name = htmlentities(isset($_REQUEST['full-name']) ? $_REQUEST['full-name'] : "");
 ?>
 <!DOCTYPE html>
 <html>
@@ -142,15 +140,21 @@ $name = htmlentities(isset($_REQUEST['full-name']) ? $_REQUEST['full-name'] : ""
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['ime'] ?>:</label>
-                                            <input type="text" name="name" value="<?php echo isset($name) ? $name : ""; ?>">
+                                            <input type="text" name="name">
                                         </div>
+                                        <div class="input">
+                                            <label><?php echo $lang['page']['kontakt']['forma']['label']['telefon']; ?>:</label>
+                                            <input type="text" name="telefon">
+                                        </div>
+                                    </div>
+                                    <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['kontakt']['forma']['label']['email'] ?>:</label>
                                             <input type="text" name="email">
                                         </div>
                                     </div>
                                     <label><?php echo $lang['page']['kontakt']['forma']['label']['message'] ?>:</label>
-                                    <textarea rows="6" name="message"></textarea>
+                                    <textarea rows="6" name="poruka"></textarea>
                                     <div class="clearfix captcha">
                                         <div class="captcha-wrapper">
                                             <iframe src="php/capcha.php" class="capcha-frame" name="capcha_image_frame" marginwidth="0" marginheight="0" frameborder="0"></iframe>

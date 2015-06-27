@@ -90,7 +90,6 @@ include_once("lang/lang.php");
                 <div class="grid-row">
                     <div class="grid-col grid-col-9">
                         <!-- list -->
-                        <div><a class="widget-title" name="section2"><?php echo $lang['page']['opstastomatologija']['Parodontologija']['title']; ?></a></div>
                         <b><?php echo $lang['page']['opstastomatologija']['Parodontologija']['terapija']['subtitle']; ?></b>
                         <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['terapija']['content'] ?></p>
                         <b><?php echo $lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['subtitle']; ?></b>
@@ -101,7 +100,9 @@ include_once("lang/lang.php");
                         <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['content'] ?></p>
                         <b><?php $lang['page']['opstastomatologija']['Parodontologija']['rezanj']['subtitle']; ?></b>
                         <p><?php $lang['page']['opstastomatologija']['Parodontologija']['rezanj']['content'] ?></p><br>
-                        <!--/ list -->	
+                        <!-- rezervacije -->
+                        <?php include("includes/make-reservation.php"); ?>
+                        <!--/ rezervacije --> 	
                     </div>
                     <div class="grid-col grid-col-3">
 

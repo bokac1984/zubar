@@ -9,7 +9,7 @@ if (isset($_REQUEST['action'])) {
 
         $ourMail = "djordjehrnjez@gmail.com"; //Insert your email address here
 
-        $required_fields = array("ime", "datum-rodjenja", "email", "telefon", "pitanje");
+        $required_fields = array("name", "email", "telefon", "poruka");
         $pre_messagebody_info = "";
         $subject = "Website forma: Pitajte nas";
         $errors = array();
@@ -54,28 +54,27 @@ if (isset($_REQUEST['action'])) {
             exit;
         }
 		
-		$pre_messagebody_info.="<strong>Ime</strong>" . ": " . $data['ime'] . "<br />";
-        $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data['email'] . "<br />";
+        $pre_messagebody_info.="<strong>Ime i prezime</strong>" . ": " . $data['ime'] . "\r\n";
+        $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['email'] . "\r\n";
+        $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data['email'] . "\r\n";
+        $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . $data['email'] . "\r\n";
 		
-		if (!empty($data["datum-rodjenja"])){
-			$pre_messagebody_info.="<strong>Datum rođenja</strong>" . ": " . $data['datum-rodjenja'] . "<br />";
-		}
-		if (!empty($data["telefon"])){
-			$pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['telefon'] . "<br />";
-		}		
-		if (empty($data["subject"])){
-			$subject.="Website Forma";
-		}else{
-			$subject.= $data["subject"];
-		}
+        if (!empty($data["datum-rodjenja"])){
+                $pre_messagebody_info.="<strong>Datum rođenja</strong>" . ": " . $data['datum-rodjenja'] . "\r\n";
+        }
+        if (!empty($data["telefon"])){
+                $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['telefon'] . "\r\n";
+        }
+        
+        $subject.="Website Forma: Kontakt";
 
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers.= 'Content-type: text/html; charset=UTF-8' . "\r\n";
         $headers.= "From: ".$data['email']."\r\n";
 
-        $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: Pitajte nas.";
+        $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: Kontakt.";
 
-        if (mail($ourMail, $subject, $pre_messagebody_info .= "<strong>Pitanje</strong>" . ": " . $data['pitanje'] .$after_message, $headers)) {
+        if (mail($ourMail, $subject, $pre_messagebody_info .$after_message, $headers)) {
             $result["info"] = "success";
         } else {
             $result["info"] = "server_fail";

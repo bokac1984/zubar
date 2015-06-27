@@ -77,3 +77,8 @@ else
 </li>
 </ul>
 </nav>
+
+<div class="flags">
+    <a href="?lang=en"><img src="img/gb.png" /></a>
+    <a href="?lang=sr"><img src="img/rs.png" /></a>
+</div>

@@ -93,8 +93,6 @@ include_once("lang/lang.php");
                     <div class="grid-col grid-col-12">
                         <!-- philosophy -->
                         <section class="widget">	
-                            <div class="widget-title"><?php echo $lang['page']['onama']['title'] ?></div>
-
                             <div class="wpb_text_column wpb_content_element">
                                 <div class="wpb_wrapper">			
                                     <img src="pic/our-logo.png" width="260" height="93" alt="" class="alignleft">

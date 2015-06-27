@@ -86,17 +86,30 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <div class="grid-col grid-col-12">
+                    <div class="grid-col grid-col-9">
                         <!-- list -->
-                        <div><a class="widget-title" name="section1"><?php echo $lang['page']['implantologija']['straumann']['title']; ?></a></div>
-                        <?php echo $lang['page']['implantologija']['straumann']['opis']['title']; ?>
-                        <p><?php echo $lang['page']['implantologija']['straumann']['opis']['content'] ?></p>
-                        <?php echo $lang['page']['implantologija']['straumann']['kandidati']['title']; ?>
-                        <p><?php echo $lang['page']['implantologija']['straumann']['kandidati']['content']; ?></p>
-                        <?php echo $lang['page']['implantologija']['straumann']['materijali']['title']; ?>
+                        <div class="opis">
+                            <b><?php echo $lang['page']['implantologija']['straumann']['opis']['title']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['implantologija']['straumann']['opis']['content'] ?></p><br>
+                        <div class="kandidat">
+                            <b><?php echo $lang['page']['implantologija']['straumann']['kandidati']['title']; ?></b>
+                        </div>
+                        <p><?php echo $lang['page']['implantologija']['straumann']['kandidati']['content']; ?></p><br>
+                        <div class="materijal">
+                            <b><?php echo $lang['page']['implantologija']['straumann']['materijali']['title']; ?></b>
+                        </div>
                         <p><?php echo $lang['page']['implantologija']['straumann']['materijali']['content']; ?></p><br>	
+                        <!-- rezervacije -->
+                        <?php include("includes/make-reservation.php"); ?>
+                        <!--/ rezervacije -->                         
+                        <!--/ list -->                        
                 </div>
-          
+                    <div class="grid-col grid-col-3">
+                        <!-- ask us -->
+                        <?php include("includes/widget-ask-us.php"); ?>
+                        <!--/ ask us -->
+                    </div>                    
             </main>
 
             <!-- page footer -->

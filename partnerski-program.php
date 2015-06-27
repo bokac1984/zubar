@@ -77,11 +77,12 @@ include_once("lang/lang.php");
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['onama']['title'] ?></h1>
+                    <h1><?php echo $lang['page']['onama']['partneri']['title']; ?></h1>
 
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="#"><?php echo $lang['page']['onama']['partneri']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -93,7 +94,6 @@ include_once("lang/lang.php");
                     <div class="grid-col grid-col-9">
                         <!-- feedback -->
                         <article class="feedback">
-                            <div class="widget-title"><?php echo $lang['page']['onama']['partneri']['title']; ?></div>										
                             <p><?php echo $lang['page']['onama']['partneri']['content']; ?></p>
                             <form action="php/partner-send.php" id="contactform">
                                 <fieldset>

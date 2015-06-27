@@ -9,7 +9,8 @@
 		milestone_counter();
 		progress_bar_loader ();
 		contact_form_init();
-                career_form_init();
+                //career_form_init();
+                narucise_init();
                 //internacionala_form_init();
 		chart_circle_init();
 		sticky ()
@@ -843,6 +844,61 @@ function career_form_init() {
 
                 if (!$('#career_form_response').css('display') == 'block') {
                     $response.show(450);
+                }
+
+            });
+        });
+
+    }
+}
+
+function narucise_init() {
+    if ($('#quick-search').length) {
+
+        var $form = $('#quick-search'),
+        $loader = '<img src="php/preloader.gif" alt="Loading..." />';
+        //$form.find("fieldset").prepend('<div id="career_form_response">');
+
+        var $response = $('#career_form_response');
+        $response.append("<div class='wpb_alert'></div>");
+        $response.css("display", "none");
+
+        $form.submit(function (e) {
+            e.preventDefault();
+            $response.css("display", "block");
+            $response.find('p').html($loader);
+
+            var data = {
+                action: "quickorder",
+                values: $("#quick-search").serialize()
+            };
+            //send data to server    
+            $.post("php/quickorder.php", data, function (response) {
+
+                response = $.parseJSON(response);
+
+                $(".wrong-data").removeClass("wrong-data");
+                $response.find('img').remove();
+
+                if (response.is_errors) {
+                    $response.find('.wpb_alert').removeClass().addClass('wpb_alert');
+                    $.each(response.info, function (input_name, input_label) {
+
+                        $("[name=" + input_name + "]").addClass("wrong-data");
+                        //$response.find('p').append(input_label + '!</br>');
+                    });
+
+                } else {
+                    if (response.info == 'success') {
+                        $('#rezultati').show().delay(1000).fadeOut();
+                        console.log('uspjesno');
+                        $form.find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
+                    }
+
+                    if (response.info == 'server_fail') {
+                        $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_error');
+                        $response.find('p').append('Greška na serveru. Molimo pokušajte kasnije!');
+                    }
                 }
 
             });

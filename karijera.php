@@ -1,5 +1,158 @@
 <?php
 include_once("lang/lang.php");
+include_once("includes/config.php");
+if(!session_id()) {
+	session_start();
+}
+error_reporting(0);
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $ourMail = $emailAddress; //Insert your email address here
+//echo "<pre>";
+//print_r($_REQUEST);
+//echo "</pre>";
+        $required_fields = array(
+            "ime" => $lang['karijera']['form']['ime']['error'], 
+            "imerod" => $lang['karijera']['form']['imerod']['error'],
+            "prezime" => $lang['karijera']['form']['prezime']['error'],
+            "datumrodj" => $lang['karijera']['form']['datumrodj']['error'],
+            "mjestorodj" => $lang['karijera']['form']['mjestorodj']['error'],
+            "adresa" => $lang['karijera']['form']['adresa']['error'],
+            "opstina" => $lang['karijera']['form']['opstina']['error'],
+            "emailadr" => $lang['karijera']['form']['emailadr']['error'],
+            "srednja" => $lang['karijera']['form']['srednja']['error'],
+            "faks" => $lang['karijera']['form']['faks']['error'],
+            "spec" => $lang['karijera']['form']['spec']['error'], 
+            "tel" => $lang['karijera']['form']['tel']['error'],
+            "engnivo" => $lang['karijera']['form']['engnivo']['error'],
+            "slovnivo" => $lang['karijera']['form']['slovnivo']['error'],
+            "italnivo" => $lang['karijera']['form']['italnivo']['error'],
+            "njemnivo" => $lang['karijera']['form']['njemnivo']['error'],
+            'svednivo' => $lang['karijera']['form']['svednivo']['error'],
+            'radnaracunaru' => $lang['karijera']['form']['radnaracunaru']['error'],
+            'zadnjeradno' => $lang['karijera']['form']['zadnjeradno']['error'],
+            'vozacka' => $lang['karijera']['form']['vozacka']['error'],
+            'prekovremeno' => $lang['karijera']['form']['prekovremeno']['error'],
+            'vikednom' => $lang['karijera']['form']['vikednom']['error'],
+            'verify-career' => $lang['karijera']['form']['captcha']['error']
+        );
+        $pre_messagebody_info = "";
+        $subject = "Website forma: Karijera";
+        $errors = array();
+        $data = array();
+        parse_str($_POST['values'], $data);
+		
+        //check for required and assemble message
+        if (!empty($data)) {
+            foreach ($data as $key => $value) {
+                $name = strtolower(trim($key));
+                if (array_key_exists($name, $required_fields)) {
+                    if (empty($value)) {
+                        $errors[$name] = $required_fields[$name];
+                    }
+                }
+
+                if ($name == "email") {
+                    if (!check_email_address($value)) {
+                        $errors[$name] = "Unijeli ste pogrešnu email adresu!";
+                    }
+                }
+            }
+        }
+        $result = array(
+            "is_errors" => 0,
+            "info" => ""
+        );
+        if (!empty($errors)) {
+            $result['is_errors'] = 1;
+            $result['info'] = $errors;
+        }
+                // check for errors, if none, proceed to sending email
+        if (empty($errors)) {
+            require_once('php/PHPMailer/class.phpmailer.php');
+
+            $mail = new PHPMailer(true); //defaults to using php "mail()"; the true param means it will throw exceptions on errors, which we need to catch
+
+            try {
+                $pre_messagebody_info.="<strong>Ime (ime roditelja) Prezime</strong>" . ": " . $data['ime'] 
+                        . " (" . $data['imerod'] . ") ". $data['prezime']."<br />";
+                $pre_messagebody_info.="<strong>Datum rođenja:</strong>" . ": " . $data['datumrodj'] . "<br />";
+                $pre_messagebody_info.="<strong>Mjesto rođenja</strong>" . ": " . $data['mjestorodj'] . "<br />";
+                $pre_messagebody_info.="<strong>Adresa</strong>" . ": " . $data['adresa'] . "<br />";
+                $pre_messagebody_info.="<strong>Opstina</strong>" . ": " . $data['opstina'] . "<br />";
+                $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['tel'] . "<br />";
+                $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data['emailadr'] . "<br />";
+                $pre_messagebody_info.="<strong>Apliciram za</strong>" . ": " . $data['tip_posla'] . "<br />";
+                $pre_messagebody_info.="<strong>Završena srednja</strong>" . ": " . $data['srednja'] . "<br />";
+                $pre_messagebody_info.="<strong>Završen fakultet</strong>" . ": " . $data['faks'] . "<br />";
+                $pre_messagebody_info.="<strong>Specijalizacija</strong>" . ": " . $data['spec'] . "<br />";
+                $pre_messagebody_info.="<strong>Nivo engleskog jezika</strong>" . ": " . $data['engnivo'] . "<br />";
+                $pre_messagebody_info.="<strong>Nivo italijanskog jezika</strong>" . ": " . $data['italnivo'] . "<br />";
+                $pre_messagebody_info.="<strong>Nivo njemačkog jezika</strong>" . ": " . $data['njemnivo'] . "<br />";
+                $pre_messagebody_info.="<strong>Nivo slovenačkog jezika</strong>" . ": " . $data['slovnivo'] . "<br />";
+                $pre_messagebody_info.="<strong>Nivo švedskog jezika</strong>" . ": " . $data['svednivo'] . "<br />";
+                $pre_messagebody_info.="<strong>Nivo poznavanja rada na računaru</strong>" . ": " . $data['radnaracunaru'] . "<br />";
+                $pre_messagebody_info.="<strong>Poslednje radno iskustvo</strong>" . ": " . $data['zadnjeradno'] . "<br />";
+                $vozackaD = isset($data['vozacka']) ? "DA" : "NE";
+                $prekovremenoRad = isset($data['prekovremeno']) ? "DA" : "NE";
+                $vikednomRadim = isset($data['vikednom']) ? "DA" : "NE";
+                $pre_messagebody_info.="<strong>Posjedujem vozačku dozvolu B kategorije</strong>" . ": " . $vozackaD . "<br />";
+                $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni prekovremeni rad</strong>" . ": " . $prekovremenoRad . "<br />";
+                $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni rad vikendom i praznikom</strong>" . ": " . $vikednomRadim . "<br />";
+
+                $mail->isHTML(false);
+                $mail->AddAddress($emailAddress, 'Stomatologija Kecman'); // adresa gdje se salju podaci sa forme
+                $mail->SetFrom($noreplyAddressForEmail, 'Stomatologija Kecman'); // ovo je adresa koja salje na gornju email adresu
+                $mail->AddReplyTo(htmlspecialchars($data[$form_names['email']]), htmlspecialchars($data[$form_names['imeprezime']])); // ovaoj je lik koji salje formu na sajt mail
+                $mail->Subject = 'Kontakt sa forme: "Karijera"';
+                $mail->Body = $pre_messagebody_info;
+                $mail->AddAttachment($data[$form_names['rtg']]['tmp_name'], htmlspecialchars($data[$form_names['rtg']]['name']));      // attachment
+                $mail->Send();
+                $success['message'] = $lang['page']['inernacionala']['email']['success'];
+            } catch (phpmailerException $e) {
+                $errors['mail'] = $e->errorMessage(); //Pretty error messages from PHPMailer
+            } catch (Exception $e) {
+                $errors['mail'] = $e->getMessage(); //Boring error messages from anything else!
+            }
+        } else {
+            $posted = true;
+        }
+}
+
+function check_email_address($email) {
+// First, we check that there's one @ symbol,
+// and that the lengths are right.
+    if (!ereg("^[^@]{1,64}@[^@]{1,255}$", $email)) {
+// Email invalid because wrong number of characters
+// in one section or wrong number of @ symbols.
+        return false;
+    }
+// Split it into sections to make life easier
+    $email_array = explode("@", $email);
+    $local_array = explode(".", $email_array[0]);
+    for ($i = 0; $i < sizeof($local_array); $i++) {
+        if
+        (!ereg("^(([A-Za-z0-9!#$%&'*+/=?^_`{|}~-][A-Za-z0-9!#$%&
+в†Є'*+/=?^_`{|}~\.-]{0,63})|(\"[^(\\|\")]{0,62}\"))$", $local_array[$i])) {
+            return false;
+        }
+    }
+// Check if domain is IP. If not,
+// it should be valid domain name
+    if (!ereg("^\[?[0-9\.]+\]?$", $email_array[1])) {
+        $domain_array = explode(".", $email_array[1]);
+        if (sizeof($domain_array) < 2) {
+            return false; // Not enough parts to domain
+        }
+        for ($i = 0; $i < sizeof($domain_array); $i++) {
+            if
+            (!ereg("^(([A-Za-z0-9][A-Za-z0-9-]{0,61}[A-Za-z0-9])|
+в†Є([A-Za-z0-9]+))$", $domain_array[$i])) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -77,11 +230,12 @@ include_once("lang/lang.php");
             <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['onama']['title'] ?></h1>
+                    <h1><?php echo $lang['page']['onama']['karijera']['title']; ?></h1>
 
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>
+                        <a href="#"><?php echo $lang['page']['onama']['title'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="#"><?php echo $lang['page']['onama']['karijera']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -93,11 +247,37 @@ include_once("lang/lang.php");
                     <div class="grid-col grid-col-12">
                         <!-- feedback -->
                         <article class="feedback">
-                            <div class="widget-title"><?php echo $lang['page']['onama']['karijera']['title']; ?></div>										
                             <p><?php echo $lang['page']['onama']['karijera']['content']; ?></p>
 
-                            <form action="php/career_send.php" id="careerform">
+                            <form action="" id="careerform" method="post" enctype="multipart/form-data">
                                 <fieldset>
+                                    <?php if (!empty($errors)) { ?>
+                                        <div id="contact_form_responce" style="display: block;">
+                                            <div class="wpb_alert">
+                                                <div class="messagebox_text clearfix"><h1></h1>
+                                                    <p>
+                                                        <?php
+                                                        foreach ($errors as $k => $v) {
+                                                            echo "$v<br>";
+                                                        }
+                                                        ?>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php } else if (!empty($success)) { ?>
+                                        <div id="contact_form_responce" style="display: block;">
+                                            <div class="wpb_alert">
+                                                <div class="messagebox_text clearfix"><h1></h1>
+                                                    <p>
+                                                        <?php
+                                                        echo $success['message'];
+                                                        ?>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    <?php } ?>
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['onama']['karijera']['form']['ime']; ?>:</label>
@@ -114,6 +294,12 @@ include_once("lang/lang.php");
                                         <div class="input">
                                             <label><?php echo $lang['page']['onama']['karijera']['form']['prezime']; ?>:</label>
                                             <input type="text" name="prezime">
+                                        </div>
+                                    </div>
+                                    <div class="clearfix">
+                                        <div class="input">
+                                            <label><?php echo $lang['page']['onama']['karijera']['form']['portret']; ?>:</label>
+                                            <input type="file" name="portret">
                                         </div>
                                     </div>
                                     <div class="clearfix">

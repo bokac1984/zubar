@@ -5147,6 +5147,7 @@ iframe{
   position: relative;
   padding-right: 5px;
   background: #f5f5f5;
+  font-weight: 400;
 }
 .detailed-services .details {
   padding: 20px 20px 20px 48px;
@@ -6858,6 +6859,29 @@ margin-left: 70px;
 
 .copy-resp nav ul li div ul li {
     display: block !important;
+}
+
+#rezultati {
+    display: none;
+}
+
+.flags {
+    width: 50px;
+    position: absolute;
+    right: 25px;
+    top: 3.1em;
+}
+
+.show .flags {
+    top: 1.5em;
+}
+
+.flags a:first-child {
+    
+}
+
+.flags a:last-child {
+    padding-left: 0.3em;
 }
 
 @media screen and (max-width: 767px) { /* phone */

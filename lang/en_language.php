@@ -3,7 +3,7 @@
 global $lang;
 
 $lang = array();
-$lang['site']['title'] = 'Kecman Stomatologija';
+$lang['site']['title'] = 'Kecman Dentistry';
 $lang['menu']['home'] = 'Početna';
 
 // MENU //
@@ -77,7 +77,7 @@ $lang['home']['rate']['content'] = "Stomatologija Kecamn u želji da što više 
 
 ///// INTERNACIONALA /////
 $lang['page']['inernacionala']['title'] = 'Internacionalni pacijenti';
-$lang['page']['inernacionala']['content'] = 'U Stomatologiji Kecman pružamo stomatološke usluge inostranim pacijentima. Cijene stomatoloških usluga su višestruko niže u odnosu na zemlje Evropske unije i stoga je Bosna i Hercegovina, a time i naša Banja Luka veoma interesantna destinacija. Nudimo vam kratki zanimljiv odmor i program tokom izrade stomatološkog rada, organizujemo transfer sa aerodroma iz Banje Luke ili Tuzle, te smještaj u obližnjim hotelima ili hostelima.';
+$lang['page']['inernacionala']['content'] = 'U Stomatologiji Kecman pružamo stomatološke usluge inostranim pacijentima. Cijene stomatoloških usluga su višestruko niže u odnosu na zemlje Evropske unije i stoga je Bosna i Hercegovina, a time i naša Banja Luka veoma interesantna destinacija. Nudimo vam kratki zanimljiv odmor i program tokom izrade stomatološkog rada, organizujemo transfer sa aerodroma iz Banje Luke ili Tuzle, te smještaj u obližnjim <a href="http://www.hoteltalija.com/">hotelima</a> ili <a href="http://www.hostelherz.com/">hostelima</a>.';
 $lang['page']['inernacionala']['forma']['imeprezime'] = "Ime i prezime";
 $lang['page']['inernacionala']['forma']['rtg'] = "RTG snimak";
 $lang['page']['inernacionala']['forma']['dodatneinfo'] = "Dodatne informacije";
@@ -139,9 +139,9 @@ $lang['page']['implantologija']['straumann']['materijali']['content'] = "Zubni i
 
 //// estetska stomatologija ////
 $lang['page']['estetska']['title'] = 'Estetska Stomatologija';
-$lang['page']['estetska']['opis'] = '<b>Opis terapije</b>';
-$lang['page']['estetska']['kandidati'] = '<b>Kandidati za terapiju</b>';
-$lang['page']['estetska']['materijali'] = '<b>Materijali koji se koriste</b>';
+$lang['page']['estetska']['opis'] = 'Opis terapije';
+$lang['page']['estetska']['kandidati'] = 'Kandidati za terapiju';
+$lang['page']['estetska']['materijali'] = 'Materijali koji se koriste';
 $lang['page']['estetska']['usluge'] = 'Usluge';
 
 // dio za everic ispun
@@ -332,7 +332,7 @@ $lang['page']['onama']['cijenovnik']['pokazisve'] = "Prikazi sve";
 // dijagnostika
 $lang['page']['onama']['cijenovnik']['dijagnostika']['title'] = "Stomatološka dijagnostika";
 $lang['page']['onama']['cijenovnik']['radiogram'] = "Dentalni radiogram";
-$lang['page']['onama']['cijenovnik']['opsti-pregled'] = "Opšti stomatološki pregled I konsultacije sa doktorom stomatologije";
+$lang['page']['onama']['cijenovnik']['opsti-pregled'] = "Opšti stomatološki pregled i konsultacije sa doktorom stomatologije";
 $lang['page']['onama']['cijenovnik']['ortopantomogram'] = "Ortopantomogram";
 
 // prva pomoc
@@ -349,6 +349,11 @@ $lang['page']['onama']['cijenovnik']['molari'] = "Evetric jednopovršinski kompo
 $lang['page']['onama']['cijenovnik']['evetricfrontalni2'] = "Evetric dvopovršinski kompozitni ispun, frontalna regija";
 $lang['page']['onama']['cijenovnik']['premolari2'] = "Evetric dvopovršinski kompozitni ispun, premolari";
 $lang['page']['onama']['cijenovnik']['molari2'] = "Evetric dvopovršinski kompozitni ispun, molari";
+// dodate nove cijene usluga
+$lang['page']['onama']['cijenovnik']['tropovrsinski'] = "Evetric tropovršinski kompozitni ispun, frontalna regija";
+$lang['page']['onama']['cijenovnik']['tropovrpremolari'] = "Evetric tropovršinski kompozitni ispun, premolari";
+$lang['page']['onama']['cijenovnik']['tropovrpmolari'] = "Evetric tropovršinski kompozitni ispun, molari";
+
 $lang['page']['onama']['cijenovnik']['amalgam'] = "Amalgamski ispun, premolari";
 $lang['page']['onama']['cijenovnik']['amalgam2'] = "Amalgamski ispun, molari";
 $lang['page']['onama']['cijenovnik']['amalgamremove'] = "Uklanjanje amalgamskog ispuna";
@@ -365,18 +370,20 @@ $lang['page']['onama']['cijenovnik']['avitalno'] = "Izbjeljivanje avitalnog zuba
 //////////////////////////////////////////////////////////////////////////////////////
 $lang['page']['onama']['cijenovnik']['Zubna']['title'] = "Zubna protetika";
 $lang['page']['onama']['cijenovnik']['Zubna']['inline'] = "In.Line krunica";
-$lang['page']['onama']['cijenovnik']['Zubna']['press'] = "Press krunica";
+$lang['page']['onama']['cijenovnik']['Zubna']['press'] = "Press keramička krunica";
 $lang['page']['onama']['cijenovnik']['Zubna']['cirkonijum'] = "Cirkonijum dioksid krunica";
 $lang['page']['onama']['cijenovnik']['Zubna']['reparatura4'] = "Reparatura keramike na krunici";
 $lang['page']['onama']['cijenovnik']['Zubna']['uklanjanje'] = "Uklanjanje krunice";
 $lang['page']['onama']['cijenovnik']['Zubna']['cementiranje'] = "Cementiranje stare krunice";
-$lang['page']['onama']['cijenovnik']['Zubna']['press'] = "Press keramički inlej";
+$lang['page']['onama']['cijenovnik']['Zubna']['pressinlej'] = "Press keramički inlej";
 $lang['page']['onama']['cijenovnik']['Zubna']['privremena'] = "Privremena akrilatna krunica, ordinacijska izrada";
 $lang['page']['onama']['cijenovnik']['Zubna']['privremena2'] = "Privremena akrilatna krunica, tehnička izrada";
 $lang['page']['onama']['cijenovnik']['Zubna']['privremena3'] = "Privremena kompozitna krunica";
 $lang['page']['onama']['cijenovnik']['Zubna']['livena'] = "Livena metalna nadogradnja, jednokorjena";
 $lang['page']['onama']['cijenovnik']['Zubna']['livena2'] = "Livena metalna nadogradnja, višekorjena";
 $lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja'] = "Nadogradnja fiberglas kočićem";
+// nova usluga
+$lang['page']['onama']['cijenovnik']['Zubna']['konfekcijskikocic'] = "Nadogradnja konfekcijskim kočićem";
 $lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja2'] = "Nadogradnja krune kompozitom, frontalna regija";
 $lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja3'] = "Nadogradnja krune kompozitom, molarna regija";
 $lang['page']['onama']['cijenovnik']['Zubna']['skeletirana'] = "Skeletirana proteza";
@@ -409,10 +416,14 @@ $lang['page']['onama']['cijenovnik']['Oralna']['rutinska'] = "Rutinska ekstrakci
 $lang['page']['onama']['cijenovnik']['Oralna']['komplikovana'] = "Komplikovana ekstrakcija zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska'] = "Hirurška ekstrakcija stalnog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska2'] = "Hirurška ekstrakcija umnjaka";
-$lang['page']['onama']['cijenovnik']['Oralna']['terapija'] = "Terapija alveolitisa";
+//preskoceno ovdje
+$lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren-komplikovan'] = "Komplikovana ekstrakcija zaostalnog korjena";
 $lang['page']['onama']['cijenovnik']['Oralna']['rutinska2'] = "Rutinska ekstrakcija zaostalog korjena";
-$lang['page']['onama']['cijenovnik']['Oralna']['hirurska'] = "Hirurška ekstrakcija zaostalnog korjena";
-$lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija'] = "Ekstrakcija poluimpaktiranog zuba";
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurska3'] = "Hirurška ekstrakcija zaostalog korjena";
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurimpaktiranog'] = "Hirurška ekstrakcija impaktiranog zuba";
+$lang['page']['onama']['cijenovnik']['Oralna']['terapija'] = "Terapija alveolitisa";
+
+$lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2'] = "Ekstrakcija poluimpaktiranog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['rutinsko'] = "Rutinsko zaustavljanje krvarenja";
 $lang['page']['onama']['cijenovnik']['Oralna']['usivanje'] = "Ušivanje rane";
 $lang['page']['onama']['cijenovnik']['Oralna']['apikotomija'] = "Apikotomija";
@@ -422,7 +433,7 @@ $lang['page']['onama']['cijenovnik']['Oralna']['cirkumcizija'] = "Cirkumcizija";
 $lang['page']['onama']['cijenovnik']['Oralna']['incizija'] = "Incizija apscesa";
 $lang['page']['onama']['cijenovnik']['Oralna']['frenulektomija'] = "Frenulektomija";
 $lang['page']['onama']['cijenovnik']['Oralna']['rezanj'] = "Režanj operacija";
-$lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Nivelacija alveolarnog grebena";
+$lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Nivelacija grebena jednog kvadranta";
 $lang['page']['onama']['cijenovnik']['Oralna']['primarno'] = "Primarno zatvaranje sinusa";
 
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['title'] = "Ortodoncija";
@@ -540,18 +551,22 @@ $lang['karijera']['form']['captcha']['error'] = "Molimo Vas unesite captcha";
 
 // Kontakt
 $lang['page']['kontakt']['title'] = "Kontakti";
-$lang['page']['kontakt']['widget']['title'] = "Kontakt detalji";
+$lang['page']['kontakt']['widget']['title'] = "Contact details";
 $lang['page']['kontakt']['naziv'] = "Zdravstvena ustanova \"Stomatologija Kecman\"";
 $lang['page']['kontakt']['adresa'] = "Kralja Alfonsa XIII broj 46a<br>78 000 Banjaluka, BiH";
 $lang['page']['kontakt']['telefoni']['title'] = "Telefoni";
 $lang['page']['kontakt']['telefoni1'] = "Tel. +387 51 215 215";
 $lang['page']['kontakt']['telefoni2'] = "Besplatni info tel. 080 05 02 19";
-$lang['page']['kontakt']['widget']['mapa'] = "Mapa";
+$lang['page']['kontakt']['radnovrijeme']['title'] = "Radno vrijeme";
+$lang['page']['kontakt']['radnovrijeme']['radnidani'] = "pon-pet 11-19h";
+$lang['page']['kontakt']['radnovrijeme']['vikend'] = "Vikendom radimo po dogovoru";
+$lang['page']['kontakt']['widget']['mapa'] = "Map";
 
 $lang['page']['kontakt']['narucise']['title'] = "Naruči se odmah preko našeg online obrasca";
-$lang['page']['kontakt']['narucise']['content'] = "Rezervišite svoj termin za besplatni pregled i konsultacije ili profesionalno čišćenje i poliranje zuba preko našeg obrazca za rezervacije. Naše osoblje će vas kontaktirati u roku od 24 sata putem telefona i ponuditi vam termin koji vam najviše odgovara.";
+//$lang['page']['kontakt']['narucise']['content'] = "Rezervišite svoj termin za besplatni pregled i konsultacije ili profesionalno čišćenje i poliranje zuba preko našeg obrazca za rezervacije. Naše osoblje će vas kontaktirati u roku od 24 sata putem telefona i ponuditi vam termin koji vam najviše odgovara.";
+$lang['page']['kontakt']['narucise']['content'] = "Ako imate određeni prijedlog, pohvalu ili primjedbu budite slobodni da nam pišete";
 
-$lang['page']['kontakt']['forma']['label']['ime'] = "Vaše ime";
+$lang['page']['kontakt']['forma']['label']['ime'] = "Ime i prezime";
 $lang['page']['kontakt']['forma']['label']['email'] = "Vaš email";
 $lang['page']['kontakt']['forma']['label']['cat'] = "Kategorija";
 $lang['page']['kontakt']['forma']['label']['subject'] = "Tema";
@@ -570,14 +585,14 @@ $lang['quickorder']['option']['value5'] = "Pregled za ugradnju implantata";
 $lang['quickorder']['option']['value6'] = "Pregled za biljeljenje zuba";
 $lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje zuba";
 $lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
-$lang['quickorder']['forma']['label']['submit'] = "Dalje";
+$lang['quickorder']['forma']['label']['submit'] = "Pošalji";
 $lang['quickorder']['forma']['opener'] = "Naruči se";
 ////// QUICK ORDER ///////
 
 
 
 ////// ASK US WIDGET ///////
-$lang['askus']['legend'] = "Pitajte nas";
+$lang['askus']['legend'] = "Pitajte doktora";
 $lang['askus']['placeholders']['imeprezime'] = "Ime i Prezime";
 $lang['askus']['placeholders']['datrodj'] = "Datum Rođenja";
 $lang['askus']['placeholders']['email'] = "Email Adresa";
@@ -589,3 +604,8 @@ $lang['askus']['form']['submit'] = "Pošalji pitanje";
 $lang['page']['footer']['copyright'] = "Sadržaj ovog internet sajta štite autorska prava čiji je nosilac i koje zadržava Zdravstvena ustanova “Stomatologija Kecman”, Kralja Alfonsa XIII broj 46a, 78 000 Banjaluka, BiH. Svi korisnici slobodni su da čitaju sadržaj. Svaka druga upotreba i umnožavanje sadržaja ovog internet sajta zabranjeni su. Dio sadržaja ovog internet sajta je prikupljen putem javnih izvora na internetu. Ukoliko autorska prava bilo kojeg sadržaja ovog internet sajta pripadaju Vama, kontaktirajte nas i mi ćemo ih ukloniti. ";
 
 $lang['page']['footer']['responsability'] = 'Sve informacije koje se nalaze na ovom internet sajtu služe isključivo za svrhu davanja opštih informacija, te kao takve ne predstavljaju konkretan medicinski savijet. Zdravstvena ustanova “Stomatologija Kecman” ne prihvata bilo kakvu odgovornost ya štetu koja eventualno nastane pristupanjem informacijama sadržanim na ovom internet sajtu ili oslanjanjem na iste.';
+
+
+ /* obdje ide ono za stranice za rezervaciju, ispod stranica na estetskoj i ostalim */
+$lang['rezervacija']['content'] = "Rezervišite Vaš termin za besplatan opšti stomatološki pregled i konsultacije.";
+$lang['rezervacija']['content2'] = "Besplatan info telefon: 080 05 02 19, telefon +387 51 215 215";

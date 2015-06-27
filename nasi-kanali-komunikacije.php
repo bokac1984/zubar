@@ -94,7 +94,6 @@ include_once("lang/lang.php");
                     <div class="grid-col grid-col-12">
                         <!-- philosophy -->
                         <section class="widget">	
-                            <div class="widget-title"><?php echo $lang['page']['onama']['kanali']['title'] ?></div>
                             <p><?php echo $lang['page']['onama']['kanali']['content']; ?> </p>
                             <div class="socijalne-ikone"><?php include('includes/social.php'); ?></div>
                         </section>

@@ -7,25 +7,24 @@ include_once("lang/lang.php");
 include 'php/CSFR.Class.php';
 include 'includes/config.php';
 
-$csrf = new CSFR();
 
-$success = array();
-//echo "SESSION <pre>";print_r($_SESSION);echo "</pre><br>";
-// Generate Token Id and Valid
-$token_id = $csrf->get_token_id();
-$token_value = $csrf->get_token($token_id);
-$posted = false;
-// Generate Random Form Names
-$form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), false);
-$required_fields = array(
-    $form_names['imeprezime'] => $lang['page']['inernacionala']['imeprezime']['error'],
-    $form_names['email'] => $lang['page']['inernacionala']['email']['error'],
-    $form_names['rtg'] => $lang['page']['inernacionala']['rtg']['error'],
-    $form_names['verifikuj'] => $lang['page']['inernacionala']['captcha']['error']
-);
-if (isset($_POST[$form_names['imeprezime']]
-        )
-) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $csrf = new CSFR();
+
+    $success = array();
+    //echo "SERVER <pre>";print_r($_SERVER);echo "</pre><br>";//exit();
+    // Generate Token Id and Valid
+    $token_id = $csrf->get_token_id();
+    $token_value = $csrf->get_token($token_id);
+    $posted = false;
+    // Generate Random Form Names
+    $form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), false);
+    $required_fields = array(
+        $form_names['imeprezime'] => $lang['page']['inernacionala']['imeprezime']['error'],
+        $form_names['email'] => $lang['page']['inernacionala']['email']['error'],
+        $form_names['rtg'] => $lang['page']['inernacionala']['rtg']['error'],
+        $form_names['verifikuj'] => $lang['page']['inernacionala']['captcha']['error']
+    );
     // Check if token id and token value are valid.
     if ($csrf->check_valid('post')) {
         // Get the Form Variables.

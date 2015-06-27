@@ -53,7 +53,6 @@ include_once("lang/lang.php");
                         include("includes/main-nav.php");
                         ?>
                         <!--/ main nav -->
-
                         <!-- mobile nav -->
                         <?php include("includes/mobile-nav.php"); ?>
                         <!--/ mobile nav -->
@@ -93,7 +92,6 @@ include_once("lang/lang.php");
                     <a name="section4"></a>
                     <div class="grid-col grid-col-12">
                         <section class="detailed-services wpb_content_element">
-                            <div class="widget-title"><?php echo $lang['page']['onama']['cijenovnik']['title']; ?></div>
                             <p><?php echo $lang['page']['onama']['cijenovnik']['subcontent'] ?></p> 
                             <br>
                             <dl>
@@ -226,9 +224,11 @@ include_once("lang/lang.php");
                                             <li><span>100 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['hirurska']; ?></strong></li>
                                             <li><span>180 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['hirurska2']; ?></strong></li>
                                             <li><span>25 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['rutinska2']; ?></strong></li>
+                                            <li><span>50 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren-komplikovan']; ?></strong></li>
                                             <li><span>100 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['hirurska3']; ?></strong></li>
+                                            <li><span>65 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2']; ?></strong></li>
+                                            <li><span>180 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['hirurimpaktiranog']; ?></strong></li>
                                             <li><span>40 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['terapija']; ?></strong></li>
-                                            <li><span>180 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2']; ?></strong></li>
                                             <li><span>10 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['rutinsko']; ?></strong></li>
                                             <li><span>50 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['usivanje']; ?></strong></li>
                                             <li><span>180 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Oralna']['apikotomija']; ?></strong></li>

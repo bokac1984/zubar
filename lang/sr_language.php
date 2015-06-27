@@ -417,10 +417,10 @@ $lang['page']['onama']['cijenovnik']['Oralna']['komplikovana'] = "Komplikovana e
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska'] = "Hirurška ekstrakcija stalnog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska2'] = "Hirurška ekstrakcija umnjaka";
 //preskoceno ovdje
-$lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren'] = "Rutinska ekstrakcija zaostalog korjena";
+$lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren-komplikovan'] = "Komplikovana ekstrakcija zaostalnog korjena";
 $lang['page']['onama']['cijenovnik']['Oralna']['rutinska2'] = "Rutinska ekstrakcija zaostalog korjena";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska3'] = "Hirurška ekstrakcija zaostalog korjena";
-
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurimpaktiranog'] = "Hirurška ekstrakcija impaktiranog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['terapija'] = "Terapija alveolitisa";
 
 $lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2'] = "Ekstrakcija poluimpaktiranog zuba";
@@ -433,7 +433,7 @@ $lang['page']['onama']['cijenovnik']['Oralna']['cirkumcizija'] = "Cirkumcizija";
 $lang['page']['onama']['cijenovnik']['Oralna']['incizija'] = "Incizija apscesa";
 $lang['page']['onama']['cijenovnik']['Oralna']['frenulektomija'] = "Frenulektomija";
 $lang['page']['onama']['cijenovnik']['Oralna']['rezanj'] = "Režanj operacija";
-$lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Nivelacija alveolarnog grebena";
+$lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Nivelacija grebena jednog kvadranta";
 $lang['page']['onama']['cijenovnik']['Oralna']['primarno'] = "Primarno zatvaranje sinusa";
 
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['title'] = "Ortodoncija";
@@ -494,6 +494,7 @@ $lang['page']['onama']['karijera']['content'] = "Uspješnu organizaciju čine nj
 $lang['page']['onama']['karijera']['form']['ime'] = "Ime";
 $lang['page']['onama']['karijera']['form']['imerod'] = "Ime jednog roditelja";
 $lang['page']['onama']['karijera']['form']['prezime'] = "Prezime";
+$lang['page']['onama']['karijera']['form']['portret'] = "Portret fotografija";
 $lang['page']['onama']['karijera']['form']['datumrodj'] = "Datum rođenja";
 $lang['page']['onama']['karijera']['form']['mjestorodj'] = "Mjesto rođenja";
 $lang['page']['onama']['karijera']['form']['adresa'] = "Adresa prebivališta";
@@ -568,7 +569,7 @@ $lang['page']['kontakt']['narucise']['content'] = "Ako imate određeni prijedlog
 
 $lang['page']['kontakt']['forma']['label']['ime'] = "Ime i prezime";
 $lang['page']['kontakt']['forma']['label']['email'] = "Vaš email";
-$lang['page']['kontakt']['forma']['label']['cat'] = "Kategorija";
+$lang['page']['kontakt']['forma']['label']['telefon'] = "Vaš telefon";
 $lang['page']['kontakt']['forma']['label']['subject'] = "Tema";
 $lang['page']['kontakt']['forma']['label']['message'] = "Poruka";
 $lang['page']['kontakt']['forma']['label']['submit'] = "Pošalji";
@@ -585,7 +586,7 @@ $lang['quickorder']['option']['value5'] = "Pregled za ugradnju implantata";
 $lang['quickorder']['option']['value6'] = "Pregled za biljeljenje zuba";
 $lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje zuba";
 $lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
-$lang['quickorder']['forma']['label']['submit'] = "Dalje";
+$lang['quickorder']['forma']['label']['submit'] = "Pošalji";
 $lang['quickorder']['forma']['opener'] = "Naruči se";
 ////// QUICK ORDER ///////
 

@@ -101,7 +101,10 @@ include_once("lang/lang.php");
                             <p><?php echo $lang['page']['ortodoncija']['vrste-aparata']['content']; ?></p>
                         </section>
                     </div>
-                </div>           
+                </div> 
+                <!-- rezervacije -->
+                <?php include("includes/make-reservation.php"); ?>
+                <!--/ rezervacije --> 
             </main>
 
             <!-- page footer -->
