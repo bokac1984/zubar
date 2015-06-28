@@ -592,6 +592,8 @@ $lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje
 $lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
 $lang['quickorder']['forma']['label']['submit'] = "Pošalji";
 $lang['quickorder']['forma']['opener'] = "Naruči se";
+
+$lang['quickorder']['forma']['success'] = "Uspješno poslato";
 ////// QUICK ORDER ///////
 
 
@@ -604,7 +606,7 @@ $lang['askus']['placeholders']['email'] = "Email Adresa";
 $lang['askus']['placeholders']['tel'] = "Telefon";
 $lang['askus']['placeholders']['pitanje'] = "Pitanje";
 $lang['askus']['form']['submit'] = "Pošalji pitanje";
-
+$lang['askus']['form']['success'] = "Uspješno ste postavili pitanje doktoru!";
 
 $lang['askus']['form']['ime']['error'] = "Unesite Vaše ime i prezime";
 $lang['askus']['form']['email']['error'] = "Unesite validnu email adresu";

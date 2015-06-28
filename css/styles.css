@@ -1538,7 +1538,7 @@ nav p{
 .quick-search input,
 .quick-search select {
   float: left;
-  width: 360px;
+  width: 325px;
   height: 30px;
   margin: 30px 0 0 30px;
   padding-top: 4px;
@@ -6863,6 +6863,11 @@ margin-left: 70px;
 
 #rezultati {
     display: none;
+    padding-top: 32px;
+    /* margin-left: 36px; */
+    position: absolute;
+    right: 173px;
+    color: rgb(232, 255, 232);
 }
 
 .flags {

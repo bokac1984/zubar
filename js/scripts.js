@@ -818,7 +818,7 @@ function askus_init() {
                     } else {
                         if (response.info == 'success') {
                             $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_confirm');
-                            $response.find('p').append('Vaša prijava je uspješno poslata!');
+                            $response.find('p').append(response.message);
                             $response.find('p').delay(5000).hide(500, function () {
                                 $(this).removeClass().text("").fadeIn(500);
                                 $response.css("display", "none");
@@ -828,7 +828,7 @@ function askus_init() {
 
                         if (response.info == 'server_fail') {
                             $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_error');
-                            $response.find('p').append('Greška na serveru. Molimo pokušajte kasnije!');
+                            $response.find('p').append(response.message);
                         }
                     }
 
@@ -849,42 +849,6 @@ function askus_init() {
                     
                 }
             });
-            /*$response.css("display", "block");
-            $response.find('p').html($loader);
-
-            var data = {
-                action: "career_form_request",
-                values: $("#careerform").serialize()
-            };
-            //send data to server    
-            $.post("php/career_send.php", data, function (response) {
-
-                response = $.parseJSON(response);
-
-                $(".wrong-data").removeClass("wrong-data");
-                $response.find('img').remove();
-
-                if (response.is_errors) {
-                    $response.find('.wpb_alert').removeClass().addClass('wpb_alert');
-                    $.each(response.info, function (input_name, input_label) {
-
-                        $("[name=" + input_name + "]").addClass("wrong-data");
-                        $response.find('p').append(input_label + '!</br>');
-                    });
-
-                } else {
-                    if (response.info == 'success') {
-
-                    }
-
-                    if (response.info == 'server_fail') {
-                        $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_error');
-                        $response.find('p').append('Greška na serveru. Molimo pokušajte kasnije!');
-                    }
-                }
-
-
-            });*/
         });
 
     }
@@ -928,8 +892,10 @@ function narucise_init() {
 
                 } else {
                     if (response.info == 'success') {
-                        $('#rezultati').show().delay(1000).fadeOut();
-                        console.log('uspjesno');
+                        $('#rezultati').show().delay(1000).fadeOut("slow",function(){
+                            $('#quick-search').toggleClass('quick-search-visible');
+                        });
+                        
                         $form.find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
                     }
 

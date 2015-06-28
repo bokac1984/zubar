@@ -27,6 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         'email' => trim(htmlentities($_POST['email'])),
         'telefon' => trim(htmlentities($_POST['telefon'])),
         'poruka' => trim(htmlentities($_POST['poruka'])),
+        'verify' => trim(htmlentities($_POST['verify'])),
     );
 
     //check for required and assemble message
@@ -94,35 +95,36 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          $errors['fajl'] = $lang['askus']['form']['fajl']['size']['error'] . $imageSize / 1048576 . ' MB.';
     }
     $pre_messagebody_info.="Imate novi kontakt sa forme \"Pitajte doktora\"\r\n";
-    $pre_messagebody_info.="<strong>Ime i prezime</strong>" . ": " . $data['ime'] . "\r\n";
-    $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['email'] . "\r\n";
-    $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data['email'] . "\r\n";
-    $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . $data['email'] . "\r\n";
+    $pre_messagebody_info.="Ime i prezime" . ": " . $data['ime'] . "\r\n";
+    $pre_messagebody_info.="Telefon" . ": " . $data['telefon'] . "\r\n";
+    $pre_messagebody_info.="E-mail" . ": " . $data['email'] . "\r\n";
+    $pre_messagebody_info.="Poruka" . ": " . $data['poruka'] . "\r\n";
     $pre_messagebody_info.= "Prilog je dodat u ovaj mail.\r\n";
-
-    if (!empty($data["telefon"])) {
-        $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['telefon'] . "\r\n";
-    }
     if (empty($errors)) {
-        require_once('php/PHPMailer/class.phpmailer.php');
-
+        require_once('PHPMailer/class.phpmailer.php');
         $mail = new PHPMailer(true); //defaults to using php "mail()"; the true param means it will throw exceptions on errors, which we need to catch
 
         try {
             $mail->isHTML(false);
             $mail->AddAddress($emailAddress, 'Stomatologija Kecman'); // adresa gdje se salju podaci sa forme
             $mail->SetFrom($noreplyAddressForEmail, 'Stomatologija Kecman'); // ovo je adresa koja salje na gornju email adresu
-            $mail->AddReplyTo(htmlspecialchars($data[$form_names['email']]), htmlspecialchars($data[$form_names['imeprezime']])); // ovaoj je lik koji salje formu na sajt mail
+            $mail->AddReplyTo(htmlspecialchars($data['email']), htmlspecialchars($data['ime'])); // ovaoj je lik koji salje formu na sajt mail
             $mail->Subject = 'Kontakt sa forme: "Pitajte doktora"';
             $mail->Body = $pre_messagebody_info;
             $mail->AddAttachment($data['fajl']['tmp_name'], htmlspecialchars($data['fajl']['name']));      // attachment
             $mail->Send();
-            $success['message'] = $lang['page']['inernacionala']['email']['success'];
+            $errors['info'] = 'success';
+            $errors['message'] = $lang['askus']['form']['success'];
         } catch (phpmailerException $e) {
-            $errors['info'] = $e->errorMessage(); //Pretty error messages from PHPMailer
+            $errors['info'] = 'server_fail';
+            $errors['message'] = $e->errorMessage(); //Pretty error messages from PHPMailer
         } catch (Exception $e) {
-            $errors['info'] = $e->getMessage(); //Boring error messages from anything else!
+            $errors['info'] = 'server_fail';
+            $errors['message'] = $e->getMessage(); //Boring error messages from anything else!
         }
+        $result['is_errors'] = 0;
+        $result['info'] = $errors['info'];
+        $result['message'] = $errors['message'];
         // posalji rezultat json
         echo json_encode($result);
         exit;

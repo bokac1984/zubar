@@ -9,7 +9,7 @@
             <button id="quick-search-switcher" name="quickorder" type="button"><?php echo $lang['quickorder']['forma']['opener']; ?></button>
         </div>
         <div id="rezultati">
-            <a class="fa fa-check"></a>
+            <i class="fa fa-check"></i><?php echo $lang['quickorder']['forma']['success']; ?>
         </div>
     </fieldset>				
 </form>
