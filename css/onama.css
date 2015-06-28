@@ -7,18 +7,18 @@
     display: inline;
 }
 
-#careerform iframe {
+#careerform iframe, #askuswidget iframe {
   width:35px !important;
   height:30px !important;
   display:inline-block;
   vertical-align: middle;
   border:0;
 }
-#careerform iframe html{
+#careerform iframe html, #askuswidget iframe html{
   width: 100%;
 }
 
-#careerform input.verify{
+#careerform input.verify, #askuswidget input.verify{
   display: inline-block;
   width: 1.5em !important;
   vertical-align: middle;
@@ -29,12 +29,12 @@
   padding: 0;
   line-height: 1;
 }
-#careerform .captcha-wrapper {
+#careerform .captcha-wrapper, #askuswidget .captcha-wrapper{
   display:inline-block;
   line-height: 50px;
   padding-left: 10px;
 }
-#careerform button[type="submit"]{
+#careerform button[type="submit"], #askuswidget button[type="submit"]{
   display:block;
   float:right;
 }

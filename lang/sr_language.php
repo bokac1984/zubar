@@ -523,12 +523,16 @@ $lang['page']['onama']['karijera']['form']['vikednom'] = "Spreman/na sam na pla�
 $lang['karijera']['form']['ime']['error'] = "Molimo Vas unesite ime";
 $lang['karijera']['form']['imerod']['error'] = "Molimo Vas unesite ime jednog roditelja";
 $lang['karijera']['form']['prezime']['error'] = "Molimo Vas unesite prezime";
+$lang['karijera']['form']['portret']['error'] = "Molimo Vas odaberite Vašu portret fotografiju";
+$lang['portret']['error'] = "Greška prilikom upload fajla";
+$lang['portret']['mime']['error'] = "Fajl pogrešne ekstenzije, dozvoljene: jpg, png";
+$lang['portret']['size']['error'] = "Pogresna veličina slike, dozvoljeno ";
 $lang['karijera']['form']['datumrodj']['error'] = "Molimo Vas unesite datum rođenja";
 $lang['karijera']['form']['mjestorodj']['error'] = "Molimo Vas unesite mjesto rođenja";
 $lang['karijera']['form']['adresa']['error'] = "Molimo Vas unesite adresu";
 $lang['karijera']['form']['opstina']['error'] = "Molimo Vas opštinu prebivališta";
 $lang['karijera']['form']['tel']['error'] = "Molimo Vas unesite telefon";
-$lang['karijera']['form']['emailadr']['error'] = "Molimo Vas email adresu";
+$lang['karijera']['form']['emailadr']['error'] = "Molimo Vas unesite pravilnu email adresu";
 $lang['karijera']['form']['apliciram']['error'] = "Apliciram za radno mjesto";
 $lang['karijera']['form']['stomatolog']['error'] = "Stomatolog";
 $lang['karijera']['form']['tehnicar']['error'] = "Zubnog tehničara";
@@ -600,6 +604,15 @@ $lang['askus']['placeholders']['email'] = "Email Adresa";
 $lang['askus']['placeholders']['tel'] = "Telefon";
 $lang['askus']['placeholders']['pitanje'] = "Pitanje";
 $lang['askus']['form']['submit'] = "Pošalji pitanje";
+
+
+$lang['askus']['form']['ime']['error'] = "Unesite Vaše ime i prezime";
+$lang['askus']['form']['email']['error'] = "Unesite validnu email adresu";
+$lang['askus']['form']['tel']['error'] = "Unesite validan broj telefona";
+$lang['askus']['form']['poruka']['error'] = "Molimo Vas unesite poruku";
+$lang['askus']['form']['fajl']['mime']['error'] = "Pogrešan tip fajla";
+$lang['askus']['form']['fajl']['size']['error'] = "Fajl je pogrešne veličine";
+$lang['askus']['form']['fajl']['error'] = "Molimo Vas odaberite fajl";
 ////// ASK US WIDGET ///////
 
 $lang['page']['footer']['copyright'] = "Sadržaj ovog internet sajta štite autorska prava čiji je nosilac i koje zadržava Zdravstvena ustanova “Stomatologija Kecman”, Kralja Alfonsa XIII broj 46a, 78 000 Banjaluka, BiH. Svi korisnici slobodni su da čitaju sadržaj. Svaka druga upotreba i umnožavanje sadržaja ovog internet sajta zabranjeni su. Dio sadržaja ovog internet sajta je prikupljen putem javnih izvora na internetu. Ukoliko autorska prava bilo kojeg sadržaja ovog internet sajta pripadaju Vama, kontaktirajte nas i mi ćemo ih ukloniti. ";

@@ -9,7 +9,7 @@ if (isset($_REQUEST['action'])) {
 
         $ourMail = "djordjehrnjez@gmail.com"; //Insert your email address here
 
-        $required_fields = array("name", "email", "telefon", "poruka");
+        $required_fields = array("ime", "email", "telefon", "poruka");
         $pre_messagebody_info = "";
         $subject = "Website forma: Pitajte nas";
         $errors = array();
@@ -23,7 +23,11 @@ if (isset($_REQUEST['action'])) {
                 $name = strtolower(trim($key));
                 if (in_array($name, $required_fields)) {
                     if (empty($value)) {
-                        $errors[$name] = "Molimo unesite " . $name . "!";
+                        if ($name == "ime") {
+                            $errors[$name] = "Molimo unesite ime i prezime!";
+                        } else {
+                            $errors[$name] = "Molimo unesite $name!";
+                        }
                     }
                 }
 

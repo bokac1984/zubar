@@ -9,9 +9,9 @@
 		milestone_counter();
 		progress_bar_loader ();
 		contact_form_init();
-                //career_form_init();
+                $( "#datepicker" ).datepicker({ dateFormat: 'dd.mm.yy' });
                 narucise_init();
-                //internacionala_form_init();
+                askus_init();
 		chart_circle_init();
 		sticky ()
 		$(document).scroll(milestone_counter);
@@ -780,10 +780,10 @@ function contact_form_init() {
 }
 
 
-function career_form_init() {
-    if ($('#careerform').length) {
+function askus_init() {
+    if ($('#askuswidget').length) {
 
-        var $form = $('#careerform'),
+        var $form = $('#askuswidget'),
         $loader = '<img src="php/preloader.gif" alt="Loading..." />';
         $form.find("fieldset").prepend('<div id="career_form_response">');
 
@@ -793,7 +793,63 @@ function career_form_init() {
 
         $form.submit(function (e) {
             e.preventDefault();
+            var data = new FormData($('#askuswidget')[0]);
             $response.css("display", "block");
+            $response.find('p').html($loader);
+            $.ajax({
+                url: $('#askuswidget').attr('action'),
+                data: data,
+                processData: false,
+                contentType: false,
+                type: 'POST',
+                success: function(response){
+                    response = $.parseJSON(response);
+                    $(".wrong-data").removeClass("wrong-data");
+                    $response.find('img').remove();
+                    console.log(response);
+                    if (response.is_errors) {
+                        $response.find('.wpb_alert').removeClass().addClass('wpb_alert');
+                        $.each(response.info, function (input_name, input_label) {
+
+                            $("[name=" + input_name + "]").addClass("wrong-data");
+                            $response.find('p').append(input_label + '!</br>');
+                        });
+
+                    } else {
+                        if (response.info == 'success') {
+                            $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_confirm');
+                            $response.find('p').append('Vaša prijava je uspješno poslata!');
+                            $response.find('p').delay(5000).hide(500, function () {
+                                $(this).removeClass().text("").fadeIn(500);
+                                $response.css("display", "none");
+                            })
+                            $form.find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
+                        }
+
+                        if (response.info == 'server_fail') {
+                            $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_error');
+                            $response.find('p').append('Greška na serveru. Molimo pokušajte kasnije!');
+                        }
+                    }
+
+                // Scroll to bottom of the form to show respond message
+                var topPosition = $("#career_form_response").offset().top;
+
+                if (($(document).scrollTop() - $(document).height()) < topPosition) {
+                    $('html, body').animate({
+                        scrollTop: topPosition
+                    });
+                }
+
+                if (!$('#career_form_response').css('display') == 'block') {
+                    $response.show(450);
+                }
+                },
+                error: function(data){
+                    
+                }
+            });
+            /*$response.css("display", "block");
             $response.find('p').html($loader);
 
             var data = {
@@ -818,13 +874,7 @@ function career_form_init() {
 
                 } else {
                     if (response.info == 'success') {
-                        $response.find('.wpb_alert').removeClass().addClass('wpb_alert wpb_alert_confirm');
-                        $response.find('p').append('Vaša prijava je uspješno poslata!');
-                        $response.find('p').delay(5000).hide(500, function () {
-                            $(this).removeClass().text("").fadeIn(500);
-                            $response.css("display", "none");
-                        })
-                        $form.find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
+
                     }
 
                     if (response.info == 'server_fail') {
@@ -833,20 +883,8 @@ function career_form_init() {
                     }
                 }
 
-                // Scroll to bottom of the form to show respond message
-                var topPosition = $("#career_form_response").offset().top;
 
-                if (($(document).scrollTop() - $(document).height()) < topPosition) {
-                    $('html, body').animate({
-                        scrollTop: topPosition
-                    });
-                }
-
-                if (!$('#career_form_response').css('display') == 'block') {
-                    $response.show(450);
-                }
-
-            });
+            });*/
         });
 
     }

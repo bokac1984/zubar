@@ -7,15 +7,15 @@ include_once("lang/lang.php");
 include 'php/CSFR.Class.php';
 include 'includes/config.php';
 
+$csrf = new CSFR();
+
+$success = array();
+// Generate Token Id and Valid
+$token_id = $csrf->get_token_id();
+$token_value = $csrf->get_token($token_id);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $csrf = new CSFR();
 
-    $success = array();
-    //echo "SERVER <pre>";print_r($_SERVER);echo "</pre><br>";//exit();
-    // Generate Token Id and Valid
-    $token_id = $csrf->get_token_id();
-    $token_value = $csrf->get_token($token_id);
     $posted = false;
     // Generate Random Form Names
     $form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), false);
@@ -329,40 +329,8 @@ function check_email_address($email) {
             <!--/ copyrights -->
 
         </div>
-
-        <!-- scripts -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/jquery.migrate.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
-        <script type="text/javascript" src="js/jquery.flot.js"></script>
-        <script type="text/javascript" src="js/jquery.flot.pie.js"></script>
-        <script type="text/javascript" src="js/jquery.flot.categories.js"></script>
-        <script type="text/javascript" src="js/greensock.js"></script>
-        <script type="text/javascript" src="js/layerslider.transitions.js"></script>
-        <script type="text/javascript" src="js/layerslider.kreaturamedia.jquery.js"></script>
-
-        <!-- Superscrollorama -->		
-        <script type="text/javascript" src="js/jquery.superscrollorama.js"></script>
-        <script type="text/javascript" src="js/TweenMax.min.js"></script>
-        <script type="text/javascript" src="js/TimelineMax.min.js"></script>
-        <!--/ Superscrollorama -->
-
-        <script type="text/javascript" src="js/jquery.ui.core.min.js"></script>
-        <script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
-        <script type="text/javascript" src="js/jquery.ui.tabs.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui-tabs-rotate.js"></script>
-        <script type="text/javascript" src="js/jquery.ui.accordion.min.js"></script>
-        <script type="text/javascript" src="js/jquery.tweet.js"></script>
-        <!-- EASYPIECHART -->
-        <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
-        <!--/ EASYPIECHART -->
-        <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-        <!--/ scripts -->
-
+        <!-- copyrights -->
+        <?php include("includes/javascripts.php"); ?>
+        <!--/ copyrights -->
     </body>
 </html>
