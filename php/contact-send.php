@@ -1,4 +1,6 @@
 <?php
+require_once("../includes/config.php");
+require_once("../lang/lang.php");
 if(!session_id()) {
 	session_start();
 }
@@ -7,11 +9,10 @@ error_reporting(0);
 if (isset($_REQUEST['action'])) {
     if ($_REQUEST['action'] == "contact_form_request") {
 
-        $ourMail = "djordjehrnjez@gmail.com"; //Insert your email address here
+        $ourMail = $emailAddress; //Insert your email address here
 
         $required_fields = array("ime", "email", "telefon", "poruka");
         $pre_messagebody_info = "";
-        $subject = "Website forma: Pitajte nas";
         $errors = array();
         $data = array();
         parse_str($_REQUEST['values'], $data);
@@ -58,16 +59,15 @@ if (isset($_REQUEST['action'])) {
             exit;
         }
 		
-        $pre_messagebody_info.="<strong>Ime i prezime</strong>" . ": " . $data['ime'] . "\r\n";
-        $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['email'] . "\r\n";
-        $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data['email'] . "\r\n";
-        $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . $data['email'] . "\r\n";
+        $pre_messagebody_info.="<strong>Ime i prezime</strong>" . ": " . trim(htmlentities($data['ime'])) . "<br>";
+        $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . trim(htmlentities($data['email'])) . "<br>";
+        $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . trim(htmlentities($data['poruka'])) . "<br>";
 		
         if (!empty($data["datum-rodjenja"])){
-                $pre_messagebody_info.="<strong>Datum rođenja</strong>" . ": " . $data['datum-rodjenja'] . "\r\n";
+                $pre_messagebody_info.="<strong>Datum rođenja</strong>" . ": " . trim(htmlentities($data['datum-rodjenja'])) . "<br>";
         }
         if (!empty($data["telefon"])){
-                $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['telefon'] . "\r\n";
+                $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . trim(htmlentities($data['telefon'])) . "<br>";
         }
         
         $subject.="Website Forma: Kontakt";
