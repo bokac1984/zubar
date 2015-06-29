@@ -25,8 +25,9 @@
     </li>
     <li class="first-level-nav">
         <a href="#" <?php echo $typeActive == 3 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['implantologija'] ?></a>
-        <ul class="second-level-nav">
-            <li><a href="implantologija#section1"><?php echo $lang['menu']['straumann'] ?></a></li>   
+        <ul>
+            <li><a href="straumann-implantati"><?php echo $lang['menu']['straumann'] ?></a></li>   
+            <li><a href="mdi-mini-implantati"><?php echo $lang['menu']['mdiimplantati'] ?></a></li> 
         </ul>
     </li>
     <li class="first-level-nav">

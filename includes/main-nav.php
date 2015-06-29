@@ -33,9 +33,10 @@ else
     </ul>
 </li>
 <li>
-    <a href="implantologija" <?php echo $typeActive == 3 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['implantologija'] ?></a>
+    <a href="#" <?php echo $typeActive == 3 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['implantologija'] ?></a>
     <ul>
-        <li><a href="implantologija#section1"><?php echo $lang['menu']['straumann'] ?></a></li>   
+        <li><a href="straumann-implantati"><?php echo $lang['menu']['straumann'] ?></a></li>   
+        <li><a href="mdi-mini-implantati"><?php echo $lang['menu']['mdiimplantati'] ?></a></li> 
     </ul>
 </li>
 <li>
@@ -79,6 +80,6 @@ else
 </nav>
 
 <div class="flags">
-    <a href="?lang=en"><img src="img/gb.png" /></a>
-    <a href="?lang=sr"><img src="img/rs.png" /></a>
+    <a href="?lang=en">ENG</a>
+    <a href="?lang=sr">BHS</a>
 </div>

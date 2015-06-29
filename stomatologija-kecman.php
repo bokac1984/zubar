@@ -104,6 +104,183 @@ include_once("lang/lang.php");
                     </div>
                     <hr>
                 </div>
+                <div class="grid-row">
+                    <section id="photo-tour" class="widget photo-tour photo-tour-4">						
+                        <div class="grid isotope" style="position: relative; overflow: hidden; height: 1016px;">
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/1.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/1.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/2.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/2.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/3.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/3.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/4.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/4.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/5.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/5.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/6.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/6.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/7.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/7.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/8.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/8.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/9.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/9.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/10.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/10.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/11.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/11.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/12.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/13.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/13.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/13.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/14.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/14.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/15.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/15.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/16.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/16.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="item item1 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 254px, 0px);">
+                                <div class="pic">
+                                    <img src="img/galerija/17.jpg" width="270" height="142">
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="img/galerija/17.jpg" rel="group1" class="fa fa-eye fancybox"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </section>
+                </div>
             </main>
 
 

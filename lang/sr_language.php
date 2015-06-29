@@ -31,6 +31,7 @@ $lang['menu']['bruksosplint'] = 'Bruksosplint';
 // Implantologija
 $lang['menu']['implantologija'] = 'Implantologija';
 $lang['menu']['straumann'] = 'Straumann implantati';
+$lang['menu']['mdiimplantati'] = 'MDI mini implantati';
 
 // Oralna hirurgija
 $lang['menu']['oralna-hirurgija'] = 'Oralna hirurgija';
@@ -72,7 +73,7 @@ $lang['page']['rate']['title'] = 'Plaćanje na rate';
 $lang['page']['rate']['content'] = 'Našim pacijentima nudimo razne mogućnosti plaćanja. U saradnji s bankama osigurali smo mogućnost beskamatnog plaćanja na rate. Posredujte pri sklapanju Ugovora o vršenju obustava na plate radnika između Zdravstvene ustanove “Stomatologija Kecman” i Vašeg poslodavca, te na taj način ostvarite dodatne pogodnosti. U tabeli ispod možete pregledati i uporediti uslove raznih mogućnosti odgođenog plaćanja koje nudimo.';
 
 $lang['home']['rate']['title'] = "Plaćanje na rate";
-$lang['home']['rate']['content'] = "Stomatologija Kecamn u želji da što više izađe u susret svojim pacijentima, omogućila je odgođeno plaćanje naših usluga.";
+$lang['home']['rate']['content'] = "Stomatologija Kecman u želji da što više izađe u susret svojim pacijentima, omogućila je odgođeno plaćanje naših usluga.";
 ///// RATE /////
 
 ///// INTERNACIONALA /////
@@ -128,13 +129,23 @@ $lang['page']['ortodoncija']['vrste-aparata']['content'] = 'Ortodontski aparati�
 
 //// IMPLANTOLOGIJA /////
 $lang['page']['implantologija']['title'] = 'Implantologija';
-$lang['page']['implantologija']['straumann']['title'] = 'Straumann implantat';
+$lang['page']['implantologija']['straumann']['title'] = 'Straumann implantati';
 $lang['page']['implantologija']['straumann']['opis']['title'] = '<b>Opis terapije</b>';
 $lang['page']['implantologija']['straumann']['opis']['content'] = 'Zubni implantati su nosači nadoknada napravljeni od titanijuma koji se ugrađuju u kost. Titanijum se koristi zbog svoje jedinstvene sposobnosti spajanja sa kosti, stvarajući tako čvrstu podlogu za zubnu nadoknadu. Najbolje su rješenje u slučaju nedostatka jednog ili nekoliko zuba. Ukoliko se održava oralna higijena i pridržava savjeta doktora u većini slučajeva traju doživotno. ';
-$lang['page']['implantologija']['straumann']['kandidati']['title'] = '<b>Kandidati za bijeljenje</b>';
+$lang['page']['implantologija']['straumann']['kandidati']['title'] = '<b>Kandidati za implantaciju</b>';
 $lang['page']['implantologija']['straumann']['kandidati']['content'] = "Pacijenti kojima nedostaje jedan ili više zuba, kao i oni kojima je narušena prirodna mogućnost žvakanja, estetski izgled ili govor su kandidati za ugradnju zubnih implantata. Takođe, pacijenti kod kojih je otežano ili potpuno onemogućeno nošenje zubnih poreza su isto tako kandidati za implantaciju. Imperativ kod implantata je dobra oralna higijena, jer u suprotnom čitav proces nema smisla. ";
 $lang['page']['implantologija']['straumann']['materijali']['title'] = '<b>Materijali koji se koriste</b>';
 $lang['page']['implantologija']['straumann']['materijali']['content'] = "Zubni implantati Straumann napravljeni su od titanijuma koji odlikuje velika čvrstoća, mala težina i velika otpornost na koroziju. Pored navedenog, poznati su po visokoj biokompatibilnosti zbog čega nakon same implantacije puno brže dolazi do oseointegracije. ";
+
+$lang['page']['implantologija']['mdiimplantati']['title'] = 'MDI mini implantati';
+$lang['page']['implantologija']['mdiimplantati']['opis']['title'] = 'Opis zahvata';
+$lang['page']['implantologija']['mdiimplantati']['opis']['content'] = 'Mini dentalni implantati su implantati malog prečnika (njihov prečnik je manji od 3mm, dok standardi implantati imaju prečnik veći od 3mm, najčešće 4mm ili 5mm). Pravi naziv ove vrste implantata je implantati malog prečnika, dok je naziv mini implantati zapravo fabričko ime najzastupljenijeg implantata malog prečnika - 3M Mini Dental Implant (MDI). Kod bezubih vilica kod kojih ne postoji mogućnost ugradnje standardnih implantata, a augmentacija vilične kosti nije moguća, mini dentalni implantati predstavljaju terapiju izbora.';
+$lang['page']['implantologija']['mdiimplantati']['kandidati']['title'] = 'Kandidati za zahvat';
+$lang['page']['implantologija']['mdiimplantati']['kandidati']['content'] = "Mini dentalni implantati se koriste kod pacijenata sa bezubim vilicama koji imaju nestabilne proteze. Kod većine bezubih (ili čak i krezubih) vilica kost je u većoj mjeri resorbovana, te je za standardni zubni implantat potrebno izvršiti augmentaciju kosti. Mini dentalni implantati kod većine pacijenata ne zahtijevaju augmentaciju kosti, stoga je njihova ugradnja značajno jednostavnija nego kod standardnih implantata.";
+$lang['page']['implantologija']['mdiimplantati']['materijali']['title'] = 'Materijali koji se koriste';
+$lang['page']['implantologija']['mdiimplantati']['materijali']['content'] = "Dizajnom 3M MDI implantata postignuta je visoka stabilnost implantata u mekoj, kao i u gustoj kosti. Matrice 3M MDI implantata omogućavaju i do 30° divergencije između dva implantata. Posebno su kreirani za pacijente koji imaju malu koštanu masu za klasične implantate.";
+
+
 //// IMPLANTOLOGIJA /////
 
 //// estetska stomatologija ////
@@ -331,9 +342,12 @@ $lang['page']['onama']['cijenovnik']['subcontent'] = "U nastavku možete pregled
 $lang['page']['onama']['cijenovnik']['pokazisve'] = "Prikazi sve";
 // dijagnostika
 $lang['page']['onama']['cijenovnik']['dijagnostika']['title'] = "Stomatološka dijagnostika";
-$lang['page']['onama']['cijenovnik']['radiogram'] = "Dentalni radiogram";
-$lang['page']['onama']['cijenovnik']['opsti-pregled'] = "Opšti stomatološki pregled i konsultacije sa doktorom stomatologije";
-$lang['page']['onama']['cijenovnik']['ortopantomogram'] = "Ortopantomogram";
+$lang['cijenovnik']['radiogram']['title'] = "Dentalni radiogram";
+$lang['cijenovnik']['radiogram']['cijena'] = "8 KM";
+$lang['cijenovnik']['opsti-pregled']['title'] = "Opšti stomatološki pregled i konsultacije sa doktorom stomatologije";
+$lang['cijenovnik']['opsti-pregled']['cijena'] = "30 KM";
+$lang['cijenovnik']['ortopantomogram']['title'] = "Ortopantomogram";
+$lang['cijenovnik']['ortopantomogram']['cijena'] = "besplatno";
 
 // prva pomoc
 $lang['page']['onama']['cijenovnik']['prva-pomoc']['title'] = "Prva pomoć";
@@ -403,6 +417,8 @@ $lang['page']['onama']['cijenovnik']['Implantologija']['title'] = "Implantologij
 $lang['page']['onama']['cijenovnik']['Implantologija']['dentalni'] = "Dentalni implantat Straumann";
 $lang['page']['onama']['cijenovnik']['Implantologija']['abatment'] = "Abatment za dentalni implantat";
 $lang['page']['onama']['cijenovnik']['Implantologija']['metalkeramicka'] = "Metalkeramička krunica za dentalni implantat";
+$lang['page']['onama']['cijenovnik']['Implantologija']['mdiimplantati'] = "MDI mini dentalni implantat";
+$lang['cijenovnik']['Implantologija']['mdiimplantati']['cijena'] = "495 KM";
 $lang['page']['onama']['cijenovnik']['Implantologija']['augmentacija'] = "Augmentacija vilične kosti vještačkom kosti i kolagenom membranom";
 $lang['page']['onama']['cijenovnik']['Implantologija']['podizanje'] = "Podizanje poda sinusa";
 
@@ -577,6 +593,12 @@ $lang['page']['kontakt']['forma']['label']['telefon'] = "Vaš telefon";
 $lang['page']['kontakt']['forma']['label']['subject'] = "Tema";
 $lang['page']['kontakt']['forma']['label']['message'] = "Poruka";
 $lang['page']['kontakt']['forma']['label']['submit'] = "Pošalji";
+
+$lang['kontakt']['forma']['error']['ime'] = "Molimo Vas unesite ime i prezime";
+$lang['kontakt']['forma']['error']['email'] = "Molimo Vas unesite validnu email adresu";
+$lang['kontakt']['forma']['error']['telefon'] = "Molimo Vas unesite telefon";
+$lang['kontakt']['forma']['error']['poruka'] = "Molimo Vas unesite Vašu poruku";
+$lang['kontakt']['forma']['error']['captcha'] = "Verifikacioni kod koji ste unijeli je pogrešan!";
 // FOOTER CONTENT
 
 ////// QUICK ORDER ///////

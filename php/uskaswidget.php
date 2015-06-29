@@ -16,7 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $required_fields = array(
         "ime" => $lang['askus']['form']['ime']['error'],
         "email" => $lang['askus']['form']['email']['error'],
-        "telefon" => $lang['askus']['form']['tel']['error'],
         "poruka" => $lang['askus']['form']['poruka']['error']
     );
     $pre_messagebody_info = "";
@@ -25,7 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $data = array(
         'ime' => trim(htmlentities($_POST['ime'])),
         'email' => trim(htmlentities($_POST['email'])),
-        'telefon' => trim(htmlentities($_POST['telefon'])),
         'poruka' => trim(htmlentities($_POST['poruka'])),
         'verify' => trim(htmlentities($_POST['verify'])),
     );
@@ -96,7 +94,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     $pre_messagebody_info.="Imate novi kontakt sa forme \"Pitajte doktora\"\r\n";
     $pre_messagebody_info.="Ime i prezime" . ": " . $data['ime'] . "\r\n";
-    $pre_messagebody_info.="Telefon" . ": " . $data['telefon'] . "\r\n";
     $pre_messagebody_info.="E-mail" . ": " . $data['email'] . "\r\n";
     $pre_messagebody_info.="Poruka" . ": " . $data['poruka'] . "\r\n";
     $pre_messagebody_info.= "Prilog je dodat u ovaj mail.\r\n";

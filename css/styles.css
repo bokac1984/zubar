@@ -6871,22 +6871,23 @@ margin-left: 70px;
 }
 
 .flags {
-    width: 50px;
+    width: 63px;
     position: absolute;
     right: 25px;
-    top: 3.1em;
+    top: 3em;
 }
 
 .show .flags {
-    top: 1.5em;
+    top: 1.45em;
 }
 
 .flags a:first-child {
-    
+    font-size: 13px;
 }
 
 .flags a:last-child {
     padding-left: 0.3em;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 767px) { /* phone */

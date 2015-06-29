@@ -100,9 +100,9 @@ include_once("lang/lang.php");
                                     <div class="row">
                                         <div class="col cjenovnik">
                                             <li></li>
-                                            <li><span>8 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['radiogram']; ?></strong></li>
-                                            <li><span>30 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['ortopantomogram']; ?></strong></li>
-                                            <li><span>besplatno</span><strong><?php echo $lang['page']['onama']['cijenovnik']['opsti-pregled']; ?></strong></li>
+                                            <li><span><?php echo $lang['cijenovnik']['radiogram']['cijena'] ;?></span><strong><?php echo $lang['cijenovnik']['radiogram']['title']; ?></strong></li>
+                                            <li><span><?php echo $lang['cijenovnik']['ortopantomogram']['cijena']; ?></span><strong><?php echo $lang['cijenovnik']['ortopantomogram']['title']; ?></strong></li>
+                                            <li><span><?php echo $lang['cijenovnik']['opsti-pregled']['cijena']; ?></span><strong><?php echo $lang['cijenovnik']['opsti-pregled']['title']; ?></strong></li>
                                             <li></li>
                                             </ul>
                                         </div>
@@ -202,6 +202,7 @@ include_once("lang/lang.php");
                                             <li><span>1200 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Implantologija']['dentalni']; ?></strong></li>
                                             <li><span>200 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Implantologija']['abatment']; ?></strong></li>
                                             <li><span>150 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Implantologija']['metalkeramicka']; ?></strong></li>
+                                            <li><span><?php echo $lang['cijenovnik']['Implantologija']['mdiimplantati']['cijena']; ?></span><strong><?php echo $lang['page']['onama']['cijenovnik']['Implantologija']['mdiimplantati']; ?></strong></li>
                                             <li><span>800 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Implantologija']['augmentacija']; ?></strong></li>
                                             <li><span>1200 KM</span><strong><?php echo $lang['page']['onama']['cijenovnik']['Implantologija']['podizanje']; ?></strong></li>
                                             <li></li>

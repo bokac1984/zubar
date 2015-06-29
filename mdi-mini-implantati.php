@@ -75,10 +75,11 @@ include_once("lang/lang.php");
             <!--/ slider -->            <!-- page title -->
             <section class="page-title">
                 <div class="grid-row clearfix">
-                    <h1><?php echo $lang['page']['implantologija']['title']; ?></h1>					
+                    <h1><?php echo $lang['page']['implantologija']['mdiimplantati']['title']; ?></h1>					
                     <nav class="bread-crumbs">
                         <a href="/"><?php echo $lang['menu']['home'] ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
-                        <a href="#"><?php echo $lang['page']['implantologija']['title']; ?></a>
+                        <a href="#"><?php echo $lang['page']['implantologija']['title']; ?></a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+                        <a href="#"><?php echo $lang['page']['implantologija']['mdiimplantati']['title']; ?></a>
                     </nav>
                 </div>
             </section>
@@ -89,15 +90,15 @@ include_once("lang/lang.php");
                     <div class="grid-col grid-col-9">
                         <!-- list -->
                         <div class="opis">
-                            <b><?php echo $lang['page']['implantologija']['straumann']['opis']['title']; ?></b>
+                            <b><?php echo $lang['page']['implantologija']['mdiimplantati']['opis']['title']; ?></b>
                         </div>
-                        <p><?php echo $lang['page']['implantologija']['straumann']['opis']['content'] ?></p><br>
+                        <p><?php echo $lang['page']['implantologija']['mdiimplantati']['opis']['content'] ?></p><br>
                         <div class="kandidat">
-                            <b><?php echo $lang['page']['implantologija']['straumann']['kandidati']['title']; ?></b>
+                            <b><?php echo $lang['page']['implantologija']['mdiimplantati']['kandidati']['title']; ?></b>
                         </div>
-                        <p><?php echo $lang['page']['implantologija']['straumann']['kandidati']['content']; ?></p><br>
+                        <p><?php echo $lang['page']['implantologija']['mdiimplantati']['kandidati']['content']; ?></p><br>
                         <div class="materijal">
-                            <b><?php echo $lang['page']['implantologija']['straumann']['materijali']['title']; ?></b>
+                            <b><?php echo $lang['page']['implantologija']['mdiimplantati']['materijali']['title']; ?></b>
                         </div>
                         <p><?php echo $lang['page']['implantologija']['straumann']['materijali']['content']; ?></p><br>	
                         <!-- rezervacije -->

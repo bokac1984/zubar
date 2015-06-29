@@ -14,10 +14,10 @@
                 <input type="email" placeholder="<?php echo $lang['askus']['placeholders']['email']; ?>" name="email">
                 <i class="fa fa-envelope"></i>
             </div>
-            <div class="row">
+<!--            <div class="row">
                 <input type="text" placeholder="<?php echo $lang['askus']['placeholders']['tel']; ?>" name="telefon">
                 <i class="fa fa-phone"></i>
-            </div>
+            </div>-->
             <div class="row">
                 <input style="height: 25px;" type="file" name="fajl" id="fajl">
                 <i class="fa fa-file"></i>

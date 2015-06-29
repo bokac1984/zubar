@@ -178,7 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $pre_messagebody_info .= "\r\n U prilogu je fotografija.";
                 echo $pre_messagebody_info;exit();
                 $mail->isHTML(false);
-                $mail->AddAddress($emailAddress, 'Stomatologija Kecman'); // adresa gdje se salju podaci sa forme
+                $mail->AddAddress($karijeraEmail, 'Stomatologija Kecman'); // adresa gdje se salju podaci sa forme
                 $mail->SetFrom($noreplyAddressForEmail, 'Stomatologija Kecman'); // ovo je adresa koja salje na gornju email adresu
                 $mail->AddReplyTo(htmlspecialchars($data[$form_names['email']]), htmlspecialchars($data[$form_names['imeprezime']])); // ovaoj je lik koji salje formu na sajt mail
                 $mail->Subject = 'Kontakt sa forme: "Karijera"';

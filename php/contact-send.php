@@ -9,32 +9,31 @@ error_reporting(0);
 if (isset($_REQUEST['action'])) {
     if ($_REQUEST['action'] == "contact_form_request") {
 
-        $ourMail = $emailAddress; //Insert your email address here
+        $ourMail = $kontakt; //Insert your email address here
 
-        $required_fields = array("ime", "email", "telefon", "poruka");
+        $required_fields = array(
+            "ime" => $lang['kontakt']['forma']['error']['ime'], 
+            "email" => $lang['kontakt']['forma']['error']['email'], 
+            "telefon" => $lang['kontakt']['forma']['error']['telefon'], 
+            "poruka" => $lang['kontakt']['forma']['error']['poruka']
+        );
         $pre_messagebody_info = "";
         $errors = array();
         $data = array();
         parse_str($_REQUEST['values'], $data);
 		
         //check for required and assemble message
-
         if (!empty($data)) {
             foreach ($data as $key => $value) {
                 $name = strtolower(trim($key));
-                if (in_array($name, $required_fields)) {
+                if (array_key_exists($name, $required_fields)) {
                     if (empty($value)) {
-                        if ($name == "ime") {
-                            $errors[$name] = "Molimo unesite ime i prezime!";
-                        } else {
-                            $errors[$name] = "Molimo unesite $name!";
-                        }
+                        $errors[$name] = $required_fields[$name];
                     }
                 }
-
-                if ($name == "email") {
+                if ($name == $form_names['email']) {
                     if (!check_email_address($value)) {
-                        $errors[$name] = "Unijeli ste pogrešnu email adresu!";
+                        $errors[$name] = $required_fields[$name];
                     }
                 }
             }
@@ -44,7 +43,7 @@ if (isset($_REQUEST['action'])) {
      
         $verify = $_SESSION['verify'];
         if ($verify != $data['verify']) {
-            $errors["verify"] = "Verifikacioni kod koji ste unijeli je pogrešan!";
+            $errors["verify"] = $lang['kontakt']['forma']['error']['captcha'];
         }
 
 //***
@@ -63,9 +62,6 @@ if (isset($_REQUEST['action'])) {
         $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . trim(htmlentities($data['email'])) . "<br>";
         $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . trim(htmlentities($data['poruka'])) . "<br>";
 		
-        if (!empty($data["datum-rodjenja"])){
-                $pre_messagebody_info.="<strong>Datum rođenja</strong>" . ": " . trim(htmlentities($data['datum-rodjenja'])) . "<br>";
-        }
         if (!empty($data["telefon"])){
                 $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . trim(htmlentities($data['telefon'])) . "<br>";
         }
