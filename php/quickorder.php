@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $subject = "Website forma: Naruči se";
         $errors = array();
         $data = array();
-        parse_str($_REQUEST['values'], $data);
+        parse_str($_POST['values'], $data);
 		
         //check for required and assemble message
         if (!empty($data)) {
@@ -43,15 +43,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             exit;
         }
 		
-        $pre_messagebody_info.="Imate novu narudzbu od: \r\n<strong>Ime i Prezime</strong>" . ": " . $data['ime'] ."\r\n";
-        $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data['tel'];	
-        $subject.="Website Forma";
+        $pre_messagebody_info.="Imate novu narudzbu od: \r\n<br /><strong>Ime i Prezime</strong>" . ": " . trim(htmlentities($data['ime'])) ."\r\n<br />";
+        $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . trim(htmlentities($data['tel']));	
 
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers.= 'Content-type: text/html; charset=UTF-8' . "\r\n";
         $headers.= "From: ".$data['email']."\r\n";
 
-        $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: Karijera.";
+        $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: Naruči se.";
 
         if (mail($ourMail, $subject, $pre_messagebody_info . $after_message, $headers)) {
             $result["info"] = "success";

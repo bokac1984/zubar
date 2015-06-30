@@ -354,6 +354,9 @@ $lang['page']['onama']['cijenovnik']['prva-pomoc']['title'] = "Prva pomoć";
 $lang['page']['onama']['cijenovnik']['mlijecni'] = "Prva pomoć kod mliječnog zuba";
 $lang['page']['onama']['cijenovnik']['stalni'] = "Prva pomoć kod stalnog zuba";
 $lang['page']['onama']['cijenovnik']['gangrenozni'] = "Prva pomoć kod gangrenoznog zuba";
+$lang['cijenovnik']['mlijecni']['cijena'] = "20 KM";
+$lang['cijenovnik']['stalni']['cijena'] = "30 KM";
+$lang['cijenovnik']['gangrenozni']['cijena'] = "40 KM";
 
 // Estetska stomatologija
 $lang['page']['onama']['cijenovnik']['estetska']['title'] = "Estetska stomatologija";
@@ -363,10 +366,21 @@ $lang['page']['onama']['cijenovnik']['molari'] = "Evetric jednopovršinski kompo
 $lang['page']['onama']['cijenovnik']['evetricfrontalni2'] = "Evetric dvopovršinski kompozitni ispun, frontalna regija";
 $lang['page']['onama']['cijenovnik']['premolari2'] = "Evetric dvopovršinski kompozitni ispun, premolari";
 $lang['page']['onama']['cijenovnik']['molari2'] = "Evetric dvopovršinski kompozitni ispun, molari";
+
+$lang['cijenovnik']['evetricfrontalni']['cijena'] = "35 KM";
+$lang['cijenovnik']['premolari']['cijena'] = "30 KM";
+$lang['cijenovnik']['molari']['cijena'] = "40 KM";
+$lang['cijenovnik']['evetricfrontalni2']['cijena'] = "40 KM";
+$lang['cijenovnik']['premolari2']['cijena'] = "40 KM";
+$lang['cijenovnik']['molari2']['cijena'] = "50 KM";
 // dodate nove cijene usluga
 $lang['page']['onama']['cijenovnik']['tropovrsinski'] = "Evetric tropovršinski kompozitni ispun, frontalna regija";
 $lang['page']['onama']['cijenovnik']['tropovrpremolari'] = "Evetric tropovršinski kompozitni ispun, premolari";
 $lang['page']['onama']['cijenovnik']['tropovrpmolari'] = "Evetric tropovršinski kompozitni ispun, molari";
+
+$lang['cijenovnik']['tropovrsinski']['cijena'] = "50 KM";
+$lang['cijenovnik']['tropovrpremolari']['cijena'] = "50 KM";
+$lang['cijenovnik']['tropovrpmolari']['cijena'] = "55 KM";
 
 $lang['page']['onama']['cijenovnik']['amalgam'] = "Amalgamski ispun, premolari";
 $lang['page']['onama']['cijenovnik']['amalgam2'] = "Amalgamski ispun, molari";
@@ -380,6 +394,19 @@ $lang['page']['onama']['cijenovnik']['press'] = "Press keramički venir";
 $lang['page']['onama']['cijenovnik']['airjet'] = "Air Jet tretman";
 $lang['page']['onama']['cijenovnik']['poliranje'] = "Profesionalno čišćenje i poliranje zuba";
 $lang['page']['onama']['cijenovnik']['avitalno'] = "Izbjeljivanje avitalnog zuba";
+
+$lang['cijenovnik']['amalgam']['cijena'] = "40 KM";
+$lang['cijenovnik']['amalgam2']['cijena'] = "45 KM";
+$lang['cijenovnik']['amalgamremove']['cijena'] = "10 KM";
+$lang['cijenovnik']['kompozitremove']['cijena'] = "10 KM";
+$lang['cijenovnik']['jonomerispun']['cijena'] = "30 KM";
+$lang['cijenovnik']['jonomerpodl']['cijena'] = "10 KM";
+$lang['cijenovnik']['zoom']['cijena'] = "400 KM";
+$lang['cijenovnik']['dash']['cijena'] = "150 KM";
+$lang['cijenovnik']['press']['cijena'] = "30 KM";
+$lang['cijenovnik']['airjet']['cijena'] = "50 KM";
+$lang['cijenovnik']['poliranje']['cijena'] = "40 KM";
+$lang['cijenovnik']['avitalno']['cijena'] = "100 KM";
 
 //////////////////////////////////////////////////////////////////////////////////////
 $lang['page']['onama']['cijenovnik']['Zubna']['title'] = "Zubna protetika";
@@ -396,7 +423,6 @@ $lang['page']['onama']['cijenovnik']['Zubna']['privremena3'] = "Privremena kompo
 $lang['page']['onama']['cijenovnik']['Zubna']['livena'] = "Livena metalna nadogradnja, jednokorjena";
 $lang['page']['onama']['cijenovnik']['Zubna']['livena2'] = "Livena metalna nadogradnja, višekorjena";
 $lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja'] = "Nadogradnja fiberglas kočićem";
-// nova usluga
 $lang['page']['onama']['cijenovnik']['Zubna']['konfekcijskikocic'] = "Nadogradnja konfekcijskim kočićem";
 $lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja2'] = "Nadogradnja krune kompozitom, frontalna regija";
 $lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja3'] = "Nadogradnja krune kompozitom, molarna regija";
@@ -412,16 +438,54 @@ $lang['page']['onama']['cijenovnik']['Zubna']['podlaganje'] = "Podlaganje protez
 $lang['page']['onama']['cijenovnik']['Zubna']['podlaganje2'] = "Podlaganje proteze, indirektno";
 $lang['page']['onama']['cijenovnik']['Zubna']['periodontalni'] = "Periodontalni splint fiberglas vlaknima";
 $lang['page']['onama']['cijenovnik']['Zubna']['athezivni'] = "Athezivni most od tri zuba";
+//cijene
+$lang['cijenovnik']['Zubna']['inline']['cijena'] = "140 KM";
+$lang['cijenovnik']['Zubna']['press']['cijena'] = "300 KM";
+$lang['cijenovnik']['Zubna']['cirkonijum']['cijena'] = "320 KM";
+$lang['cijenovnik']['Zubna']['reparatura4']['cijena'] = "40 KM";
+$lang['cijenovnik']['Zubna']['uklanjanje']['cijena'] = "10 KM";
+$lang['cijenovnik']['Zubna']['cementiranje']['cijena'] = "30 KM";
+$lang['cijenovnik']['Zubna']['pressinlej']['cijena'] = "300 KM";
+$lang['cijenovnik']['Zubna']['privremena']['cijena'] = "30 KM";
+$lang['cijenovnik']['Zubna']['privremena2']['cijena'] = "40 KM";
+$lang['cijenovnik']['Zubna']['privremena3']['cijena'] = "60 KM";
+$lang['cijenovnik']['Zubna']['livena']['cijena'] = "60 KM";
+$lang['cijenovnik']['Zubna']['livena2']['cijena'] = "70 KM";
+$lang['cijenovnik']['Zubna']['nadogradnja']['cijena'] = "80 KM";
+$lang['cijenovnik']['Zubna']['konfekcijskikocic']['cijena'] = "20 KM";
+$lang['cijenovnik']['Zubna']['nadogradnja2']['cijena'] = "65 KM";
+$lang['cijenovnik']['Zubna']['nadogradnja3']['cijena'] = "60 KM";
+$lang['cijenovnik']['Zubna']['skeletirana']['cijena'] = "480 KM";
+$lang['cijenovnik']['Zubna']['atecmen']['cijena'] = "55 KM";
+$lang['cijenovnik']['Zubna']['akrilatna']['cijena'] = "280 KM";
+$lang['cijenovnik']['Zubna']['akrilatna2']['cijena'] = "310 KM";
+$lang['cijenovnik']['Zubna']['akrilatna3']['cijena'] = "330 KM";
+$lang['cijenovnik']['Zubna']['reparatura']['cijena'] = "25 KM";
+$lang['cijenovnik']['Zubna']['reparatura2']['cijena'] = "35 KM";
+$lang['cijenovnik']['Zubna']['reparatura3']['cijena'] = "20 KM";
+$lang['cijenovnik']['Zubna']['podlaganje']['cijena'] = "50 KM";
+$lang['cijenovnik']['Zubna']['podlaganje2']['cijena'] = "60 KM";
+$lang['cijenovnik']['Zubna']['periodontalni']['cijena'] = "30 KM";
+$lang['cijenovnik']['Zubna']['athezivni']['cijena'] = "150 KM";
+// kraj cijena zubna protetika
 
 $lang['page']['onama']['cijenovnik']['Implantologija']['title'] = "Implantologija";
 $lang['page']['onama']['cijenovnik']['Implantologija']['dentalni'] = "Dentalni implantat Straumann";
 $lang['page']['onama']['cijenovnik']['Implantologija']['abatment'] = "Abatment za dentalni implantat";
 $lang['page']['onama']['cijenovnik']['Implantologija']['metalkeramicka'] = "Metalkeramička krunica za dentalni implantat";
 $lang['page']['onama']['cijenovnik']['Implantologija']['mdiimplantati'] = "MDI mini dentalni implantat";
-$lang['cijenovnik']['Implantologija']['mdiimplantati']['cijena'] = "495 KM";
+
 $lang['page']['onama']['cijenovnik']['Implantologija']['augmentacija'] = "Augmentacija vilične kosti vještačkom kosti i kolagenom membranom";
 $lang['page']['onama']['cijenovnik']['Implantologija']['podizanje'] = "Podizanje poda sinusa";
+// cijene implantologija
+$lang['cijenovnik']['Implantologija']['dentalni']['cijena'] = "1200 KM";
+$lang['cijenovnik']['Implantologija']['abatment']['cijena'] = "200 KM";
+$lang['cijenovnik']['Implantologija']['metalkeramicka']['cijena'] = "150 KM";
+$lang['cijenovnik']['Implantologija']['mdiimplantati']['cijena'] = "495 KM";
+$lang['cijenovnik']['Implantologija']['augmentacija']['cijena'] = "800 KM";
+$lang['cijenovnik']['Implantologija']['podizanje']['cijena'] = "1200 KM";
 
+// oralna 
 $lang['page']['onama']['cijenovnik']['Oralna']['title'] = "Oralna hirurgija";
 $lang['page']['onama']['cijenovnik']['Oralna']['lokalna'] = "Lokalna anestezija, lidokain";
 $lang['page']['onama']['cijenovnik']['Oralna']['lokalna2'] = "Lokalna anestezija, ubistezin";
@@ -432,13 +496,11 @@ $lang['page']['onama']['cijenovnik']['Oralna']['rutinska'] = "Rutinska ekstrakci
 $lang['page']['onama']['cijenovnik']['Oralna']['komplikovana'] = "Komplikovana ekstrakcija zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska'] = "Hirurška ekstrakcija stalnog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska2'] = "Hirurška ekstrakcija umnjaka";
-//preskoceno ovdje
 $lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren-komplikovan'] = "Komplikovana ekstrakcija zaostalnog korjena";
 $lang['page']['onama']['cijenovnik']['Oralna']['rutinska2'] = "Rutinska ekstrakcija zaostalog korjena";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurska3'] = "Hirurška ekstrakcija zaostalog korjena";
 $lang['page']['onama']['cijenovnik']['Oralna']['hirurimpaktiranog'] = "Hirurška ekstrakcija impaktiranog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['terapija'] = "Terapija alveolitisa";
-
 $lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2'] = "Ekstrakcija poluimpaktiranog zuba";
 $lang['page']['onama']['cijenovnik']['Oralna']['rutinsko'] = "Rutinsko zaustavljanje krvarenja";
 $lang['page']['onama']['cijenovnik']['Oralna']['usivanje'] = "Ušivanje rane";
@@ -451,6 +513,34 @@ $lang['page']['onama']['cijenovnik']['Oralna']['frenulektomija'] = "Frenulektomi
 $lang['page']['onama']['cijenovnik']['Oralna']['rezanj'] = "Režanj operacija";
 $lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Nivelacija grebena jednog kvadranta";
 $lang['page']['onama']['cijenovnik']['Oralna']['primarno'] = "Primarno zatvaranje sinusa";
+// cijene oralna
+$lang['cijenovnik']['Oralna']['lokalna']['cijena'] = "5 KM";
+$lang['cijenovnik']['Oralna']['lokalna2']['cijena'] = "10 KM";
+$lang['cijenovnik']['Oralna']['infiltraciona']['cijena'] = "10 KM";
+$lang['cijenovnik']['Oralna']['infiltraciona2']['cijena'] = "15 KM";
+$lang['cijenovnik']['Oralna']['ekstrakcija']['cijena'] = "10 KM";
+$lang['cijenovnik']['Oralna']['rutinska']['cijena'] = "25 KM";
+$lang['cijenovnik']['Oralna']['komplikovana']['cijena'] = "50 KM";
+$lang['cijenovnik']['Oralna']['hirurska']['cijena'] = "100 KM";
+$lang['cijenovnik']['Oralna']['hirurska2']['cijena'] = "180 KM";
+$lang['cijenovnik']['Oralna']['zaostalikoren-komplikovan']['cijena'] = "50 KM";
+$lang['cijenovnik']['Oralna']['rutinska2']['cijena'] = "25 KM";
+$lang['cijenovnik']['Oralna']['hirurska3']['cijena'] = "100 KM";
+$lang['cijenovnik']['Oralna']['hirurimpaktiranog']['cijena'] = "180 KM";
+$lang['cijenovnik']['Oralna']['terapija']['cijena'] = "40 KM";
+$lang['cijenovnik']['Oralna']['ekstrakcija2']['cijena'] = "65 KM";
+$lang['cijenovnik']['Oralna']['rutinsko']['cijena'] = "10 KM";
+$lang['cijenovnik']['Oralna']['usivanje']['cijena'] = "50 KM";
+$lang['cijenovnik']['Oralna']['apikotomija']['cijena'] = "180 KM";
+$lang['cijenovnik']['Oralna']['cistektomija']['cijena'] = "180 KM";
+$lang['cijenovnik']['Oralna']['gingivektomija']['cijena'] = "100 KM";
+$lang['cijenovnik']['Oralna']['cirkumcizija']['cijena'] = "100 KM";
+$lang['cijenovnik']['Oralna']['incizija']['cijena'] = "40 KM";
+$lang['cijenovnik']['Oralna']['frenulektomija']['cijena'] = "100 KM";
+$lang['cijenovnik']['Oralna']['rezanj']['cijena'] = "150 KM";
+$lang['cijenovnik']['Oralna']['nivelacija']['cijena'] = "150 KM";
+$lang['cijenovnik']['Oralna']['primarno']['cijena'] = "150 KM";
+// kraj cijena oralna
 
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['title'] = "Ortodoncija";
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni'] = "Fiksni ortodontski aparat, klasične metalne bravice	(cijena za jednu vilicu)";
@@ -466,7 +556,21 @@ $lang['page']['onama']['cijenovnik']['Ortodoncija']['retenciona'] = "Retenciona 
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['selektivno'] = "Selektivno brušenje zuba";
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['izrada'] = "Izrada studijskog modela";
 $lang['page']['onama']['cijenovnik']['Ortodoncija']['bruksosplint'] = "Bruksosplint";
-
+// cijene ortodoncija
+$lang['cijenovnik']['Ortodoncija']['fiksni']['cijena'] = "1200 KM";
+$lang['cijenovnik']['Ortodoncija']['fiksni2']['cijena'] = "1500 KM";
+$lang['cijenovnik']['Ortodoncija']['fiksni3']['cijena'] = "1800 KM";
+$lang['cijenovnik']['Ortodoncija']['zamjena']['cijena'] = "10 KM";
+$lang['cijenovnik']['Ortodoncija']['zamjena2']['cijena'] = "20 KM";
+$lang['cijenovnik']['Ortodoncija']['zamjena3']['cijena'] = "20 KM";
+$lang['cijenovnik']['Ortodoncija']['mobilni']['cijena'] = "300 KM";
+$lang['cijenovnik']['Ortodoncija']['mobilni2']['cijena'] = "400 KM";
+$lang['cijenovnik']['Ortodoncija']['readaptacija']['cijena'] = "30 KM";
+$lang['cijenovnik']['Ortodoncija']['retenciona']['cijena'] = "60 KM";
+$lang['cijenovnik']['Ortodoncija']['selektivno']['cijena'] = "10 KM";
+$lang['cijenovnik']['Ortodoncija']['izrada']['cijena'] = "50 KM";
+$lang['cijenovnik']['Ortodoncija']['bruksosplint']['cijena'] = "120 KM";
+// kraj cijene ortodoncija
 $lang['page']['onama']['cijenovnik']['Endodoncija']['title'] = "Endodoncija";
 $lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska'] = "Rutinska ekstirpacija jednog kanala";
 $lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska2'] = "Rutinska ekstirpacija dva kanala";
@@ -488,16 +592,46 @@ $lang['page']['onama']['cijenovnik']['Endodoncija']['revizija'] = "Revizija punj
 $lang['page']['onama']['cijenovnik']['Endodoncija']['revizija2'] = "Revizija punjenja dva kanala";
 $lang['page']['onama']['cijenovnik']['Endodoncija']['revizija3'] = "Revizija punjenja tri kanala";
 $lang['page']['onama']['cijenovnik']['Endodoncija']['aplikacija'] = "Aplikacija lijeka";
+// cijene endodoncija
+$lang['cijenovnik']['Endodoncija']['rutinska']['cijena'] = "10 KM";
+$lang['cijenovnik']['Endodoncija']['rutinska2']['cijena'] = "20 KM";
+$lang['cijenovnik']['Endodoncija']['rutinska3']['cijena'] = "30 KM";
+$lang['cijenovnik']['Endodoncija']['komplikovana']['cijena'] = "25 KM";
+$lang['cijenovnik']['Endodoncija']['komplikovana2']['cijena'] = "40 KM";
+$lang['cijenovnik']['Endodoncija']['komplikovana3']['cijena'] = "60 KM";
+$lang['cijenovnik']['Endodoncija']['ekstirpacija']['cijena'] = "20 KM";
+$lang['cijenovnik']['Endodoncija']['ekstirpacija2']['cijena'] = "50 KM";
+$lang['cijenovnik']['Endodoncija']['biolosko']['cijena'] = "10 KM";
+$lang['cijenovnik']['Endodoncija']['biolosko2']['cijena'] = "20 KM";
+$lang['cijenovnik']['Endodoncija']['bilosko']['cijena'] = "30 KM";
+$lang['cijenovnik']['Endodoncija']['definitivno']['cijena'] = "20 KM";
+$lang['cijenovnik']['Endodoncija']['definitivno2']['cijena'] = "40 KM";
+$lang['cijenovnik']['Endodoncija']['definitivno3']['cijena'] = "60 KM";
+$lang['cijenovnik']['Endodoncija']['direktno']['cijena'] = "30 KM";
+$lang['cijenovnik']['Endodoncija']['indirektno']['cijena'] = "20 KM";
+$lang['cijenovnik']['Endodoncija']['revizija']['cijena'] = "25 KM";
+$lang['cijenovnik']['Endodoncija']['revizija2']['cijena'] = "45 KM";
+$lang['cijenovnik']['Endodoncija']['revizija3']['cijena'] = "50 KM";
+$lang['cijenovnik']['Endodoncija']['aplikacija']['cijena'] = "10 KM";
+// kraj endodoncija
 
 $lang['page']['onama']['cijenovnik']['Parodontologija']['title'] = "Parodontologija";
 $lang['page']['onama']['cijenovnik']['Parodontologija']['obrada'] = "Obrada parodontalnog džepa";
 $lang['page']['onama']['cijenovnik']['Parodontologija']['uklanjanje'] = "Uklanjanje zubnog kamenca na jednoj vilici";
 $lang['page']['onama']['cijenovnik']['Parodontologija']['smanjenje'] = "Smanjenje osjetljivosti korjena";
+// cijene
+$lang['cijenovnik']['Parodontologija']['obrada']['cijena'] = "25 KM";
+$lang['cijenovnik']['Parodontologija']['uklanjanje']['cijena'] = "25 KM";
+$lang['cijenovnik']['Parodontologija']['smanjenje']['cijena'] = "10 KM";
 
 $lang['page']['onama']['cijenovnik']['Pedodoncija']['zalijevanje'] = "Pedodoncija";
 $lang['page']['onama']['cijenovnik']['Pedodoncija']['zalijevanje'] = "Zalijevanje (pečaćenje) fisure";
 $lang['page']['onama']['cijenovnik']['Pedodoncija']['lokalna'] = "Lokalna aplikacija koncentrovanih fluorida";
 $lang['page']['onama']['cijenovnik']['Pedodoncija']['aplikacija'] = "Aplikacija koncentrovanih fluorida na cijelu vilicu";
+//cijene
+$lang['cijenovnik']['Pedodoncija']['zalijevanje']['cijena'] = "20 KM";
+$lang['cijenovnik']['Pedodoncija']['lokalna']['cijena'] = "15 KM";
+$lang['cijenovnik']['Pedodoncija']['aplikacija']['cijena'] = "50 KM";
 
 $lang['page']['onama']['partneri']['title'] = "Partnerski program";
 $lang['page']['onama']['partneri']['content'] = "Zdravstveni turizam je fenomen koji podrazumijeva putovanje van granica mjesta u kom boravite u cilju dobijanja povoljnije ali jednako kvalitetne medicinske terapije. Usljed ubrzanog rasta cijena stomatoloških usluga u zemljama Evropske unije, dentalni turizam, jedna od grana medicinskog  turizma, doživljava veliku ekspanziju pri tom povezujući medicinu i stomatologiju sa ekonomijom i turizmom. Svima koji žele da pošire ponudu na svom tržištu nudimo program poslovne saradnje baziran na dentalnom turizmu. Poziv je otvoren za turističke agencije i prevoznike ali i za sve ostale koji žele dodatno da zarade. Ako ste zainteresovani za saradnju budite slobodni da nas kontaktirate putem našeg online obrazca.";

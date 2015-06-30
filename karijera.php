@@ -56,20 +56,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Check if token id and token value are valid.
     if ($csrf->check_valid('post')) {
 	$data = array(
-            $form_names["ime"] => htmlspecialchars($_POST[$form_names['ime']]), 
-            $form_names["imerod"] => htmlspecialchars($_POST[$form_names['imerod']]),
-            $form_names["prezime"] => htmlspecialchars($_POST[$form_names['prezime']]),
-            $form_names["datumrodj"] => htmlspecialchars($_POST[$form_names['datumrodj']]),
-            $form_names["mjestorodj"] => htmlspecialchars($_POST[$form_names['mjestorodj']]),
-            $form_names["adresa"] => htmlspecialchars($_POST[$form_names['adresa']]),
-            $form_names["opstina"] => htmlspecialchars($_POST[$form_names['opstina']]),
-            $form_names["emailadr"] => htmlspecialchars($_POST[$form_names['emailadr']]),
+            $form_names["ime"] => trim(htmlspecialchars($_POST[$form_names['ime']])), 
+            $form_names["imerod"] => trim(htmlspecialchars($_POST[$form_names['imerod']])),
+            $form_names["prezime"] => trim(htmlspecialchars($_POST[$form_names['prezime']])),
+            $form_names["datumrodj"] => trim(htmlspecialchars($_POST[$form_names['datumrodj']])),
+            $form_names["mjestorodj"] => trim(htmlspecialchars($_POST[$form_names['mjestorodj']])),
+            $form_names["adresa"] => trim(htmlspecialchars($_POST[$form_names['adresa']])),
+            $form_names["opstina"] => trim(htmlspecialchars($_POST[$form_names['opstina']])),
+            $form_names["emailadr"] => trim(htmlspecialchars($_POST[$form_names['emailadr']])),
             $form_names["srednja"] => trim(htmlspecialchars($_POST[$form_names['srednja']])),
             $form_names["faks"] => trim(htmlspecialchars($_POST[$form_names['faks']])),
             $form_names["spec"] => trim(htmlspecialchars($_POST[$form_names['spec']])),
-            $form_names["tel"] => htmlspecialchars($_POST[$form_names['tel']]),
-            $form_names['zadnjeradno'] => htmlspecialchars($_POST[$form_names['zadnjeradno']]),
-            $form_names['verify-career'] => htmlspecialchars($_POST[$form_names['verify-career']]),
+            $form_names["tel"] => trim(htmlspecialchars($_POST[$form_names['tel']])),
+            $form_names['zadnjeradno'] => trim(htmlspecialchars($_POST[$form_names['zadnjeradno']])),
+            $form_names['verify-career'] => trim(htmlspecialchars($_POST[$form_names['verify-career']])),
         );
         $data=array_map('trim',$data);
         $i = 0;

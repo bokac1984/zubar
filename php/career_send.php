@@ -5,8 +5,8 @@ if(!session_id()) {
 	session_start();
 }
 error_reporting(0);
-if (isset($_REQUEST['action'])) {
-    if ($_REQUEST['action'] == "career_form_request") {
+if (isset($_POST['action'])) {
+    if ($_POST['action'] == "career_form_request") {
         $ourMail = $emailAddress; //Insert your email address here
 //echo "<pre>";
 //print_r($_REQUEST);
@@ -40,7 +40,7 @@ if (isset($_REQUEST['action'])) {
         $subject = "Website forma: Karijera";
         $errors = array();
         $data = array();
-        parse_str($_REQUEST['values'], $data);
+        parse_str($_POST['values'], $data);
 		
         //check for required and assemble message
         if (!empty($data)) {
