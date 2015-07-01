@@ -93,7 +93,7 @@ include_once("lang/lang.php");
                         <div class="opis">
                             <b><?php echo $lang['page']['opstastomatologija']['Endodoncija']['terapija']['subtitle']; ?></b>
                         </div>
-                        <p><?php echo $lang['page']['opstastomatologija']['Endodoncija']['terapija']['content'] ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Endodoncija']['terapija']['content'] ?></p><br>
                         <div class="kandidat">
                             <b><?php echo $lang['page']['opstastomatologija']['Endodoncija']['kandidati']['subtitle']; ?></b>
                         </div>

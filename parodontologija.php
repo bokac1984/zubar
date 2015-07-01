@@ -88,16 +88,16 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <div class="grid-col grid-col-9">
+                    <div class="grid-col grid-col-9 paradontologija">
                         <!-- list -->
                         <b><?php echo $lang['page']['opstastomatologija']['Parodontologija']['terapija']['subtitle']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['terapija']['content'] ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['terapija']['content'] ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['subtitle']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['content']; ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['content']; ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Parodontologija']['naslage']['subtitle']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['naslage']['content'] ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['naslage']['content'] ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['subtitle']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['content'] ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['content'] ?></p><br>
                         <b><?php $lang['page']['opstastomatologija']['Parodontologija']['rezanj']['subtitle']; ?></b>
                         <p><?php $lang['page']['opstastomatologija']['Parodontologija']['rezanj']['content'] ?></p><br>
                         <!-- rezervacije -->

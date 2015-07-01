@@ -6741,8 +6741,10 @@ i.appointment{
     margin: 5px 6px 0 0;
 }
 
-.opis + p, .kandidat + p, .materijal + p {
+.opis + p, .kandidat + p, .materijal + p, .paradontologija p {
 /*    padding-left: 86px;*/
+    padding-bottom: 39px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 /* KRAJ estetska i otale strane */

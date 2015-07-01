@@ -88,12 +88,12 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <div class="grid-col grid-col-9">
+                    <div class="grid-col grid-col-9 paradontologija">
                         <!-- list -->
                         <b><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['subtitle']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['content'] ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['content'] ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['subtitle']; ?></b>
-                        <p><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['content']; ?></p>
+                        <p><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['content']; ?></p><br>
                         <b><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['subtitle']; ?></b>
                         <p><?php echo $lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['content']; ?></p><br>
                         <!-- rezervacije -->

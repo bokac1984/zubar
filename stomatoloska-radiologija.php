@@ -80,7 +80,7 @@ include_once("lang/lang.php");
 
             <main class="page-content">
                 <div class="grid-row">
-                    <div class="grid-col grid-col-9">
+                    <div class="grid-col grid-col-9 paradontologija">
                         <!-- list -->
                         <b><?php echo $lang['page']['opstastomatologija']['useofrtg']['title']; ?></b>
                         <p><?php echo $lang['page']['opstastomatologija']['useofrtg']['content'] ?></p><br>
