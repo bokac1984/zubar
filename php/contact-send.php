@@ -67,9 +67,11 @@ if (isset($_POST['action'])) {
         if (!empty($data["telefon"])){
                 $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . trim(htmlentities($data['telefon'])) . "<br>";
         }
-        $subject.="Website Forma: Kontakt";
+        $kot = "Kontakt";
+        $subject = "Website Forma: Kontakt";
         if (isset($data['partner'])) {
-            $subject.="Website Forma: Partnerski program";
+            $subject = "Website Forma: Partnerski program";
+            $kot = "Partnerski program";
         }
         
 
@@ -77,7 +79,7 @@ if (isset($_POST['action'])) {
         $headers.= 'Content-type: text/html; charset=UTF-8' . "\r\n";
         $headers.= "From: ".$noreplyAddressForEmail."\r\n";
 
-        $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: Kontakt.";
+        $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: $kot.";
 
         if (mail($ourMail, $subject, $pre_messagebody_info .$after_message, $headers)) {
             $result["info"] = "success";
