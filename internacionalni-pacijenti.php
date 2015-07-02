@@ -13,12 +13,13 @@ $success = array();
 // Generate Token Id and Valid
 $token_id = $csrf->get_token_id();
 $token_value = $csrf->get_token($token_id);
+$form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), false);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $posted = false;
     // Generate Random Form Names
-    $form_names = $csrf->form_names(array('imeprezime', 'email', 'rtg', 'verifikuj'), false);
+    
     $required_fields = array(
         $form_names['imeprezime'] => $lang['page']['inernacionala']['imeprezime']['error'],
         $form_names['email'] => $lang['page']['inernacionala']['email']['error'],
