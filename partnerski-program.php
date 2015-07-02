@@ -123,6 +123,7 @@ include_once("lang/lang.php");
                                         </div>
                                     </div>
                                     <div class="clearfix">
+                                        <input type="hidden" name="partner" value="partner" />
                                         <button type="submit" class="button" value="Submit" style="float: left;"><?php echo $lang['page']['onama']['partneri']['form']['submit']; ?></button>
                                     </div>
                                 </fieldset>
