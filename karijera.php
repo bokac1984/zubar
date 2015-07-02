@@ -349,7 +349,7 @@ function check_email_address($email) {
                                         </div>
                                     <?php } else if (!empty($success)) { ?>
                                         <div id="contact_form_responce" style="display: block;">
-                                            <div class="wpb_alert">
+                                            <div class="wpb_alert wpb_alert_confirm">
                                                 <div class="messagebox_text clearfix"><h1></h1>
                                                     <p>
                                                         <?php
