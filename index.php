@@ -76,7 +76,10 @@ include_once("lang/lang.php");
             <!--/ slider -->
 
             <!-- page content -->
-            <main class="page-content">				
+            <main class="page-content">	
+                <?php $langg = get_lang_id(); 
+                    if ($langg != 'en') {
+                ?>
                 <div class="grid-row">
                     <!-- services -->
                     <section class="services">
@@ -99,6 +102,7 @@ include_once("lang/lang.php");
                     </section>
                     <!--/ services -->	
                 </div>
+                    <?php } ?>
 <!--                <div class="grid-row">
                     <section class="savremena-tehnologija">
                         <p>Savremena tehnologija i materijali visokog kvaliteta</p>
