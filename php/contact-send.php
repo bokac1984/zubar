@@ -61,7 +61,7 @@ if (isset($_POST['action'])) {
         $pre_messagebody_info.="<strong>Ime i prezime</strong>" . ": " . trim(htmlentities($data['ime'])) . "<br>";
         $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . trim(htmlentities($data['email'])) . "<br>";
         if (!empty($data['poruka'])){
-                $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . trim(htmlentities($data['telefon'])) . "<br>";
+                $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . trim(htmlentities($data['poruka'])) . "<br>";
         }
 		
         if (!empty($data["telefon"])){
