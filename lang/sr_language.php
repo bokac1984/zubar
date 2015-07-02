@@ -738,14 +738,6 @@ $lang['kontakt']['forma']['error']['captcha'] = "Verifikacioni kod koji ste unij
 ////// QUICK ORDER ///////
 $lang['quickorder']['legend'] = "Narudžba";
 $lang['quickorder']['order4what'] = "Želim se naručiti za";
-$lang['quickorder']['option']['value1'] = "Opšti stomatološki pregled i konsultacije";
-$lang['quickorder']['option']['value2'] = "Pregled za protetsko zbrinjavanje";
-$lang['quickorder']['option']['value3'] = "Pregled za ortodontsku terapiju";
-$lang['quickorder']['option']['value4'] = "Pregled za oralnohirurški zahvat";
-$lang['quickorder']['option']['value5'] = "Pregled za ugradnju implantata";
-$lang['quickorder']['option']['value6'] = "Pregled za biljeljenje zuba";
-$lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje zuba";
-$lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
 $lang['quickorder']['forma']['label']['submit'] = "Pošalji";
 $lang['quickorder']['forma']['opener'] = "Naruči se";
 
