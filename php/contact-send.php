@@ -60,7 +60,7 @@ if (isset($_POST['action'])) {
 		
         $pre_messagebody_info.="<strong>Ime i prezime</strong>" . ": " . trim(htmlentities($data['ime'])) . "<br>";
         $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . trim(htmlentities($data['email'])) . "<br>";
-        if (!empty(trim(htmlentities($data['poruka'])))){
+        if (!empty($data['poruka'])){
                 $pre_messagebody_info.="<strong>Poruka</strong>" . ": " . trim(htmlentities($data['telefon'])) . "<br>";
         }
 		
@@ -68,7 +68,7 @@ if (isset($_POST['action'])) {
                 $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . trim(htmlentities($data['telefon'])) . "<br>";
         }
         $subject.="Website Forma: Kontakt";
-        if (isset(trim(htmlentities($data['partner'])))) {
+        if (isset($data['partner'])) {
             $subject.="Website Forma: Partnerski program";
         }
         
