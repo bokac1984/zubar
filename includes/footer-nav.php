@@ -61,7 +61,7 @@
             <li><a href="nasi-kanali-komunikacije"><?php echo $lang['menu']['nasi-kom-kanali'] ?></a></li>
             <li><a href="cjenovnik"><?php echo $lang['menu']['cjenovnik'] ?></a></li>
             <li><a href="partnerski-program"><?php echo $lang['menu']['partner-prog'] ?></a></li>
-            <li><a href="karijera"><?php echo $lang['menu']['karijera'] ?></a></li>
+        <?php $langg = get_lang_id();  if ($langg != 'en') { ?><li><a href="karijera"><?php echo $lang['menu']['karijera'] ?></a></li><?php } ?>
         </ul>
     </li>							
     <li class="first-level-nav">
