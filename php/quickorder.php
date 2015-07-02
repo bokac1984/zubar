@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers.= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-        $headers.= "From: ".$data['email']."\r\n";
+        $headers.= "From: ".$noreplyAddressForEmail."\r\n";
 
         $after_message = "\r\n<br />--------------------------------------------------------------------------------------------------\r\n<br /> Ovaj email je poslat sa website forme: Naruči se.";
 
