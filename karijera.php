@@ -145,42 +145,42 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             try {
                 $pre_messagebody_info.="<strong>Ime (ime roditelja) Prezime</strong>" . ": " . $data[$form_names['ime']] 
-                        . " (" . $data[$form_names['imerod']] . ") ". $data[$form_names['prezime']]."\r\n";
-                $pre_messagebody_info.="<strong>Datum rođenja:</strong>" . ": " . $data[$form_names['datumrodj']] . "\r\n";
-                $pre_messagebody_info.="<strong>Mjesto rođenja</strong>" . ": " . $data[$form_names['mjestorodj']] . "\r\n";
-                $pre_messagebody_info.="<strong>Adresa</strong>" . ": " . $data[$form_names['adresa']] . "\r\n";
-                $pre_messagebody_info.="<strong>Opstina</strong>" . ": " . $data[$form_names['opstina']] . "\r\n";
-                $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data[$form_names['tel']] . "\r\n";
-                $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data[$form_names['emailadr']] . "\r\n";
-                $pre_messagebody_info.="<strong>Apliciram za</strong>" . ": " . htmlspecialchars($_POST['tip_posla']) . "\r\n";
-                $pre_messagebody_info.="<strong>Završena srednja</strong>" . ": " . $data[$form_names['srednja']] . "\r\n";
-                $pre_messagebody_info.="<strong>Završen fakultet</strong>" . ": " . $data[$form_names['faks']]. "\r\n";
-                $pre_messagebody_info.="<strong>Specijalizacija</strong>" . ": " . $data[$form_names['spec']] . "\r\n";
+                        . " (" . $data[$form_names['imerod']] . ") ". $data[$form_names['prezime']]."\r\n<br>";
+                $pre_messagebody_info.="<strong>Datum rođenja:</strong>" . ": " . $data[$form_names['datumrodj']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Mjesto rođenja</strong>" . ": " . $data[$form_names['mjestorodj']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Adresa</strong>" . ": " . $data[$form_names['adresa']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Opstina</strong>" . ": " . $data[$form_names['opstina']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Telefon</strong>" . ": " . $data[$form_names['tel']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>E-mail</strong>" . ": " . $data[$form_names['emailadr']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Apliciram za</strong>" . ": " . htmlspecialchars($_POST['tip_posla']) . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Završena srednja</strong>" . ": " . $data[$form_names['srednja']] . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Završen fakultet</strong>" . ": " . $data[$form_names['faks']]. "\r\n<br>";
+                $pre_messagebody_info.="<strong>Specijalizacija</strong>" . ": " . $data[$form_names['spec']] . "\r\n<br>";
                 $engNivo = htmlspecialchars($_POST['engnivo']);
                 $italNivo = htmlspecialchars($_POST['italnivo']);
                 $njemaNivo = htmlspecialchars($_POST['njemnivo']);
                 $slovNivo = htmlspecialchars($_POST['slovnivo']);
                 $svedNivo = htmlspecialchars($_POST['svednivo']);
                 $radNaRacunaru = htmlspecialchars($_POST['radnaracunaru']);
-                $pre_messagebody_info.="<strong>Nivo engleskog jezika</strong>" . ": " . $engNivo . "\r\n";
-                $pre_messagebody_info.="<strong>Nivo italijanskog jezika</strong>" . ": " . $italNivo . "\r\n";
-                $pre_messagebody_info.="<strong>Nivo njemačkog jezika</strong>" . ": " . $njemaNivo . "\r\n";
-                $pre_messagebody_info.="<strong>Nivo slovenačkog jezika</strong>" . ": " . $slovNivo . "\r\n";
-                $pre_messagebody_info.="<strong>Nivo švedskog jezika</strong>" . ": " . $svedNivo . "\r\n";
-                $pre_messagebody_info.="<strong>Nivo poznavanja rada na računaru</strong>" . ": " . $radNaRacunaru . "\r\n";
-                $pre_messagebody_info.="<strong>Poslednje radno iskustvo</strong>" . ": " . $data[$form_names['zadnjeradno']] . "\r\n";
+                $pre_messagebody_info.="<strong>Nivo engleskog jezika</strong>" . ": " . $engNivo . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Nivo italijanskog jezika</strong>" . ": " . $italNivo . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Nivo njemačkog jezika</strong>" . ": " . $njemaNivo . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Nivo slovenačkog jezika</strong>" . ": " . $slovNivo . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Nivo švedskog jezika</strong>" . ": " . $svedNivo . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Nivo poznavanja rada na računaru</strong>" . ": " . $radNaRacunaru . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Poslednje radno iskustvo</strong>" . ": " . $data[$form_names['zadnjeradno']] . "\r\n<br>";
                 $vozackaD = isset($_POST['vozacka']) ? "DA" : "NE";
                 $prekovremenoRad = isset($_POST['prekovremeno']) ? "DA" : "NE";
                 $vikednomRadim = isset($_POST['vikednom']) ? "DA" : "NE";
-                $pre_messagebody_info.="<strong>Posjedujem vozačku dozvolu B kategorije</strong>" . ": " . $vozackaD . "\r\n";
-                $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni prekovremeni rad</strong>" . ": " . $prekovremenoRad . "\r\n";
-                $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni rad vikendom i praznikom</strong>" . ": " . $vikednomRadim . "\r\n";
-                $pre_messagebody_info .= "\r\n U prilogu je fotografija.";
+                $pre_messagebody_info.="<strong>Posjedujem vozačku dozvolu B kategorije</strong>" . ": " . $vozackaD . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni prekovremeni rad</strong>" . ": " . $prekovremenoRad . "\r\n<br>";
+                $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni rad vikendom i praznikom</strong>" . ": " . $vikednomRadim . "\r\n<br>";
+                $pre_messagebody_info .= "<br>\r\n U prilogu je fotografija.";
                 
-                $mail->isHTML(false);
+                $mail->isHTML(true);
                 $mail->AddAddress($karijeraEmail, 'Stomatologija Kecman'); // adresa gdje se salju podaci sa forme
                 $mail->SetFrom($noreplyAddressForEmail, 'Stomatologija Kecman'); // ovo je adresa koja salje na gornju email adresu
-                $mail->AddReplyTo(htmlspecialchars($data[$form_names['email']]), htmlspecialchars($data[$form_names['imeprezime']])); // ovaoj je lik koji salje formu na sajt mail
+                //$mail->AddReplyTo(htmlspecialchars($data[$form_names['email']]), htmlspecialchars($data[$form_names['imeprezime']])); // ovaoj je lik koji salje formu na sajt mail
                 $mail->Subject = 'Kontakt sa forme: "Karijera"';
                 $mail->Body = $pre_messagebody_info;
                 $mail->AddAttachment($data[$form_names['portret']]['tmp_name'], htmlspecialchars($data[$form_names['portret']]['name']));      // attachment
