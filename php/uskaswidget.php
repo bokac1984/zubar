@@ -8,11 +8,6 @@ if (!session_id()) {
 error_reporting(0);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-//echo "<pre>";
-//print_r($_POST);
-//echo "</pre>";
-    $ourMail = $emailAddress; //Insert your email address here
-
     $required_fields = array(
         "ime" => $lang['askus']['form']['ime']['error'],
         "email" => $lang['askus']['form']['email']['error'],
