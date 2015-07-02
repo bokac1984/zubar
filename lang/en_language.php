@@ -4,99 +4,99 @@ global $lang;
 
 $lang = array();
 $lang['site']['title'] = 'Kecman Stomatologija';
-$lang['menu']['home'] = 'Početna';
+$lang['menu']['home'] = 'Home';
 
 // MENU //
-$lang['menu']['title'] = 'Navigacija';
+$lang['menu']['title'] = 'Navigation';
 //Estetska stomatologija
-$lang['menu']['estetska'] = 'Estetska</br>stomatologija';
-$lang['menu']['everic'] = 'Evetric kompozitni ispun';
-$lang['menu']['fuji'] = 'Fuji glas jonomer ispun';
-$lang['menu']['bijeljenje'] = 'Bijeljenje zuba';
-$lang['menu']['airjet'] = 'Air Jet tretman';
-$lang['menu']['antiaging'] = 'Anti agening stomatologija';
-$lang['menu']['kreiranje-osmijeha'] = 'Kreiranje osmijeha';
+$lang['menu']['estetska'] = 'Cosmetic</br>dentistry';
+$lang['menu']['everic'] = 'Evetric composite filling';
+$lang['menu']['fuji'] = 'Fuji glass ionomer filling';
+$lang['menu']['bijeljenje'] = 'Teeth whitening';
+$lang['menu']['airjet'] = 'Air Jet treatment';
+$lang['menu']['antiaging'] = 'Anti-aging dentistry';
+$lang['menu']['kreiranje-osmijeha'] = 'Smile design';
 
 // Zubna protetika
-$lang['menu']['zubna-protetika'] = 'Zubna protetika';
-$lang['menu']['cornice'] = 'In.Line metalkeramičke cornice';
-$lang['menu']['pres-bezmetalne'] = 'Press bezmetalne krunice';
-$lang['menu']['cirkonijum'] = 'Cirkonijum dioksid krunice';
-$lang['menu']['veniri'] = 'Press keramički veniri';
-$lang['menu']['inlej'] = 'Press keramički inlej';
-$lang['menu']['sk-proteza'] = 'Skeletirana proteza';
-$lang['menu']['akrilatna'] = 'Akrilatna proteza';
-$lang['menu']['bruksosplint'] = 'Bruksosplint';
+$lang['menu']['zubna-protetika'] = 'Dental prosthetics';
+$lang['menu']['cornice'] = 'In.Line metal ceramic crowns';
+$lang['menu']['pres-bezmetalne'] = 'Press ceramic crowns';
+$lang['menu']['cirkonijum'] = 'Zirconium dioxide crowns';
+$lang['menu']['veniri'] = 'Press ceramic veneers';
+$lang['menu']['inlej'] = 'Press ceramic inlays';
+$lang['menu']['sk-proteza'] = 'Skeleton denture';
+$lang['menu']['akrilatna'] = 'Acrylic denture';
+$lang['menu']['bruksosplint'] = 'Bruxism splints';
 
 // Implantologija
-$lang['menu']['implantologija'] = 'Implantologija';
-$lang['menu']['straumann'] = 'Straumann implantati';
-$lang['menu']['mdiimplantati'] = 'MDI mini implantati';
+$lang['menu']['implantologija'] = 'Implantology';
+$lang['menu']['straumann'] = 'Straumann implant';
+$lang['menu']['mdiimplantati'] = 'MDI mini implants';
 
 // Oralna hirurgija
-$lang['menu']['oralna-hirurgija'] = 'Oralna hirurgija';
-$lang['menu']['ekstrakcija-zuba'] = 'Ekstrakcija zuba';
-$lang['menu']['apikotomija'] = 'Apikotomija';
-$lang['menu']['cistektomija'] = 'Cistektomija';
-$lang['menu']['incizija'] = 'Incizija apscesa';
-$lang['menu']['frenulektomija'] = 'Frenulektomija';
-$lang['menu']['nivelacija'] = 'Nivelacija alveolarnog grebena';
+$lang['menu']['oralna-hirurgija'] = 'Oral surgery ';
+$lang['menu']['ekstrakcija-zuba'] = 'Tooth extraction';
+$lang['menu']['apikotomija'] = 'Apicotomy';
+$lang['menu']['cistektomija'] = 'Cystectomy';
+$lang['menu']['incizija'] = 'Abscess incision';
+$lang['menu']['frenulektomija'] = 'Frenulectomy';
+$lang['menu']['nivelacija'] = 'Alveolar ridge leveling';
 
 // Implantologija
-$lang['menu']['ortodoncija'] = 'Ortodoncija';
+$lang['menu']['ortodoncija'] = 'Orthodontia';
 
 // Opšta stomatologija
-$lang['menu']['opsta-stomatologija'] = 'Opšta<br>stomatologija';
-$lang['menu']['endodoncija'] = 'Endodoncija';
-$lang['menu']['parodontologija'] = 'Parodontologija';
-$lang['menu']['pedodoncija'] = 'Pedodoncija';
-$lang['menu']['pedodoncija'] = 'Pedodoncija';
-$lang['menu']['stomradiologija'] = 'Stomatološka radiologija';
+$lang['menu']['opsta-stomatologija'] = 'General<br>dentistry';
+$lang['menu']['endodoncija'] = 'Endodontics';
+$lang['menu']['parodontologija'] = 'Parodontology';
+$lang['menu']['pedodoncija'] = 'Pediatric dentistry';
+$lang['menu']['pedodoncija'] = 'Pediatric dentistry';
+$lang['menu']['stomradiologija'] = 'Dental radiology';
 
 // O nama
-$lang['menu']['o-nama'] = 'O nama';
+$lang['menu']['o-nama'] = 'About us';
 $lang['menu']['stom-kecman'] = 'Stomatologija Kecman';
-$lang['menu']['opste-info'] = 'Opšte informacije o zdravstvenoj ustanovi';
-$lang['menu']['nasi-kom-kanali'] = 'Naši kanali komunikacije';
-$lang['menu']['cjenovnik'] = 'Cjenovnik';
-$lang['menu']['partner-prog'] = 'Partnerski program';
+$lang['menu']['opste-info'] = 'General information about the health care institution';
+$lang['menu']['nasi-kom-kanali'] = 'Our communication channels';
+$lang['menu']['cjenovnik'] = 'Price list';
+$lang['menu']['partner-prog'] = 'Partnership program';
 $lang['menu']['karijera'] = 'Karijera';
 
 
 // Kontakt
-$lang['menu']['kontakt'] = 'Kontakt';
+$lang['menu']['kontakt'] = 'Contact';
 
 // stranice
 
 ///// RATE /////
 $lang['page']['rate']['title'] = 'Plaćanje na rate';
-$lang['page']['rate']['content'] = 'Našim pacijentima nudimo razne mogućnosti plaćanja. U saradnji s bankama osigurali smo mogućnost beskamatnog plaćanja na rate. Posredujte pri sklapanju Ugovora o vršenju obustava na plate radnika između Zdravstvene ustanove “Stomatologija Kecman” i Vašeg poslodavca, te na taj način ostvarite dodatne pogodnosti. U tabeli ispod možete pregledati i uporediti uslove raznih mogućnosti odgođenog plaćanja koje nudimo.';
+$lang['page']['rate']['content'] = 'Našim pacijentima nudimo razne mogućnosti plaćanja. U saradnji s bankama osigurali smo mogućnost beskamatnog plaćanja na rate. Posredujte pri sklapanju Ugovora o vršenju obustava na plate radnika između Zdravstvene ustanove "Stomatologija Kecman" i Vašeg poslodavca, te na taj način ostvarite dodatne pogodnosti. U tabeli ispod možete pregledati i uporediti uslove raznih mogućnosti odgođenog plaćanja koje nudimo.';
 
 $lang['home']['rate']['title'] = "Plaćanje na rate";
 $lang['home']['rate']['content'] = "Stomatologija Kecman u želji da što više izađe u susret svojim pacijentima, omogućila je odgođeno plaćanje naših usluga.";
 ///// RATE /////
 
 ///// INTERNACIONALA /////
-$lang['page']['inernacionala']['title'] = 'Internacionalni pacijenti';
-$lang['page']['inernacionala']['content'] = 'U Stomatologiji Kecman pružamo stomatološke usluge inostranim pacijentima. Cijene stomatoloških usluga su višestruko niže u odnosu na zemlje Evropske unije i stoga je Bosna i Hercegovina, a time i naša Banja Luka veoma interesantna destinacija. Nudimo vam kratki zanimljiv odmor i program tokom izrade stomatološkog rada, organizujemo transfer sa aerodroma iz Banje Luke ili Tuzle, te smještaj u obližnjim <a href="http://www.hoteltalija.com/">hotelima</a> ili <a href="http://www.hostelherz.com/">hostelima</a>.';
-$lang['page']['inernacionala']['forma']['imeprezime'] = "Ime i prezime";
-$lang['page']['inernacionala']['forma']['rtg'] = "RTG snimak";
-$lang['page']['inernacionala']['forma']['dodatneinfo'] = "Dodatne informacije";
-$lang['page']['inernacionala']['forma']['informacije'] = "Pošaljite nam RTG snimak, a mi ćemo Vam u roku od 24 sata poslati neobavezujuću ponudu. Ako budete zadovoljni našom ponudom, možemo početi planirati Vaš dolazak.";
+$lang['page']['inernacionala']['title'] = 'International patients';
+$lang['page']['inernacionala']['content'] = 'In "Stomatologija Kecman" we provide dentistry services to international patients. The cost of these services is significantly lower with regard to the European Union countries, which makes Bosnia and Herzegovina, and thereby our Banja Luka, an extremely interesting destination. We offer a short interesting vacation and program during the process of carrying out the agreed dental work and organize transfer from the airport in Banja Luka or Tuzla, as well as accommodation in the vicinal hotels <a href="http://www.hoteltalija.com/">hotels</a> or hostels <a href="http://www.hostelherz.com/">hostels</a>.';
+$lang['page']['inernacionala']['forma']['imeprezime'] = "First and last name";
+$lang['page']['inernacionala']['forma']['rtg'] = "X ray";
+$lang['page']['inernacionala']['forma']['dodatneinfo'] = "Additional information";
+$lang['page']['inernacionala']['forma']['informacije'] = "Send the X-ray now, and we will send you a non-binding offer within 24 hours. If you are satisfied with our offer, we can start arranging your arrival.";
 
-$lang['page']['inernacionala']['email']['success'] = "Uspješno poslana email poruka.";
-$lang['page']['inernacionala']['imeprezime']['error'] = "Unesite ime i prezime";
-$lang['page']['inernacionala']['rtg']['error'] = "Odaberite RTG snimak";
-$lang['page']['rtg']['general']['error'] = "Greška prilikom upload fajla";
-$lang['page']['rtg']['mime']['error'] = "Fajl pogrešne ekstenzije, dozvoljene: jpg, png";
-$lang['page']['rtg']['size']['error'] = "Pogresna veličina slike, dozvoljeno ";
-$lang['page']['inernacionala']['email']['error'] = "Unesite email";
-$lang['page']['inernacionala']['email2']['error'] = "Neispravna email adresa";
-$lang['page']['inernacionala']['captcha']['error'] = "Unesite Captcha";
+$lang['page']['inernacionala']['email']['success'] = "E-mail successfully sent";
+$lang['page']['inernacionala']['imeprezime']['error'] = "Enter your first and last name";
+$lang['page']['inernacionala']['rtg']['error'] = "Select x-ray";
+$lang['page']['rtg']['general']['error'] = "File upload error";
+$lang['page']['rtg']['mime']['error'] = "Incorrect file extensions, allowed: jpg, png";
+$lang['page']['rtg']['size']['error'] = "Wrong file size, allowed ";
+$lang['page']['inernacionala']['email']['error'] = "Enter your e-mail";
+$lang['page']['inernacionala']['email2']['error'] = "Incorrect e-mail address";
+$lang['page']['inernacionala']['captcha']['error'] = "Enter Captcha";
 
 
-$lang['home']['inernacionala']['title'] = 'Internacionalni pacijenti';
-$lang['home']['inernacionala']['content'] = 'U Stomatologiji Kecman pružamo stomatološke usluge inostranim pacijentima.';
+$lang['home']['inernacionala']['title'] = 'International patients';
+$lang['home']['inernacionala']['content'] = 'In "Stomatologija Kecman" we provide dentistry services to international patients.';
 ///// INTERNACIONALA /////
 
 /// tabela ///
@@ -120,524 +120,519 @@ $lang['page']['rate']['napomenta']['content2'] = 'Kamata kod Diners Club Plus ka
 ///// RATE /////
 
 //// ORTODONCIJA /////
-$lang['page']['ortodoncija']['title'] = 'Ortodoncija';
-$lang['page']['ortodoncija']['terapija']['title'] = 'Ortodontska terapija';
-$lang['page']['ortodoncija']['terapija']['content'] = 'Ortodontskom terapijom ispravljaju se nepravilnosti u položaju zuba i vilice te se dovode u pravilan položaj. Ortodontska terapija je relativno dugotrajna i zahtjeva angažman i saradnju pacijenta. Uspjeh ortodontske terapije u najvećem dijelu zavisi od stepena saradnje pacijenta, a loša saradnja obično rezultuje dužim trajanjem terapije, izostankom rezultata i mogućom pojavom neželjenih posljedica. Temelj ortodontske terapije je dugotrajna primjena sila čiji su iznosi i smjer djelovanja strogo kontrolisani. ';
-$lang['page']['ortodoncija']['vrste-aparata']['title'] = 'Vrste ortodontskih aparata';
-$lang['page']['ortodoncija']['vrste-aparata']['content'] = 'Ortodontski aparatići su instrumenti koji primjenjuju ortodontske sile na zube i omogućuju njihovo pomjeranje. Postoji više različitih vrsta ortodontskih aparata (od čega je najčešća podjela na fiksne i mobilne ortodontske aparate), a svaki od njih se primjenjuje u terapiji određene anomalije. Nakon što pacijent dođe kod ortodonta i urade se sve dijagnostičke pretrage, ortodont će pacijentu predložiti plan terapije i odgovarajući tip ortodontskog aparata. ';
+$lang['page']['ortodoncija']['title'] = 'Orthodontia';
+$lang['page']['ortodoncija']['terapija']['title'] = 'Orthodontic therapy';
+$lang['page']['ortodoncija']['terapija']['content'] = 'Orthodontic therapy treats the irregularities in the position of teeth and jaw, and they are brought to proper position. Orthodontic therapy is relatively long-term and demands patient\'s engagement and cooperation. The success of orthodontic therapy mostly depends on the degree of patient\'s cooperation, and poor cooperation usually results in longer treatment, lack of results, and possible unwanted consequences. The key to orthodontic therapy is long-term application of forces whose amounts and direction of action are strictly controlled.';
+$lang['page']['ortodoncija']['vrste-aparata']['title'] = 'Types of orthodontic devices';
+$lang['page']['ortodoncija']['vrste-aparata']['content'] = 'Orthodontic braces are instruments that apply orthodontic forces on the teeth and enable their movement. There are several types of orthodontic devices (of which the most frequent division is to fixed and mobile orthodontic braces), and each of them is applied in therapy of a certain anomaly. After the patient comes to orthodontist and they make all the necessary diagnostic examinations, the orthodontist shall suggest the patient a therapy plan and corresponding type of orthodontic braces.';
 //// ORTODONCIJA /////
 
 //// IMPLANTOLOGIJA /////
-$lang['page']['implantologija']['title'] = 'Implantologija';
-$lang['page']['implantologija']['straumann']['title'] = 'Straumann implantati';
-$lang['page']['implantologija']['straumann']['opis']['title'] = '<b>Opis terapije</b>';
-$lang['page']['implantologija']['straumann']['opis']['content'] = 'Zubni implantati su nosači nadoknada napravljeni od titanijuma koji se ugrađuju u kost. Titanijum se koristi zbog svoje jedinstvene sposobnosti spajanja sa kosti, stvarajući tako čvrstu podlogu za zubnu nadoknadu. Najbolje su rješenje u slučaju nedostatka jednog ili nekoliko zuba. Ukoliko se održava oralna higijena i pridržava savjeta doktora u većini slučajeva traju doživotno. ';
-$lang['page']['implantologija']['straumann']['kandidati']['title'] = '<b>Kandidati za implantaciju</b>';
-$lang['page']['implantologija']['straumann']['kandidati']['content'] = "Pacijenti kojima nedostaje jedan ili više zuba, kao i oni kojima je narušena prirodna mogućnost žvakanja, estetski izgled ili govor su kandidati za ugradnju zubnih implantata. Takođe, pacijenti kod kojih je otežano ili potpuno onemogućeno nošenje zubnih poreza su isto tako kandidati za implantaciju. Imperativ kod implantata je dobra oralna higijena, jer u suprotnom čitav proces nema smisla. ";
-$lang['page']['implantologija']['straumann']['materijali']['title'] = '<b>Materijali koji se koriste</b>';
-$lang['page']['implantologija']['straumann']['materijali']['content'] = "Zubni implantati Straumann napravljeni su od titanijuma koji odlikuje velika čvrstoća, mala težina i velika otpornost na koroziju. Pored navedenog, poznati su po visokoj biokompatibilnosti zbog čega nakon same implantacije puno brže dolazi do oseointegracije. ";
+$lang['page']['implantologija']['title'] = 'Implantology';
+$lang['page']['implantologija']['straumann']['title'] = 'Straumann implant';
+$lang['page']['implantologija']['straumann']['opis']['title'] = '<b>Procedure description</b>';
+$lang['page']['implantologija']['straumann']['opis']['content'] = 'Dental implants are carriers of restorations made of titanium that are implanted into the bone. Titanium is used due to its unique ability to join the bones, forming a firm base for dental restoration. They are the best solution in the event of lack of one or several teeth. If the oral hygiene is maintained and the patient follows the doctor\'s advice in most cases they last for a lifetime.';
+$lang['page']['implantologija']['straumann']['kandidati']['title'] = '<b>Candidates for the implantation</b>';
+$lang['page']['implantologija']['straumann']['kandidati']['content'] = "Patients who lack one or more teeth, as well as those who have an undermined chewing ability, undermined aesthetic look, or speech disorders, are candidates for dental implants. As well, patients who find wearing dentures hard of totally impossible are candidates for implantation. An imperative with implants is proper oral hygiene, since otherwise the whole procedure doesn't make any sense.";
+$lang['page']['implantologija']['straumann']['materijali']['title'] = '<b>Materials that are used </b>';
+$lang['page']['implantologija']['straumann']['materijali']['content'] = "Straumann dental implants are made of titanium which is characterized by improved firmness, small weight, and high resistance to corrosion. Apart from the stated, they are known for their biocompatibility due to which osseointegration occurs immediately after the implantation procedure.";
 
-$lang['page']['implantologija']['mdiimplantati']['title'] = 'MDI mini implantati';
-$lang['page']['implantologija']['mdiimplantati']['opis']['title'] = 'Opis zahvata';
-$lang['page']['implantologija']['mdiimplantati']['opis']['content'] = 'Mini dentalni implantati su implantati malog prečnika (njihov prečnik je manji od 3mm, dok standardi implantati imaju prečnik veći od 3mm, najčešće 4mm ili 5mm). Pravi naziv ove vrste implantata je implantati malog prečnika, dok je naziv mini implantati zapravo fabričko ime najzastupljenijeg implantata malog prečnika - 3M Mini Dental Implant (MDI). Kod bezubih vilica kod kojih ne postoji mogućnost ugradnje standardnih implantata, a augmentacija vilične kosti nije moguća, mini dentalni implantati predstavljaju terapiju izbora.';
-$lang['page']['implantologija']['mdiimplantati']['kandidati']['title'] = 'Kandidati za zahvat';
-$lang['page']['implantologija']['mdiimplantati']['kandidati']['content'] = "Mini dentalni implantati se koriste kod pacijenata sa bezubim vilicama koji imaju nestabilne proteze. Kod većine bezubih (ili čak i krezubih) vilica kost je u većoj mjeri resorbovana, te je za standardni zubni implantat potrebno izvršiti augmentaciju kosti. Mini dentalni implantati kod većine pacijenata ne zahtijevaju augmentaciju kosti, stoga je njihova ugradnja značajno jednostavnija nego kod standardnih implantata.";
-$lang['page']['implantologija']['mdiimplantati']['materijali']['title'] = 'Materijali koji se koriste';
-$lang['page']['implantologija']['mdiimplantati']['materijali']['content'] = "Dizajnom 3M MDI implantata postignuta je visoka stabilnost implantata u mekoj, kao i u gustoj kosti. Matrice 3M MDI implantata omogućavaju i do 30° divergencije između dva implantata. Posebno su kreirani za pacijente koji imaju malu koštanu masu za klasične implantate.";
+$lang['page']['implantologija']['mdiimplantati']['title'] = 'MDI mini implants';
+$lang['page']['implantologija']['mdiimplantati']['opis']['title'] = 'Procedure description';
+$lang['page']['implantologija']['mdiimplantati']['opis']['content'] = 'Mini dental implants are implants of small diameter (their diameter is smaller than 3mm, while standard implants have diameters larger than 3mm, usually 4mm or 5mm). Original name of this type of implants is mini dental implants, while the name mini implants is actually the production name of the most present mini dental implant – 3M Mini Dental Implant (MDI). With edentolous jaws where standard implants are not feasible and the augmentation of jaw bone is impossible, mini dental implants represent the treatment of choice.';
+$lang['page']['implantologija']['mdiimplantati']['kandidati']['title'] = 'Candidates for the procedure';
+$lang['page']['implantologija']['mdiimplantati']['kandidati']['content'] = "Mini dental implants are used in patients with toothless jaws who have unstable dentures. With most of edentulous (or even toothless) jaws the bone is largely resorbed, and it is necessary to carry out the augmentation of the bone in order to enable standard dental implant. Mini dental implants with most patients do not require bone augmentation, which is why their placement is significantly simpler than standard implants.";
+$lang['page']['implantologija']['mdiimplantati']['materijali']['title'] = 'Materials that are used';
+$lang['page']['implantologija']['mdiimplantati']['materijali']['content'] = "Improved stability of 3M MDI implants in soft and dense bone is achieved by their design. Implant matrices of 3M MDI implants enable up to 30° divergence between the two adjacent implants. They are specially designed for patients who have a little bone mass for classical implants.";
 
 
 //// IMPLANTOLOGIJA /////
 
 //// estetska stomatologija ////
-$lang['page']['estetska']['title'] = 'Estetska Stomatologija';
-$lang['page']['estetska']['opis'] = 'Opis terapije';
-$lang['page']['estetska']['kandidati'] = 'Kandidati za terapiju';
-$lang['page']['estetska']['materijali'] = 'Materijali koji se koriste';
-$lang['page']['estetska']['usluge'] = 'Usluge';
+$lang['page']['estetska']['title'] = 'Cosmetic dentistry';
+$lang['page']['estetska']['opis'] = 'Therapy description';
+$lang['page']['estetska']['kandidati'] = 'Candidates for the therapy';
+$lang['page']['estetska']['materijali'] = 'Materials that are used';
+$lang['page']['estetska']['usluge'] = 'Services';
 
 // dio za everic ispun
-$lang['page']['estetska']['everic']['title'] = 'Evetric kompozitni ispun';
+$lang['page']['estetska']['everic']['title'] = 'Evetric composite filling';
 
-$lang['page']['estetska']['everic']['opis'] = "Cilj terapije kompozitnim ispunima je da se ukloni što manja količina zubnog tkiva i pritom postigne izvorni oblik i boja zuba. Kompozit je vrsta smole koja ima osobinu hemijskog vezivanja za zubno tkivo, pa je stoga uklanjanje tvrdog zubnog tkiva minimalno. Stvrdnjavanje materijala se postiže korištenjem LED lampi.";
+$lang['page']['estetska']['everic']['opis'] = "The goal of composite fillings is to remove the least possible amount of dental tissue and at the same time preserve the original form and shape of the tooth. Composite is a type of rosin that has a feature of chemical bonding with the dental tissue, and hence reduction of hard dental tissue is minimal. Material curing is achieved by using LED lamps.";
 
-$lang['page']['estetska']['everic']['kandidati'] = "Indikovani su u situacijama kada nisu prisutna velika oštećenja zubnog tkiva. Koriste se kod sanacije karijesa, frakture krune zuba i korekcije oblika i boje zuba.";
+$lang['page']['estetska']['everic']['kandidati'] = "They are indicated in situations where there are no large damages of dental tissue. They are used in tooth decay (caries) treatment, teeth fractures, and correction of tooth shape or color.";
 
-$lang['page']['estetska']['everic']['materijali'] = "Ivoclar Vivadent Evetric kompoziti koristeći nano-čestice pigmenta boja postižu impresivni kameleonski efekt koji garantuje prirodni izgled ispuna. Materijal je dostupan u velikom broju nijansi i dosta se lako oblikuje, što omogućava da ispun oblikujemo morfološki i estetski u oblik zdravog zuba.";
+$lang['page']['estetska']['everic']['materijali'] = "By using nano-pigment particles, Ivoclar Vivadent Evetric composites achieve an impressive chameleon effect which guarantees natural look of the filling. The material is available in a large number of shades and is quite easily shaped, which enables us to shape the filling morphologically and aesthetically into a healthy tooth shape.";
 
 // dio za fuji ispun
-$lang['page']['estetska']['fuji']['title'] = 'Fuji glas jonomer ispun';
+$lang['page']['estetska']['fuji']['title'] = 'Fuji glass ionomer filling';
 
-$lang['page']['estetska']['fuji']['opis'] = "Glas jonomer otpušta fluoride dugo nakon vezivanja, a samo postavljanje u kavitet je jednostavnije nego kod kompozitnih ispuna. Nedovoljna mehanička otpornost na pritisak pri žvakanju ograničava njihovu upotrebu na bočnim zubima.";
+$lang['page']['estetska']['fuji']['opis'] = "Glass ionomer releases fluorides long after bonding, and the placement into the cavity is easier than with composite fillings. Insufficient mechanical resistance to chewing pressure limits their use on lateral teeth.";
 
-$lang['page']['estetska']['fuji']['kandidati'] = "Terapija glas jonomer ispunom je indikovana u situacijama kada nisu prisutna velika oštećenja zubnog tkiva kod zuba u frontalnoj regiji. Najčešće se postavljaju kao dugotrajni privremeni ispuni. Dobar su izbor kod razvojnih anomalija tvrdih zubnih tkiva, kod mliječnih zuba i kod starijih pacijenata.";
+$lang['page']['estetska']['fuji']['kandidati'] = "Glass ionomer filling therapy is indicated in the situations when there are no large damages of dental tissue in frontal region teeth. They are mostly placed as long-term temporary fillings. They are a good choice with developmental disturbances of hard dental tissues, with temporary teeth (milk teeth), and with older patients. ";
 
-$lang['page']['estetska']['fuji']['materijali'] = "koriste GC Fuji glas jonomer ispuni pružaju visoku otpornost na habanje, kao i visok stepen bio-kompatibilnosti. Zahvaljujući njegovoj snažnoj sposobnosti vezivanja za zubno tkivo, postignuta je velika dugotrajnost ovih ispuna.";
+$lang['page']['estetska']['fuji']['materijali'] = "GC Fuji glass ionomer fillings provide high abrasion resistance, as well as high degree of biocompatibility. Its powerful ability to bond with the dental tissue provides continuance of these fillings.";
 
 // dio za bijeljenje
-$lang['page']['estetska']['bijeljenje']['title'] = 'Bijeljenje zuba';
+$lang['page']['estetska']['bijeljenje']['title'] = 'Teeth whitening';
 
-$lang['page']['estetska']['bijeljenje']['opis'] = "Svako vještačko bijeljenje zuba predstavlja postupak primjene hemijskih sredstava sa ciljem
-da se dobije svjetlija boja zuba.";
+$lang['page']['estetska']['bijeljenje']['opis'] = "Each artificial teeth whitening represents a procedure of applying chemical substances with the goal of achieving lighter teeth color.";
 
-$lang['page']['estetska']['bijeljenje']['kandidati'] = "Bijeljenje zuba je indikovano kod pacijenata kod kojih je usijed konzumiranja tamne hrane, pića ili lijekova došlo do diskoloracije zuba. Sa starenjem zubi takođe postaju tamniji zbog promjena u mineralnoj strukturi zuba, pri čemu gleđ postaje manje porozna zbog deficita fosfata.";
+$lang['page']['estetska']['bijeljenje']['kandidati'] = "Teethwhitening is indicated in patients with whom, during consumption of dark food, beverages, or medicines, there has been teeth discoloration. Over the years teeth become darker due to changes in mineral teeth structure, wherein the enamel becomes less porous due to phosphate deficit.";
 
-$lang['page']['estetska']['bijeljenje']['materijali'] = "ZOOM bijeljenje se postiže primjenom gela koji se nanosi na zube, a čija je 
-aktivna supstanca vodonik-peroksid. Philips ZOOM lampa aktivira vodonik peroksid pri čemu kiseonik 
-prodire u gleđ i dentin. Rezultat je izbjeljivanje zubnih supstanci i do osam nijansi pri čemu se ne oštećuju 
-zubne strukture. DASH sistem za bijeljenje zuba takođe koristi vodonik-peroksid koji se u obliku gela nanosi 
-na zube, ali pri aktivaciji gela ne koristi lampu, pa je rezultat bijeljenja slabiji, od tri do četiri nijanse.";
+$lang['page']['estetska']['bijeljenje']['materijali'] = "ZOOM whitening is accomplished by means of a gel that is applied on teeth, whose active substance is hydrogen peroxide. Philips ZOOM lamp activates the hydrogen peroxide whereby oxygen penetrates into the enamel and dentin. This results in whitening of dental substances up to eight shades whereby dental structures are not being damaged. DASH system for teeth whitening also uses hydrogen peroxide which is applied on teeth in the form of gel, but during the gel activation, lamp is not used, resulting in weaker whitening, from three to four shades only.";
 
 // DIO ZA AIRJET
-$lang['page']['estetska']['airjet']['title'] = 'Air Jet tretman';
-$lang['page']['estetska']['airjet']['opis'] = "Air Jet aparat pod velikim pritiskom oslobađa vodu u kombinaciji sa sodom bikarbonom, što dovodi do skidanja plaka, naslaga od duvana i kafe, čajeva i ostale obojene hrane i pića. Air Jet pjeskari zube i tako skida naslage koje su se nakupile na zubima, a zubi na taj način mogu da postanu za nijansu svjetliji. ";
+$lang['page']['estetska']['airjet']['title'] = 'Air Jet treatment';
+$lang['page']['estetska']['airjet']['opis'] = "Air Jet device releases water combined with soda under pressure, which leads to removal of plaque, deposits of tobacco and coffee, tea, and other colored food and drink. Air Jet sandblasts the teeth, thus removing the deposits accumulated on teeth, whereby the teeth can become one shade lighter.";
 
-$lang['page']['estetska']['airjet']['kandidati'] = "Air Jet tretman indikovan je kod pušača, kod kojih se preporučuje pjeskarenje zuba Air Jet-om dva puta u toku jedne godine. Pored pušača, ljudi koji često konzumiraju kafu ili čaj, takođe su kandidati za Air Jet tretman. ";
+$lang['page']['estetska']['airjet']['kandidati'] = "Air Jet treatment is indicated in smokers, with whom Air Jet sandblasting is recommended twice a year. Apart from smokers, persons who often consume coffee or tea are also candidates for Air Jet treatment.";
 
-$lang['page']['estetska']['antiaging']['title'] = 'Anti agening stomatologija';
-$lang['page']['estetska']['antiaging']['kandidati'] = "Istrošeni zubi ili nepotpun zubni niz može učiniti da obrazi izgledaju šuplje, usne tanke i neprimjetne, a vilica mala. Pacijenti sa ovakvim efektima, žutim i kratkim zubima izgledaju i do 10 ili 15 godina stariji nego što stvarno jesu, te mogu da budu kandidati za anti age tretman u stomatologiji.";
-$lang['page']['estetska']['antiaging']['opis'] = 'Koristeći znanja i vještine anti ageing stomatologije moguće je bez hirurške intervencije izbrisati godine sa lica. Anti ageing stomatologija pokriva širok spektar restaurativnih i estetskih tretmana koji podmlađuju crte lica promjenom strukture i oblika zuba. Umjesto injekcija botoksa staračke linije oko usta moguće je ublažiti ili potpuno izbrisati koristeći terapiju krunicama ili venirima koji će da pružaju bolju podršku i oslonac obrazima. Usne i koža lica zahtijevaju stabilan i dobar oslonac od strane zuba. Ako je oslonac dobar, koža lica sigurno neće biti mnogo opuštena, a usne će izgledati prirodnije i punije.';
+$lang['page']['estetska']['antiaging']['title'] = 'Anti-aging dentistry';
+$lang['page']['estetska']['antiaging']['kandidati'] = "Worn teeth or incomplete dental arch can make the cheeks look hollow and 10 or 15 years older than they actually are, and they can be candidates for anti-aging treatment in dentistry.";
+$lang['page']['estetska']['antiaging']['opis'] = 'Using the knowledge and skills of anti-aging dentistry it is possible to erase the age from your face without surgical intervention. Anti-aging dentistry covers a wide range of restorative and aesthetic treatments that rejuvenate facial features by changing the structure and shape of teeth. Instead of botox injections, old age wrinkles around mouth can be soothed or completely erased by using dental crown therapy or veneers that will provide better support for the cheeks. The lips and facial skin require a stable and good support by teeth. If the support is good, the facial skin will definitely not loosen, and the lips will look more natural and full.';
 
-$lang['page']['estetska']['kreiranjeosmjeha']['title'] = 'Kreiranje osmijeha';
-$lang['page']['estetska']['kreiranjeosmjeha']['kandidati'] = "Pacijenti kod kojih su zubi različite boje, predugački ili prekratki zubi, neskladan odnos između zuba, desni i usana, razmak između zuba ili pak pacijenti koji prosto nisu zadovoljni izgledom svog osmijeha potencijalni su kandidati za kreiranje osmijeha. Takođe, pacijenti sa nepotpunim zubnim nizom definitivno su kandidati za kreiranje osmijeha.";
-$lang['page']['estetska']['kreiranjeosmjeha']['opis'] = 'Kreiranje osmijeha podrazumijeva analizu karakteristika lica kako bi se stvorio prirodan izgled, a pritom pacijentu daje mogućnost da učestvuje u kreiranju vlastitog osmijeha. Primarni cilj kreiranja osmijeha podrazumijeva oralnu rehabilitaciju koja će zadovoljiti sve estetske zahtjeve pacijenta. Analiza osmijeha pruža novi uvid u odnose zuba, desni, usana i osmijeha uopšte. Takođe u obzir uzima i karakteristike lica tokom pokreta i određenih emocija kako bi krajnji rezultat bio prirodan. Savremena stomatologija pruža širok spektar postupaka kojima možemo osmijeh učiniti lijepim i privlačnim kao što su promjena položaja zuba, izbjeljivanje zuba, izrada keramičkih ljuskica, izrada keramičkih krunica, ugradnja implantata, itd.';
+$lang['page']['estetska']['kreiranjeosmjeha']['title'] = 'Smile design';
+$lang['page']['estetska']['kreiranjeosmjeha']['kandidati'] = "Patients with teeth of different color, too large or too short teeth, disharmony in relation between the teeth, gums, and lips, distance between the teeth, or patients that are not entirely satisfied with the look of their smile are potential clients for creation of smile. Also, patients with incomplete dental arch are definitely candidates for smile creation.";
+$lang['page']['estetska']['kreiranjeosmjeha']['opis'] = 'mile design means analysis of facial characteristics in order to make natural look, whereby patients are given the possibility of participating in creation of their own smile. The primary goal of creating smile means oral rehabilitation that will satisfy all aesthetic requirements of a patient. Smile analysis provides a new insight into the relation between the teeth, gums, lips, and smile in general. It also takes into account the facial features during motions and certain emotions, in order to gain natural final result. Contemporary dentistry provides a wide range of procedures which can make the smile nicer and more attractive, such as change in teeth position, teeth whitening, creation of ceramic veneers, implants, and so on.';
 
 //// estetska stomatologija ////
 
 //// ZUBNA PROTETIKA ////
-$lang['page']['protetika']['title'] = 'Zubna protetika';
-$lang['page']['protetika']['opis'] = '<b>Opis terapije</b>';
-$lang['page']['protetika']['kandidati'] = '<b>Kandidati za terapiju</b>';
-$lang['page']['protetika']['materijali'] = '<b>Materijali koji se koriste</b>';
-$lang['page']['protetika']['usluge'] = 'Usluge';
+$lang['page']['protetika']['title'] = 'Dental prosthetics';
+$lang['page']['protetika']['opis'] = '<b>Therapy description</b>';
+$lang['page']['protetika']['kandidati'] = '<b>Candidates for the therapy</b>';
+$lang['page']['protetika']['materijali'] = '<b>Materials that are used</b>';
+$lang['page']['protetika']['usluge'] = 'Services';
 
-$lang['page']['protetika']['inline']['title'] = 'In.Line metalkeramičke krunice';
-$lang['page']['protetika']['inline']['opis'] = "Metalkeramičke krunice predstavljaju klasično rješenje za slučajeve nedostatka jednog ili više zuba. Na metalnu leguru (Co-Cr, Ti ili Au) koja ima ulogu osnove odnosno jezgra nanosi se keramika čime se postiže dobar estetski izgled krunica. Jezgro od metala garantuje čvrstoću krunice na veoma snažne žvačne sile.";
-$lang['page']['protetika']['inline']['kandidati'] = "Krunice se izrađuju na zubima koji su teško oštećeni karijesom ili frakturom. Izrađuju se i kada je neophodno nadoknaditi zube koji nedostaju u zubnom nizu. Tada se bruse zubi koji su pogodni da budu nosači te se pristupa izradi mosta. Mogu se izraditi i radi estetskih zahtjeva, mada su tada krunice izrađene od bezmetalne keramike terapija izbora.";
-$lang['page']['protetika']['inline']['materijali'] = "Fasetiranje metalnih konstrukcija izvodimo Ivoclar Vivadent In.Line keramikom. Rezultat rada ovom keramikom je izuzetna preciznost u dobijanju boje zahvaljujući dobrim optičkim svojstvima koje ova keramika posjeduje. Sistem sadrži dodatne materijale za dobijanje posebnih efekata (opalescencije, translucencije), te karakterizaciju boje. In.Line keramika daje nadoknadama jednaku toplu boju, kao i iste vrijednosti zasićenosti i sjajnosti. ";
+$lang['page']['protetika']['inline']['title'] = 'In.Line metal ceramic crowns';
+$lang['page']['protetika']['inline']['opis'] = "Metal ceramic crowns represent a classical solution in case of lack of one or more teeth. Ceramic is applied on metal alloy (Co-Cr, Ti or Au) which has the role of a base, that is, the core, which provides good aesthetic look of crowns. Metal core guarantees firmness of the jaw for very strong masticatory forces.";
+$lang['page']['protetika']['inline']['kandidati'] = "The crowns are made on teeth that are severely damaged by caries or fractures. They are also made when it is necessary to compensate the missing teeth in a dental arch. Then the teeth suitable to be the carriers are abraded and creation of dental bridge is approached. They can be made due to aesthetic reasons, although then the crowns are made of non-metal ceramic. ";
+$lang['page']['protetika']['inline']['materijali'] = "Veneering of metal constructions is done by using Ivoclar Vivadent In.Line ceramic. The result of using this ceramic is an impressive accuracy in gaining the color thanks to good optical features this ceramic owns. The system contains additional materials for gaining special effects (opalescence, translucency), and color characterization. In.Line ceramic provides dental restorations with an even, warm color, as well as equal values of saturation and brightness.";
 
-$lang['page']['protetika']['bezmetalne']['title'] = 'Press bezmetalne krunice';
-$lang['page']['protetika']['bezmetalne']['opis'] = "Ove krunice su izrađene u potpunosti od keramike i estetski su superiorne u odnosu na ostale vrste krunica.";
-$lang['page']['protetika']['bezmetalne']['kandidati'] = "Indikovane su u situacijama kada želite pojedinačne krunice izuzetno visoke estetike. Usljed nedostatka čvrstoće, ograničena im je upotreba na frontalnu regiju i regiju premolara.";
-$lang['page']['protetika']['bezmetalne']['materijali'] = "Press litijum disilikatna staklo keramika obezbjeđuje visoke vrijednosti čvrstoće na savijanje. Homogenost materijala omogućava prolazak svjetlosti kroz zub, što čini maltene nemogućim razlikovati prirodni zub od krunice. Posebna prednost ovog sistema je minimalno invazivna preparacija zuba (uklanja se do 1 mm zubne supstance).";
+$lang['page']['protetika']['bezmetalne']['title'] = 'Press ceramic crowns';
+$lang['page']['protetika']['bezmetalne']['opis'] = "These crowns are completely made of ceramic and are aesthetically superior to other types of crowns.";
+$lang['page']['protetika']['bezmetalne']['kandidati'] = "They are indicated when you want individual crowns of extremely high aesthetics. Due to lack of firmness, their use on frontal and premolar region is limited.";
+$lang['page']['protetika']['bezmetalne']['materijali'] = "Press Lithium disilicate glass ceramic provides high values of bending strength. Homogeneity of materials enables the light passing through the tooth, which makes it almost impossible to differentiate natural tooth from a crown. Particular advantage of this system is minimally invasive tooth preparation (only up to 1 mm of tooth substance is removed).";
 
-$lang['page']['protetika']['cirkonujum']['title'] = 'Cirkonijum dioksid krunice';
-$lang['page']['protetika']['cirkonujum']['opis'] = "Cirkonija ili cirkon(ijum) dioksid keramika je relativno nov materijal u stomatologiji, ali sigurno jedno od najboljih protetskih rješenja koje moderna stomatologija može da ponudi. Cirkonijum dioksid je biokompatibilan, nema alergijskih reakcija, stoga se preporučuje kod pacijenata alergičnih na legure metala. Nepovoljna je podloga za nakupljanje plaka, što značajno olakšava održavanje oralne higijene.";
-$lang['page']['protetika']['cirkonujum']['kandidati'] = "Osnova od cirkondioksidne keramike se koristi kada su indikovane nadoknade veće čvrstoće uz zahtjev za vrhunski estetski efekat (najčešće u bočnoj regiji). U bočnoj regiji se može izraditi krunica isključivo od cirkon dioksidne keramike (monolitna), a u prednjoj regiji se kapica (core) boji fasetnom keramikom (Emax).";
-$lang['page']['protetika']['cirkonujum']['materijali'] = "Za fasetiranje cirkonijum dioksidnih krunica koristimo Ivoclar Vivadent Emax Ceram keramiku. Čvrstoća na savijanje cirkonijum dioksid krunice u kombinaciji sa Emax keramikom iznosi čak 1200 MPa, a vrhunske estetske karakteristike ostaju imperativ kao kod ostalih potpuno keramičkih krunica.";
+$lang['page']['protetika']['cirkonujum']['title'] = 'Zirconium dioxide crowns';
+$lang['page']['protetika']['cirkonujum']['opis'] = "Zirconia or zircon(ium) dioxide ceramic is a relatively new material in dentistry, but is certainly one of better prosthetic solutions contemporary medicine can offer. Zirconium dioxide is biocompatible, there are no allergic reactions, and hence it is recommended with patients allergic to metal alloys. It is an inconvenient base for plaque accumulation, which significantly facilitates the maintenance of oral hygiene.";
+$lang['page']['protetika']['cirkonujum']['kandidati'] = "The base of zirconium dioxide ceramic is used when restorations of improved firmness are indicated with a request for supreme aesthetic effect (mostly in lateral region). Lateral region exclusively allows creation of zirconium dioxide ceramic crown (monolite), and in the frontal region the core is colored with veneer ceramic (Emax).";
+$lang['page']['protetika']['cirkonujum']['materijali'] = "For veneering of zirconium dioxide crowns we use Ivoclar Vivadent Emax Ceram ceramic. Bending strength of a zirconium dioxide crown combined with Emax ceramic is even 1200 MPa, and supreme aesthetic features remain an imperative as with other completely ceramic crowns.";
 
 
-$lang['page']['protetika']['kerveniri']['title'] = 'Press keramički veniri';
-$lang['page']['protetika']['kerveniri']['opis'] = "Keramički veniri su vrlo tanke keramičke pločice koje se cementiraju na prednju, vidljivu stranu zuba, te se na taj način ispravlja oblik, nadoknađuje istrošena zubna stupstanca ili mijenja boja zuba. Postavljaju se na prirodne zube, imitiraju gleđ prirodnog zuba, a zahtijevaju minimalno uklanjanje zubnog tkiva, svega oko 0,5 mm što im je i najveća prednost.";
-$lang['page']['protetika']['kerveniri']['kandidati'] = "Ljuskice su idealno rješenje kod pacijenata koji žele da postignu idealnu estetiku na prednjim zubima. Indikovane su u situacijama kada su prednje strane frontalnih zuba oštećene karijesom, traumom ili urođenim defektima. Ljuskice se izrađuju isključivo u situacijama kada su prisutna manja oštećenja prednje strane frontalnih zuba pri čemu je ostatak krune zuba zdrav.";
-$lang['page']['protetika']['kerveniri']['materijali'] = "Za izradu venira koristimo Ivoclar Vivadent Press keramiku. Press keramiku odlikuje velika čvrstoća od 400 MPa za dugotrajan klinički uspjeh uz optimalno uklapanje u prirodne zube.";
+$lang['page']['protetika']['kerveniri']['title'] = 'Press ceramic veneers';
+$lang['page']['protetika']['kerveniri']['opis'] = "Ceramic veneers are very thin ceramic plates that are cemented on frontal, visible side of a tooth, thus correcting the shape, compensating the worn dental substance, or changing the tooth color. They are placed on natural teeth and they imitate natural tooth enamel, requiring minimal removal of dental tissue, approximately 0.5 mm, which is their biggest advantage.";
+$lang['page']['protetika']['kerveniri']['kandidati'] = "Veneers are an ideal solution with patients who want to accomplish ideal aesthetics on frontal teeth. They are indicated in situations of frontal teeth being damaged by caries, trauma, or congenital defects. Veneers are made exclusively in situations when smaller damages of frontal teeth are present, whereby the rest of the tooth crown is healthy.";
+$lang['page']['protetika']['kerveniri']['materijali'] = "To make veneers we use Ivoclar Vivadent Press ceramic. Press ceramic is characterized by improved firmness of 400 MPa for a long-term success with optimal fitting into the natural teeth.";
 
-$lang['page']['protetika']['inleji']['title'] = 'Press keramički inleji';
-$lang['page']['protetika']['inleji']['opis'] = "Inlej je ispun koji je izrađen od keramike. Smatra se najkvalitetnijom vrstom ispuna. Za razliku od ostalih vrsta ispuna, izrađuje se u zubotehničkom laboratoriju na osnovu otiska tako da u potpunosti odgovara formiranom kavitetu.";
-$lang['page']['protetika']['inleji']['kandidati'] = "Indikovani su kod zuba u bočnoj regiji koji su u većoj mjeri razoreni karjesom, jer je keramika mnogo tvrđa i otpornija od kompozitnih materijala.";
-$lang['page']['protetika']['inleji']['materijali'] = "Za izradu inleja koristimo Ivoclar Vivadent Press keramiku čija visoka čvrstoća materijala obezbjeđuje dugotrajne kliničke rezultate. Press litij disilikatna staklokeramika posjeduje pet nivoa prozirnosti što obezbijeđuje živu estetiku, bez obzira na boju prepariranog zuba, a sama nadoknada se utapa u boju zuba (kameleonski efekat).";
+$lang['page']['protetika']['inleji']['title'] = 'Press ceramic inlays';
+$lang['page']['protetika']['inleji']['opis'] = "Inlay is a filling made of ceramic. It is considered the ultimate quality filling type. Opposite to other types of fillings, it is made in dental laboratories based on an imprint, so it completely matches the formed cavity.";
+$lang['page']['protetika']['inleji']['kandidati'] = "They are indicated with teeth in lateral region that are devastated by caries to a great extent, since ceramic is much firmer and resistant than composite materials.";
+$lang['page']['protetika']['inleji']['materijali'] = "To make inlays we use Ivoclar Vivadent Press ceramic with improved material firmness that provides long-term clinic results. Press lithium disilicate glass-ceramic has five levels of porosity which provides a living aesthetics, regardless of the color of prepared tooth, and the restoration itself fits into the color of the tooth (chameleon effect).";
 
-$lang['page']['protetika']['proteza']['title'] = 'Skeletirana proteza';
-$lang['page']['protetika']['proteza']['opis'] = "Skeletirane proteze su izrađene od čvrste metalne legure Co-Cr-Mo koja daje čvrstoću što omogućava tanku i gracilnu bazu, a samim tim povećava komfor. Retencija kod skeletirane proteze se ostvaruje pomoću livenih kukica koje precizno obuhvataju zub nosač te se na taj način smanjuje štetno dejstvo kukice na zub. Okluzalni naslon obezbjeđuje prenos pritiska žvakanja na zub. Najviši estetski rezultat sa ovom vrstom proteza postiže se kombinovanjem sa fiksnim metalokeramičkim krunicama koje se sa skeletiranom protezom povezuju atečmenima. Tada atečmeni pridržavaju protezu na zubima i potpuno su nevidljivi.";
-$lang['page']['protetika']['proteza']['kandidati'] = "Indikovane su kod krezubih vilica u situacijama kada ne postoji mogućnost ugradnje implantata ili izrade fiksnog protetskog rada.";
-$lang['page']['protetika']['proteza']['materijali'] = "Kod izrade skeletiranih proteza koristimo Ivoclar Vivadent garnituru zuba. Raspon oblika zuba posebno je dizajniran da odgovara dobi i karakteristikama svakog pacijenta. Oblici prednjih zuba, po uzoru na prirodne, nude izuzetne estetske osobine i visoku otpornost na trošenje.";
+$lang['page']['protetika']['proteza']['title'] = 'Skeleton denture';
+$lang['page']['protetika']['proteza']['opis'] = "Skeleton dentures are made of firm metal alloy Co-Cr-Mo that gives firmness which provides thin and gracile base, at the same time enhancing the comfort. Retention with skeleton denture is achieved by clasps that precisely encompass the abutment tooth thus reducing the adverse effects of the clasp against the tooth. Occlusal rest provides transmission of chewing pressure on the tooth. The highest aesthetic result with this type of denture is achieved by combination of fixed metal-ceramic crowns that are connected to skeleton denture by attachments. Then the attachments hold the denture on the teeth and are completely invisible.";
+$lang['page']['protetika']['proteza']['kandidati'] = "They are indicated with toothless jaws in the situation where there is no possibility for implants or crowns.";
+$lang['page']['protetika']['proteza']['materijali'] = "To create skeleton denture we use Ivocalr Vivadent set of teeth. The range of teeth shape is specially designed to fit the age and characteristic of each patient. Shapes of frontal teeth, modeled on natural teeth, offer excellent aesthetic features and high wear resistance. ";
 
-$lang['page']['protetika']['akrilatna']['title'] = 'Akrilatna proteza';
-$lang['page']['protetika']['akrilatna']['opis'] = "Izrađuje se od akrilata, a može da bude izrađena u vidu totalne proteze u slučaju potpune bezubosti ili parcijalne proteze u slučaju krezubosti. Akrilatne proteze predstavljaju finansijski najpovoljniji način rješavanja nedostatka jednog ili više zuba. Retencija kod totalne akrilatne proteze se postiže pomoću sniženog pritiska ispod proteze efektom prisisavanja proteze na sluzokoži. Kod parcijalne proteze retencija se ostvaruje kukicama koje obuhvataju postojeće zube. ";
-$lang['page']['protetika']['akrilatna']['kandidati'] = "U slučajevima kada je vilica bezuba, a ukoliko ugradnja implantata nije moguća akrilatna proteza predstavlja jedino protetsko rješenje.";
+$lang['page']['protetika']['akrilatna']['title'] = 'Acrylic denture';
+$lang['page']['protetika']['akrilatna']['opis'] = "It is made of acrylates, and can be made in the form of complete denture in the event of complete edentation, or partial dentures in the event of edentulousness. Acrylic dentures are the most cost effective way of compensating one or more teeth. Retention with complete acrylic denture is achieved by lowered pressure under the denture by the valve effect on the mucous membrane. With partial denture the retention is achieved by clasps that encompass the existing teeth.";
+$lang['page']['protetika']['akrilatna']['kandidati'] = "In the events when the jaw is toothless, if implants are not an option the acrylic denture is the only prosthetic solution. ";
 // ovo izgleda nema kod ovoe vrste $lang['page']['protetika']['akrilatna']['materijali'] = "";
 
-$lang['page']['protetika']['Bruksosplint']['title'] = 'Bruksosplint';
-$lang['page']['protetika']['Bruksosplint']['opis'] = "Liječenje bruskizma važno je radi sprečavanja oštećenja zuba, ali i očuvanja zdravlja temporomandibularnog zgloba. Izradom bruksosplinta moguće je spriječiti štetne posljedice po tvrda zubna tkiva. Individualno izrađeni bruksosplintovi se postavljaju na grizne površine zuba i nose se za vrijeme spavanja. Kad su zubi u zagrizu, bruksosplintovi djeluju kao amortizeri koji sprečavaju neželjene pokrete i dodire zuba. Ako eventualno dođe do nekontrolisanih pokreta, klizanje i trenje se javlja između površina bruksosplintova, umjesto između zubnih površina. Bruksosplintovi ograničavaju kretnju, te sprečavaju nastanak oštećenja zuba.";
-$lang['page']['protetika']['Bruksosplint']['kandidati'] = "Pacijenti obično nisu svjesni škrgutanja koje se javlja tokom sna, ali pacijenti često ne prepoznaju ni parafunkcije koje se dešavaju u budnom stanju. Stiskanje, škripanje i škrgutanje zubima su znakovi nevoljnih funkcija donje vilice.";
+$lang['page']['protetika']['Bruksosplint']['title'] = 'Bruxism splints';
+$lang['page']['protetika']['Bruksosplint']['opis'] = "Treating bruxism is important for prevention of tooth damages, as well as maintenance of temporomandibular joint. By inserting bruxism splints it is possible to prevent harmful effects on hard dental tissues. Individually made bruxism splints are placed on chewing tooth area and are worn during sleep. When the teeth bite, the splints act as shock absorbers that prevent sudden and unwanted moves and teeth touching. In the event of sudden and uncontrolled movements, sliding and friction occurs between the surfaces of splints, instead of teeth surfaces. Splints limit the movements, thus preventing teeth damages.";
+$lang['page']['protetika']['Bruksosplint']['kandidati'] = "Patients are usually unaware of gnashing that occurs during sleep, and they often do not recognize parafunctions that happen even while they are awake. Clenching, grinding, and gnashing of teeth are signs of insufficient function of the lower jaw.";
 
 //// ZUBNA PROTETIKA ////
 
 //// ORALNA HIRURGIJA ////
-$lang['page']['oralnahirurgija']['title'] = 'Oralna hirurgija';
-$lang['page']['oralnahirurgija']['opis'] = '<b>Opis zahvata</b>';
-$lang['page']['oralnahirurgija']['kandidati'] = '<b>Kandidati za zahvat</b>';
-$lang['page']['oralnahirurgija']['usluge'] = 'Usluge';
+$lang['page']['oralnahirurgija']['title'] = 'Oral surgery ';
+$lang['page']['oralnahirurgija']['opis'] = '<b>Procedure description</b>';
+$lang['page']['oralnahirurgija']['kandidati'] = '<b>Candidates for the procedure</b>';
+$lang['page']['oralnahirurgija']['usluge'] = 'Services';
 
-$lang['page']['oralnahirurgija']['ekstrakcija']['title'] = 'Ekstrakcija zuba';
-$lang['page']['oralnahirurgija']['ekstrakcija']['opis'] = "Ekstrakcija se u pravilu preduzima tek kada niti jedna druga metoda liječenja zuba nije dala očekivane rezultate ili je zub toliko oštećen da se nikavom drugom terapijom ne može spasiti. Izuzetak ovog pravila su situacije kada se zub ekstrahuje u ortodontske svrhe. Zahvaljujući savremenom stomatološkom instrumentariju i anesteticima čitava procedura je potpuno bezbolna.";
-$lang['page']['oralnahirurgija']['ekstrakcija']['kandidati'] = "U praksi postoji nekoliko situacija kada dolazi do ekstrakcije zuba: zubi s velikim oštećenjem potpornog aparata, zubi s velikim oštećenjima krune, zaostali korijenovi, zubi s lošom i nesigurnom prognozom, zubi sa vertikalnom frakturom krojena, ekstrakcija iz ortodontskih razloga, u situacijama otežanog nicanja umnjaka, vađenje impaktiranih i retiniranih zuba i ekstrakcija mliječnih zuba.";
+$lang['page']['oralnahirurgija']['ekstrakcija']['title'] = 'Tooth extraction';
+$lang['page']['oralnahirurgija']['ekstrakcija']['opis'] = "Extraction is typically undertaken only when no other method of tooth treatment gave the expected results, or the tooth is damaged up to the point that it cannot be saved by no other therapy whatsoever. An exception to this rule is a situation in which a tooth is extracted for orthodontic purposes. Thanks to contemporary dental instruments and anesthetics this entire procedure is completely painless.";
+$lang['page']['oralnahirurgija']['ekstrakcija']['kandidati'] = "There are several situations in practice that lead to tooth extraction: teeth with great damage of supporting apparatus, teeth with great crown damages, residual roots, teeth with bad or unsafe prognosis, teeth with vertical root fracture, extraction for orthodontic reasons, in situations of hard eruption of wisdom teeth, extraction of impacted and retained teeth, and extraction of milk teeth.";
 
-$lang['page']['oralnahirurgija']['apikotomija']['title'] = 'Apikotomija';
-$lang['page']['oralnahirurgija']['apikotomija']['opis'] = "Apikotomija je manji oralno-hirurški zahvat kojim se odstranjuje vrh korijena zuba. Nakon endodontske terapije ili nakon nekoliko revizija može se desiti da se upala ne povuče. To je obično uzrokovano oblikom korijenskog kanala koji nije moguće izliječiti konvencionalnom endodontskom terapijom.";
-$lang['page']['oralnahirurgija']['apikotomija']['kandidati'] = "Pacijenti kod kojih postoji infektivno žarište (periapikalna lezija) oko vrha korijena jednokorjenih zuba. Kandidati za apikotomiju su i pacijenti kod kojih je korijenski kanal jako zakrivljen ili teško prohodan u području vrha korijena. Taj završni dio kanala nije moguće endodontski tretirati i on je najčešći uzrok neuspjeha endodontske terapije.";
+$lang['page']['oralnahirurgija']['apikotomija']['title'] = 'Apicotomy';
+$lang['page']['oralnahirurgija']['apikotomija']['opis'] = "Apicotomy is a smaller oral-surgical procedure for extraction of tooth root apex. After endodontic therapy or after several revisions it can occur that the inflammation does not withdraw. This is usually caused by the shape of root canal which cannot be treated by conventional endodontic therapy.";
+$lang['page']['oralnahirurgija']['apikotomija']['kandidati'] = "Patients who have an infectious focus (periapical lesion) around the root apex of a single root tooth. Patients who have very curved root canal or a hardly passable root canal in the area of tooth apex. This final part of the canal is impossible to treat endodontically and it is the most frequent cause of endodontic therapy failure.";
 
-$lang['page']['oralnahirurgija']['Cistektomija']['title'] = 'Cistektomija';
-$lang['page']['oralnahirurgija']['Cistektomija']['opis'] = "Cistektomija je proces u kome se u cjelosti odstranjuje cista. Ciste predstavljaju patološke šuplje prostore. Najčešće se javljaju u koštanom tkivu vilica. Ciste rastu sporo. Proces resorpcije koštanog tkiva je veći, odnosno rast ciste je brži ako je stepen zapaljenja cističnog sakusa veći.";
-$lang['page']['oralnahirurgija']['Cistektomija']['kandidati'] = "Pacijenti kod kojih postoji cista u usnoj šupljini. Cista raste samo ako je potpuno zatvorena. Čim se cista otvori i njen sadržaj isprazni ona prestaje da raste. Svaku cistu treba u potpunosti odstraniti, jer ona svojim rastom dovodi do resorpcije koštanog tkiva i predstavlja latentno žarište.";
+$lang['page']['oralnahirurgija']['Cistektomija']['title'] = 'Cystectomy';
+$lang['page']['oralnahirurgija']['Cistektomija']['opis'] = "Cystectomy is a procedure in which a cyst is completely removed. Cysts represent pathological hollow spaces. They mostly appear in jawbone tissue. They grow slowly. The procedure of bone tissue resorption is larger, that is, the cyst growth is faster if the degree of cystic sac inflammation is larger.";
+$lang['page']['oralnahirurgija']['Cistektomija']['kandidati'] = "Patients with cysts in the oral cavity. The cysts grow only if they are completely closed. As soon as they open and their content is removed, they stop growing. Each cyst should be completely removed, since by growing they lead to bone tissue resorption and represent a latent inflammation focus.";
 
-$lang['page']['oralnahirurgija']['Incizija']['title'] = 'Incizija apscesa';
-$lang['page']['oralnahirurgija']['Incizija']['opis'] = "Incizija podrazumijeva postupak zarezivanja sluznice ili kože čime se stvara otvor koji služi za drenažu gnoja. Najveći dio gnoja isteče neposredno nakon incizije, a ostatak se isprazni u narednih nekoliko dana.";
-$lang['page']['oralnahirurgija']['Incizija']['kandidati'] = "Apscese u ustima najčešće uzrokuju bakterije iz odumrle zubne pulpe. Infekcija počinje unutar pulpnog prostora, a preko vrha korijena prodire u parodontalno tkivo gdje djelovanjem bakterija počinje stvaranje gnoja. U zavisnosti od smjera širenja, otok se može pojaviti u prostoru usne šupljine ili izvan usne šupljine, u prostoru lica. Kod intraoralnih apscesa gnoj se nalazi ispod sluznice, a kod ekstraoralnih u potkožnom tkivu lica.";
+$lang['page']['oralnahirurgija']['Incizija']['title'] = 'Abscess incision';
+$lang['page']['oralnahirurgija']['Incizija']['opis'] = "Incision is a procedure of notching the mucous membrane or skin to create an opening for purulent discharge. The largest amount of pus is discharged immediately after the incision, and the rest is discharged in the following few days. ";
+$lang['page']['oralnahirurgija']['Incizija']['kandidati'] = "Abscesses in oral cavity are mainly caused by bacterium from dead dental pulp. The infection starts inside the pulp area, and via the root apex it penetrates into the periodontal tissue where by its action the bacterium initiates pus formation. Depending on the direction of expansion, the swelling can appear in the area of the oral cavity or outside it, in facial area. With intraoral abscesses the pus is placed under the mucous membrane, and with extraoral abscesses it is in the subcutaneous facial tissue.";
 
-$lang['page']['oralnahirurgija']['Frenulektomija']['title'] = 'Frenulektomija';
-$lang['page']['oralnahirurgija']['Frenulektomija']['opis'] = "Frenulektomija je mali hirurški zahvat kojim se uklanja prerasli ili preizraženi frenulum. Frenulum je prirodna, mišićna vezica, obično uočljiva između gornjih i donjih prednjih zuba.";
-$lang['page']['oralnahirurgija']['Frenulektomija']['kandidati'] = "Ponekad frenulum može stvarati poteškoće kao što je npr. nepravilno izrastanje prva dva sjekutića s razmakom između zuba, te su takvi pacijenti obično kadidati za frenulektomiju.";
+$lang['page']['oralnahirurgija']['Frenulektomija']['title'] = 'Frenulectomy';
+$lang['page']['oralnahirurgija']['Frenulektomija']['opis'] = "Frenulectomy is a smaller surgical procedure by which outgrown or overexpressed frenulum is removed. Frenulum is a natural, muscular attachment, usually visible between the upper and lower frontal teeth.";
+$lang['page']['oralnahirurgija']['Frenulektomija']['kandidati'] = "Sometimes frenulum can cause difficulties such as improper eruption of the initial two incisors with a space between the teeth, and such patients are usually candidates for frenulectomy.";
 
-$lang['page']['oralnahirurgija']['Nivelacija']['title'] = 'Nivelacija alveolarnog grebena';
-$lang['page']['oralnahirurgija']['Nivelacija']['opis'] = "Nivelacija grebena spada u pretprotetski hirurški postupak gdje se rješavaju nepravilnosti grebena u donjoj i gornjoj vilici, odnosno bezubi vilični greben se podiže na nivo prije spuštanja. Zahvat traje kratko i radi se u lokalnoj anesteziji, te je stoga bezbolan. Nakon zahvata potreban je kraći period za zarastanje rane, prije nego se prisupi protetskoj terapiji.";
-$lang['page']['oralnahirurgija']['Nivelacija']['kandidati'] = "Pacijenti kod kojih su na alveolarnom grebenu prisutne koštane izrasline koje onemogućavaju izradu kvalitetne fiksne ili mobilne zubne nadoknade. Takve koštane izrasline je potrebno hirurškim putem ukloniti.";
+$lang['page']['oralnahirurgija']['Nivelacija']['title'] = 'Alveolar ridge leveling';
+$lang['page']['oralnahirurgija']['Nivelacija']['opis'] = "Ridge leveling falls into the category of pre-prosthetic surgical procedures which treats irregularities of the ridge in lower and upper jaw, that is, the toothless jaw ridge is lifted on the level prior to descending. The procedure does not take much time and is carried out in local anesthesia, which makes it painless. After the procedure a shorter period is necessary for the wound to heal, before prosthetic therapy is approached.";
+$lang['page']['oralnahirurgija']['Nivelacija']['kandidati'] = "Patients with bone growths on alveolar ridge, which disable creation of high quality fixed or mobile dental restoration.  Such bone growths need to be removed surgically.";
 //// ORALNA HIRURGIJA ////
 
 //// OPSTA STOMATOLOGIJA ////
-$lang['page']['opstastomatologija']['title'] = 'Opšta stomatologija';
-$lang['page']['opstastomatologija']['usluge'] = 'Usluge';
+$lang['page']['opstastomatologija']['title'] = 'General dentistry';
+$lang['page']['opstastomatologija']['usluge'] = 'Services';
 
-$lang['page']['opstastomatologija']['Endodoncija']['title'] = 'Endodoncija';
-$lang['page']['opstastomatologija']['Endodoncija']['terapija']['subtitle'] = 'Endodontska terapija';
-$lang['page']['opstastomatologija']['Endodoncija']['terapija']['content'] = 'Cilj endodontske terapije je odstraniti uzrok upale iz pulpnog prostora, spriječiti upalnu reakciju oko vrha korijena, ukloniti simptome, te spasiti zub koji bi inače bio ekstrahovan. Dakle, dobra endodontska terapija omogućava očuvanje i održavanje funkcije zuba koji bi inače bio izgubljen.';
-$lang['page']['opstastomatologija']['Endodoncija']['kandidati']['subtitle'] = 'Kandidati za endodontsku terapiju';
-$lang['page']['opstastomatologija']['Endodoncija']['kandidati']['content'] = 'Cilj endodontske terapije je odstraniti uzrok upale iz pulpnog prostora, spriječiti upalnu reakciju oko vrha korijena, ukloniti simptome, te spasiti zub koji bi inače bio ekstrahovan. Dakle, dobra endodontska terapija omogućava očuvanje i održavanje funkcije zuba koji bi inače bio izgubljen.';
+$lang['page']['opstastomatologija']['Endodoncija']['title'] = 'Endodontics';
+$lang['page']['opstastomatologija']['Endodoncija']['terapija']['subtitle'] = 'Endodontic therapy';
+$lang['page']['opstastomatologija']['Endodoncija']['terapija']['content'] = 'The aim of endodontic therapy is to remove the cause of inflammation of pulp area, prevent inflammatory reaction around the root apex, remove the symptoms, and save the tooth that would otherwise be extracted. Therefore, good endodontic therapy enables preservation and maintenance of function in a tooth that would otherwise be lost.';
+$lang['page']['opstastomatologija']['Endodoncija']['kandidati']['subtitle'] = 'Candidates for endodontic therapy';
+$lang['page']['opstastomatologija']['Endodoncija']['kandidati']['content'] = 'Patients who develop pulp inflammation or pulpitis. A tooth with pulpitis causes very strong pain, and the cause of the pain comes from an increased pressure in pulp area which is a consequence of inflammation. The only way of treating is complete removal of infected and diseased pulp.';
 
-$lang['page']['opstastomatologija']['Parodontologija']['title'] = 'Parodontologija';
-$lang['page']['opstastomatologija']['Parodontologija']['terapija']['subtitle'] = 'Parodontološka terapija';
-$lang['page']['opstastomatologija']['Parodontologija']['terapija']['content'] = 'Prodoncijum je potporni aparat zuba koji učvršćuje zub u alveoli. U normalnoj situaciji, zdrav parodoncijum omogućava da se sa zuba na kost prenesu vrlo velike žvačne sile, a da pritom sva tkiva ostanu neoštećena. Upalne bolesti parodoncijuma uzrokuju bakterije zubnog plaka.';
-$lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['subtitle'] = 'Terapija gingivitisa';
-$lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['content'] = 'Gingivitis je upala gingive koja se javlja kao odgovor na bakterije plaka smještene oko vrata zuba. U području gdje se gingiva veže uz zub, nalazi se epitelni pripoj koji štiti dublje strukture parodoncijuma od štetnih materija iz usne šupljine. Tokom upalne reakcije dolazi do oštećenja epitelnog pripoja, zbog čega je njegova veza s površinom zuba postepeno sve slabija. Tada se javlja prvi znak gingivitisa, a to je krvarenje. Krvarenje obično prestaje ubrzo nakon prestanka traume koja ga je uzrokovala. Terapija gingivitisa je profesionalno čišćenje zuba i poboljšanje oralne higijene. Liječenjem gingivitisa i kasnijim održavanjem oralne higijene moguća je regeneracija svih oštećenih tkiva.';
-$lang['page']['opstastomatologija']['Parodontologija']['naslage']['subtitle'] = 'Uklanjanje naslaga';
-$lang['page']['opstastomatologija']['Parodontologija']['naslage']['content'] = 'Podrazumijeva uklanjanje mekih i čvrstih naslaga sa zuba. Meke naslage predstavljaju osnovu za nastanak karijesa, a čvrste osim što čine zub prijemčivim za meke naslage predstavljaju parodontološki problem. Uklanjanje čvrstih naslage vršimo ultrazvučnim aparatom specijalizovanim za to (kavitron), a meke naslage četkicama i abrazivnim pastama na bazi fluora.';
-$lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['subtitle'] = 'Terapija parodontitisa';
-$lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['content'] = 'Parodontitis je upala potpornog aparata zuba koja se razvija iz gingivitisa nakon što dođe do oštećenja epitelnog pripoja i prodora bakterija u dubinu. Kod parodontitisa dolazi do resorpcije alveolarne kosti i alveola postaje sve plića. Slabljenjem potpornog aparata zuba, sam zub postaje klimav i takav zub slabije podnosi sile koje se stvaraju za vrijeme žvakanja. Promjene koje nastanu kao posljedica parodontitisa nisu reverzibilne. Terapija parodontitisa zavisi od stadijuma bolesti i definiše se nakon pregleda doktora stomatologije, a može biti: uklanjanje naslaga i profesionalno čišćenje zuba, kiretaža parodontalnog džepa, režanj operacija i u slučaju terminalnog stadijuma bolesti ekstrakcija zuba.';
-$lang['page']['opstastomatologija']['Parodontologija']['rezanj']['subtitle'] = 'Režanj operacija';
-$lang['page']['opstastomatologija']['Parodontologija']['rezanj']['content'] = 'Režanj operacija je hiruška metoda tretiranja parodontopatije, pri čemu se dižu desni i uklanjaju patološke promjene. Ukoliko je izraženo povlačenje kosti obavezno je ubacivanje vještačke kosti da bi došlo do nadoknade defekata u kosti. Parodontopatija se ne može izliječiti u smislu povratka u stanje kakvo je nekada postojalo, ali dobrom oralnom higijenom i redovnim kontrolama nakon uspješne terapije, parodontopatija se održava na nivou koji je postignut poslije intervencije.';
+$lang['page']['opstastomatologija']['Parodontologija']['title'] = 'Parodontology';
+$lang['page']['opstastomatologija']['Parodontologija']['terapija']['subtitle'] = 'Parodontologic therapy';
+$lang['page']['opstastomatologija']['Parodontologija']['terapija']['content'] = 'Paradontium is a supporting apparatus of a tooth that fixes it in the dental alveolus. Under normal conditions, healthy paradontium enables very strong chewing forces to be transmitted from a tooth on the bone, leaving all the tissues undamaged. Inflammatory paradontium conditions cause development of dental plaque bacteria.';
+$lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['subtitle'] = 'Gingivitis therapy';
+$lang['page']['opstastomatologija']['Parodontologija']['gingivitis']['content'] = 'Gingivitis is an inflammation of gums that appears as a response to plaque bacteria accumulated around the tooth neck. In the area where gingiva attaches to the tooth, there is epithelial attachment which protects paradontium structure from harmful substances from the oral cavity. During inflammatory reaction epithelial attachment can be damaged, which is why its attachment to the tooth surface gradually weakens. This is when the first sign of gingivitis, bleeding gums, occurs. Bleeding usually stops fast after cessation of trauma that caused it. Gingivitis therapy is professional teeth cleansing and enhancement of oral hygiene. Curing gingivitis and later maintenance of oral hygiene makes regeneration of all damaged tissues possible.';
+$lang['page']['opstastomatologija']['Parodontologija']['naslage']['subtitle'] = 'Plaque removal ';
+$lang['page']['opstastomatologija']['Parodontologija']['naslage']['content'] = 'It means removal of soft and hard plaque from the teeth. Soft plaque represents the base for caries formation, and the hard one, apart from making the tooth susceptible to soft plaque, is also a paradontologic problem. Removal of hard plaque is carried out by ultrasonic device specialized for this (scaler), and the soft plaque is removed by tooth brushes and abrasive pastes based on fluorine.';
+$lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['subtitle'] = 'Periodontitis therapy';
+$lang['page']['opstastomatologija']['Parodontologija']['parodontitis']['content'] = 'Periodontitis is an inflammation of supporting tooth apparatus caused by gingivitis after damage in epithelial attachment and penetration of bacteria into the depth. With periodontitis the alveolar bone resorbs and the alveolus becomes shallower. By weakening of supporting tooth apparatus, the tooth itself becomes shaky and such a tooth does not endure forces made during the chewing process. Alterations ensued as a consequence of periodontitis are not reversible. Periodontitis therapy depends on the disease stage and is defined after several reviews by dentists, and it can be: removal of plaque and professional teeth cleansing, curettage of periodontal pockets, flap surgery and in the event of terminal stage, tooth extraction. ';
+$lang['page']['opstastomatologija']['Parodontologija']['rezanj']['subtitle'] = 'Flap surgery';
+$lang['page']['opstastomatologija']['Parodontologija']['rezanj']['content'] = 'Flap surgery is a surgical method for treating periodontology, whereby the gums are lifted and pathological alterations are removed. If bone withdrawal is prominent artificial bone insertion is obligatory to compensate the bone deficiency. Periodontopathy cannot be cured in terms of regaining the state as it used to exist, but with proper oral hygiene and regular control checks after successful therapy, periodontopathy is maintained on a level that is achieved after the intervention.';
 
-$lang['page']['opstastomatologija']['Pedodoncija']['title'] = 'Pedodoncija';
-$lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['subtitle'] = 'Prva posjeta stomatologu';
-$lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['content'] = 'Prva posjeta stomatologu trebala bi da uslijedi nakon nicanja prvih mliječnih zuba kod djeteta. Primarna svrha kod djece te dobi, nije stomatološka terapija, već upoznavanje djeteta sa stomatologom i okruženjem u ambulanti. Djeca su pacijenti koji zahtijevaju posebne metode rada i pristupa, a sam rad sa njima zavisi prije svega od njihovog uzrasta kao i od ponašanja.';
-$lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['subtitle'] = 'Rani dječji karijes';
-$lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['content'] = 'Rani dječiji karijes je agresivan oblik karijesa koji se javlja kod djece do treće godine života i vrlo brzo uništava mliječne zube. Razvoju ranog dječijeg karijesa pogoduje noćno hranjenje djeteta, davanje sokova ili slatkih napitaka noću, kao i prehrana bogata ugljenim hidratima, te loša oralna higijena. Ako terapija ranog dječijeg karijesa ne započne na vrijeme, u vrlo kratkom vremenu dolazi do razaranja cijele krune mliječnih zuba.';
-$lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['subtitle'] = 'Fluorizacija zuba';
-$lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['content'] = 'Jedan od najboljih oblika prevencije nastanka karijesa je fluor koji štiti gleđ i čini je otpornijom. Fluor podstiče remineralizaciju tkiva i ojačava odbranu zuba od karijesa. Razvoj bakterija na zubima na koje je nanesen fluor je otežano. Mliječni i stalni zubi se premazuju fluorom koji je u tečnom stanju ili može biti i u obliku gela. Sam postupak je brz i bezbolan, a odlična je metoda sprječavanja karijesa kod mliječnih zuba.';
+$lang['page']['opstastomatologija']['Pedodoncija']['title'] = 'Pediatric dentistry';
+$lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['subtitle'] = 'The first visit to a dentist';
+$lang['page']['opstastomatologija']['Pedodoncija']['prvaposeta']['content'] = 'The first visit to a dentist should ensue after eruption of first milk teeth in children. Primary aim with children of this age is not dental therapy, but introducing children to dentists and surrounding in the ambulance. Children are patients that require special methods of work and approach, and the very work with them depends particularly on their age and conduct.';
+$lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['subtitle'] = 'Early childhood caries';
+$lang['page']['opstastomatologija']['Pedodoncija']['decijikarijes']['content'] = 'Early childhood caries is an aggressive form of caries that appears in children until the third year of life, destroying the milk teeth very fast. Development of early childhood caries is fostered by night feeding, drinking juice, or sweet beverages at night, as well as diet rich in carbohydrates, and poor oral hygiene. If the therapy of early childhood caries does not start in time, destruction of the whole crown in milk teeth will occur.';
+$lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['subtitle'] = 'Teeth fluoridation';
+$lang['page']['opstastomatologija']['Pedodoncija']['Fluorizacija']['content'] = 'One of the best forms of prevention of caries emergence is fluorine that protects the enamel and makes it stronger. Fluorine fosters remineralization of tissues and improves protection of teeth from caries. Development of bacteria on teeth covered with fluorine is difficult. Milk and permanent teeth are covered by fluorine which is in liquid form, or in the form of gel. The procedure itself is quick and painless, and is a great method for prevention of caries in milk teeth.';
 
-$lang['page']['opstastomatologija']['stomradiologija']['title'] = 'Stomatološka radiologija';
-$lang['page']['opstastomatologija']['useofrtg']['title'] = 'Upotreba RTG snimaka';
-$lang['page']['opstastomatologija']['useofrtg']['content'] = 'Rendgenske snimke neizostavan su dio stomatološke dijagnostike, ali i planiranja i sprovođenja terapije. Na RTG snimcima vidljive su promjene koje se vizuelnim pregledom ne mogu uočiti. Na RTG snimcima najbolje se uočavaju promjene na tvrdim tkivima, dakle na zubima i kostima. Postoje različite tehnike snimanja, a najčešće se koriste ortopantomogram i retroalveolarni snimak.';
-$lang['page']['opstastomatologija']['Ortopantomogram']['title'] = 'Ortopantomogram';
-$lang['page']['opstastomatologija']['Ortopantomogram']['content'] = 'Ortopantomogram ili ortopan je snimak koji obuhvata sve zube, gornju i donju vilicu, vilični zglob, a dijelom i strukture smještene iznad usta (nosnu šupljinu, maksilarne sinuse). Koristi se u situacijama kada je potrebno dobiti uvid u sve zube i okolne koštane strukture. Često se izrađuje kao orijentacioni snimak pri prvom pregledu. Ortopantomogram se koristi i u planiranju protetske terapije, te ortodonciji.';
-$lang['page']['opstastomatologija']['Retroalveolarni']['title'] = 'Retroalveolarni snimak';
-$lang['page']['opstastomatologija']['Retroalveolarni']['content'] = 'Retroalveolarni snimak prikazuje nekoliko zuba i okolnu kost. Koristi se kada je potrebno dobiti detaljan i kvalitetan prikaz određenog zuba. Na snimku je vidljiv cijeli zub - njegova kruna, korijen i kost oko vrha korijena.';
+$lang['page']['opstastomatologija']['stomradiologija']['title'] = 'Dental radiology';
+$lang['page']['opstastomatologija']['useofrtg']['title'] = 'Use of X-rays';
+$lang['page']['opstastomatologija']['useofrtg']['content'] = 'X-rays are an inevitable part of dental diagnostics, as well as planning and carrying out of therapies. X-rays show changes that cannot be spotted by visual control. They best show changes on hard tissues, thus, on the teeth and bones. There are various techniques of making them, but the most frequently used are orthopantogram and retroalveolar X-ray.';
+$lang['page']['opstastomatologija']['Ortopantomogram']['title'] = 'Orthopantomogram';
+$lang['page']['opstastomatologija']['Ortopantomogram']['content'] = 'Orthopantomogram or orthopan is an X-ray that includes all teeth, upper and lower jaw, temporomandibular joint, and partially the structure placed above the mouth (nasal cavity, maxillary sinuses). It is used in situations when it is necessary to get the insight into all teeth and surrounding bone structure. It is often made as an orientation X-ray during the first control check. Orthopantogram is used in planning prosthetic therapy, and orthodontics.';
+$lang['page']['opstastomatologija']['Retroalveolarni']['title'] = 'Retroalveolar X-ray';
+$lang['page']['opstastomatologija']['Retroalveolarni']['content'] = 'Retroalveolar X-ray shows several teeth and the adjacent bone. It is used when we need a detailed and high quality display of a certain tooth. The X-ray makes the whole tooth visible – its crown, root, and bone around the root apex.';
 //// OPSTA STOMATOLOGIJA ////
 
 // O NAMA
-$lang['page']['onama']['title'] = "O nama";
-$lang['page']['onama']['content'] = "<p>Lijep osmijeh uvijek ostavlja dobar utisak, povećava samopouzdanje i otvara bilo koja vrata. Da bi osigurali lijep osmijeh posebnu pažnju posvećujemo estetskoj stomatologiji koja objedinjuje znanja svih grana moderne stomatologije dovodeći osmijeh do savršenstva, kako estetski tako i funkcionalno. Svakom pacijentu uvijek pristupamo individualno, tražeći najbolje moguće rješenje za njega. Poseban akcenat je na odnosu između doktora i pacijenta, jer smatramo da je baš taj odnos ključan za dobru stomatološku terapiju, ali i kasnije kvalitetno održavanje oralnog zdravlja naših pacijenata. Sa ovakvim pristupom podižemo kvalitet života, vraćamo izgubljeno samopouzdanje, te poboljšavamo funkciju zuba kako bi se pacijent osjećao bolje, zračio samopouzdanjem i izgledao estetski privlačnije.</p>
-<br><p>U postizanju što boljeg kvaliteta naših usluga rukovodimo se ISO 9001 standardom za upravljanje kvalitetom, čiji smo ponosni vlasnik. Sretni smo i zadovoljni što ste izabrali Stomatologiju Kecman da se brine o Vašem osmijehu, te se nadamo da ćete ukoliko ste i Vi zadovoljni, zadovoljstvo podijeliti s drugima.</p>";
+$lang['page']['onama']['title'] = "About us";
+$lang['page']['onama']['content'] = "<p>Nice smile always leaves a good impression, increases self-confidence, and opens all doors. In order to ensure nice smile, we pay special attention to aesthetic dentistry that combines the knowledge of all branches of modern dentistry bringing your smile to perfection, both aesthetically and functionally. We approach each of our patients individually, searching for the best possible solution for them. Special emphasis is put on the relationship between doctor and patient, since we believe this particular relation is crucial for good dental therapy, as well as further maintenance of oral health of our patients. With such an approach we enhance the quality of life, regain the lost self-confidence, enhancing the function of teeth so the patient feels better, radiate self-confidence and look aesthetically attractive.</p>
+<br><p>In achieving the best possible quality of our services we are guided by ISO 9001 standard for quality management, whose proud owners we are. We are happy and pleased that you have chosen \"Stomatologija Kecman\" to take care of your smile, and we hope that, if you are satisfied, you will share your experience with others.</p>";
 // opste informacije o stomatologiji kecman
-$lang['page']['onama']['opsteinfo']['title'] = "Opšte informacije o zdravstvenoj ustanovi";
-$lang['page']['onama']['opsteinfo']['info'] = "Zdravstvena ustanova \"Stomatolgija Kecman\", Kralja Alofnsa XIII, 78 000 Banjaluka, BiH<br>Besplatni info telefon 080 05 02 19, telefon +387 51 215 215";
-$lang['page']['onama']['opsteinfo']['regsud'] = "Registarski sud: Okružni privredni sud u Banjaluci, matični broj 11107575. Jedinstveni identifikacioni broj: 440362851000.";
-$lang['page']['onama']['opsteinfo']['ziroracun'] = "Žiro račun Nova Banka A.D. Banjaluka: 5551000008362435; <br>Žiro račun UniCredit Banka A.D. Banjaluka: 5517202203666282 ";
-$lang['page']['onama']['opsteinfo']['radnovrijeme'] = "Radno vrijeme : pon - pet : 11-19h ; Vikendom radimo po dogovoru ";
+$lang['page']['onama']['opsteinfo']['title'] = "General information about the health care institution";
+$lang['page']['onama']['opsteinfo']['info'] = "Health care institution  \"Stomatolgija Kecman\", Kralja Alofnsa XIII, 78 000 Banjaluka, BiH<br>free info telephone 080 05 02 19, telephone +387 51 215 215";
+$lang['page']['onama']['opsteinfo']['regsud'] = "Registration court: District Court in Banja Luka, registration number 11107575. Unique identification number: 440362851000.";
+$lang['page']['onama']['opsteinfo']['ziroracun'] = "Giro account Nova Banka A.D. Banjaluka: 5551000008362435; <br>Giro account UniCredit Banka A.D. Banjaluka: 5517202203666282 ";
+$lang['page']['onama']['opsteinfo']['radnovrijeme'] = "Working hours : Monday - Friday : 11-19h ; working weekends by appointments";
 
 // kanali komunikacija
-$lang['page']['onama']['kanali']['title'] = "Naši kanali komunikacije";
-$lang['page']['onama']['kanali']['content'] = "Komunikacija s našim pacijentima nam je od velike važnosti, te joj posvećujemo veliku pažnju. Otvorili smo naloge na svim popularnijim društvenim mrežama da bi na što bolji način informisali naše pacijente i ostale zainteresovane o tretmanima i terapijama u Stomatologiji Kecman kao i novostima kako iz naše zdravstvene ustanove tako i iz svijeta stomatologije. ";
+$lang['page']['onama']['kanali']['title'] = "Our communication channels";
+$lang['page']['onama']['kanali']['content'] = "Communication with our patients is extremely important to us, and hence we dedicate a lot of attention to it. We created accounts on all popular social networks in order to best inform our patients and everyone else interested in the treatments and therapies in Stomatologija Kecman, as well as other novelties both from our health care institution and the world of dentistry in general.";
 
-$lang['page']['onama']['cijenovnik']['title'] = "Cijenovnik";
-$lang['page']['onama']['cijenovnik']['subcontent'] = "U nastavku možete pregledati cijene naših usluga. Za detaljnije informacije molimo Vas da nam se obratite. Naše stručno osoblje rado će Vam pomoći da dođete do svih podataka koji su Vam potrebni vezano uz plaćanje i/ili raspoloživost termina.";
+$lang['page']['onama']['cijenovnik']['title'] = "Price list";
+$lang['page']['onama']['cijenovnik']['subcontent'] = "Below you can view the prices of our services. For detailed information, please do not hesitate to contact us. Our professional staff will gladly help you obtain all the information you need regarding payments and/or availability of terms.";
 $lang['page']['onama']['cijenovnik']['pokazisve'] = "Prikazi sve";
 // dijagnostika
-$lang['page']['onama']['cijenovnik']['dijagnostika']['title'] = "Stomatološka dijagnostika";
-$lang['cijenovnik']['radiogram']['title'] = "Dentalni radiogram";
-$lang['cijenovnik']['radiogram']['cijena'] = "8 KM";
-$lang['cijenovnik']['opsti-pregled']['title'] = "Opšti stomatološki pregled i konsultacije sa doktorom stomatologije";
-$lang['cijenovnik']['opsti-pregled']['cijena'] = "30 KM";
-$lang['cijenovnik']['ortopantomogram']['title'] = "Ortopantomogram";
-$lang['cijenovnik']['ortopantomogram']['cijena'] = "besplatno";
+$lang['page']['onama']['cijenovnik']['dijagnostika']['title'] = "Dental diagnosis";
+$lang['cijenovnik']['radiogram']['title'] = "Dental radiograph";
+$lang['cijenovnik']['radiogram']['cijena'] = "8 KM (4 €)";
+$lang['cijenovnik']['opsti-pregled']['title'] = "Orthopantomograph";
+$lang['cijenovnik']['opsti-pregled']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['ortopantomogram']['title'] = "General dental examination and consultation with a dentist";
+$lang['cijenovnik']['ortopantomogram']['cijena'] = "Free of charge";
 
 // prva pomoc
-$lang['page']['onama']['cijenovnik']['prva-pomoc']['title'] = "Prva pomoć";
-$lang['page']['onama']['cijenovnik']['mlijecni'] = "Prva pomoć kod mliječnog zuba";
-$lang['page']['onama']['cijenovnik']['stalni'] = "Prva pomoć kod stalnog zuba";
-$lang['page']['onama']['cijenovnik']['gangrenozni'] = "Prva pomoć kod gangrenoznog zuba";
-$lang['cijenovnik']['mlijecni']['cijena'] = "20 KM";
-$lang['cijenovnik']['stalni']['cijena'] = "30 KM";
-$lang['cijenovnik']['gangrenozni']['cijena'] = "40 KM";
+$lang['page']['onama']['cijenovnik']['prva-pomoc']['title'] = "First aid";
+$lang['page']['onama']['cijenovnik']['mlijecni'] = "First aid for milk teeth";
+$lang['page']['onama']['cijenovnik']['stalni'] = "First aid for permanent teeth";
+$lang['page']['onama']['cijenovnik']['gangrenozni'] = "First aid for gangrenous teeth";
+$lang['cijenovnik']['mlijecni']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['stalni']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['gangrenozni']['cijena'] = "40 KM (20 €)";
 
 // Estetska stomatologija
-$lang['page']['onama']['cijenovnik']['estetska']['title'] = "Estetska stomatologija";
-$lang['page']['onama']['cijenovnik']['evetricfrontalni'] = "Evetric jednopovršinski kompozitni ispun, frontalna regija";
-$lang['page']['onama']['cijenovnik']['premolari'] = "Evetric jednopovršinski kompozitni ispun, premolari";
-$lang['page']['onama']['cijenovnik']['molari'] = "Evetric jednopovršinski kompozitni ispun, molari";
-$lang['page']['onama']['cijenovnik']['evetricfrontalni2'] = "Evetric dvopovršinski kompozitni ispun, frontalna regija";
-$lang['page']['onama']['cijenovnik']['premolari2'] = "Evetric dvopovršinski kompozitni ispun, premolari";
-$lang['page']['onama']['cijenovnik']['molari2'] = "Evetric dvopovršinski kompozitni ispun, molari";
+$lang['page']['onama']['cijenovnik']['estetska']['title'] = "Cosmetic Dentistry";
+$lang['page']['onama']['cijenovnik']['evetricfrontalni'] = "Evetric single surface composite filling, frontal region";
+$lang['page']['onama']['cijenovnik']['premolari'] = "Evetric single surface composite filling, premolar";
+$lang['page']['onama']['cijenovnik']['molari'] = "Evetric single surface composite filling, molar";
+$lang['page']['onama']['cijenovnik']['evetricfrontalni2'] = "Evetric double surface composite filling, frontal region";
+$lang['page']['onama']['cijenovnik']['premolari2'] = "Evetric double surface composite filling, premolar";
+$lang['page']['onama']['cijenovnik']['molari2'] = "Evetric double surface composite filling, molar";
 
-$lang['cijenovnik']['evetricfrontalni']['cijena'] = "35 KM";
-$lang['cijenovnik']['premolari']['cijena'] = "30 KM";
-$lang['cijenovnik']['molari']['cijena'] = "40 KM";
-$lang['cijenovnik']['evetricfrontalni2']['cijena'] = "40 KM";
-$lang['cijenovnik']['premolari2']['cijena'] = "40 KM";
-$lang['cijenovnik']['molari2']['cijena'] = "50 KM";
+$lang['cijenovnik']['evetricfrontalni']['cijena'] = "35 KM (18 €)";
+$lang['cijenovnik']['premolari']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['molari']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['evetricfrontalni2']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['premolari2']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['molari2']['cijena'] = "50 KM (25 €)";
 // dodate nove cijene usluga
-$lang['page']['onama']['cijenovnik']['tropovrsinski'] = "Evetric tropovršinski kompozitni ispun, frontalna regija";
-$lang['page']['onama']['cijenovnik']['tropovrpremolari'] = "Evetric tropovršinski kompozitni ispun, premolari";
-$lang['page']['onama']['cijenovnik']['tropovrpmolari'] = "Evetric tropovršinski kompozitni ispun, molari";
+$lang['page']['onama']['cijenovnik']['tropovrsinski'] = "Evetric triple surface composite filling, frontal region";
+$lang['page']['onama']['cijenovnik']['tropovrpremolari'] = "Evetric triple surface composite filling, premolar";
+$lang['page']['onama']['cijenovnik']['tropovrpmolari'] = "Evetric triple surface composite filling, molar";
 
-$lang['cijenovnik']['tropovrsinski']['cijena'] = "50 KM";
-$lang['cijenovnik']['tropovrpremolari']['cijena'] = "50 KM";
-$lang['cijenovnik']['tropovrpmolari']['cijena'] = "55 KM";
+$lang['cijenovnik']['tropovrsinski']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['tropovrpremolari']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['tropovrpmolari']['cijena'] = "55 KM (28 €)";
 
-$lang['page']['onama']['cijenovnik']['amalgam'] = "Amalgamski ispun, premolari";
-$lang['page']['onama']['cijenovnik']['amalgam2'] = "Amalgamski ispun, molari";
-$lang['page']['onama']['cijenovnik']['amalgamremove'] = "Uklanjanje amalgamskog ispuna";
-$lang['page']['onama']['cijenovnik']['kompozitremove'] = "Uklanjanje kompozitnog ispuna";
-$lang['page']['onama']['cijenovnik']['jonomerispun'] = "Fuji glas jonomer ispun";
-$lang['page']['onama']['cijenovnik']['jonomerpodl'] = "Fuji glas jonomer podloga";
-$lang['page']['onama']['cijenovnik']['zoom'] = "ZOOM tretman";
-$lang['page']['onama']['cijenovnik']['dash'] = "DASH tretman jedne vilice ";
-$lang['page']['onama']['cijenovnik']['press'] = "Press keramički venir";
-$lang['page']['onama']['cijenovnik']['airjet'] = "Air Jet tretman";
-$lang['page']['onama']['cijenovnik']['poliranje'] = "Profesionalno čišćenje i poliranje zuba";
-$lang['page']['onama']['cijenovnik']['avitalno'] = "Izbjeljivanje avitalnog zuba";
+$lang['page']['onama']['cijenovnik']['amalgam'] = "Amalgam filling, premolar";
+$lang['page']['onama']['cijenovnik']['amalgam2'] = "Amalgam filling, molar";
+$lang['page']['onama']['cijenovnik']['amalgamremove'] = "Removal of amalgam filling";
+$lang['page']['onama']['cijenovnik']['kompozitremove'] = "Removal of composite filling";
+$lang['page']['onama']['cijenovnik']['jonomerispun'] = "Fuji glass ionomer filling";
+$lang['page']['onama']['cijenovnik']['jonomerpodl'] = "Fuji glass ionomer base";
+$lang['page']['onama']['cijenovnik']['zoom'] = "ZOOM treatment";
+$lang['page']['onama']['cijenovnik']['dash'] = "DASH treatment of one jaw";
+$lang['page']['onama']['cijenovnik']['press'] = "Press ceramic veneer";
+$lang['page']['onama']['cijenovnik']['airjet'] = "Air Jet treatment";
+$lang['page']['onama']['cijenovnik']['poliranje'] = "Professional teeth cleansing and polishing";
+$lang['page']['onama']['cijenovnik']['avitalno'] = "Non vital tooth whitening";
 
-$lang['cijenovnik']['amalgam']['cijena'] = "40 KM";
-$lang['cijenovnik']['amalgam2']['cijena'] = "45 KM";
-$lang['cijenovnik']['amalgamremove']['cijena'] = "10 KM";
-$lang['cijenovnik']['kompozitremove']['cijena'] = "10 KM";
-$lang['cijenovnik']['jonomerispun']['cijena'] = "30 KM";
-$lang['cijenovnik']['jonomerpodl']['cijena'] = "10 KM";
-$lang['cijenovnik']['zoom']['cijena'] = "400 KM";
-$lang['cijenovnik']['dash']['cijena'] = "150 KM";
-$lang['cijenovnik']['press']['cijena'] = "30 KM";
-$lang['cijenovnik']['airjet']['cijena'] = "50 KM";
-$lang['cijenovnik']['poliranje']['cijena'] = "40 KM";
-$lang['cijenovnik']['avitalno']['cijena'] = "100 KM";
+$lang['cijenovnik']['amalgam']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['amalgam2']['cijena'] = "45 KM (23 €)";
+$lang['cijenovnik']['amalgamremove']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['kompozitremove']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['jonomerispun']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['jonomerpodl']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['zoom']['cijena'] = "400 KM (205 €)";
+$lang['cijenovnik']['dash']['cijena'] = "150 KM (77 €)";
+$lang['cijenovnik']['press']['cijena'] = "30 KM (153 €)";
+$lang['cijenovnik']['airjet']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['poliranje']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['avitalno']['cijena'] = "100 KM (51 €)";
 
 //////////////////////////////////////////////////////////////////////////////////////
-$lang['page']['onama']['cijenovnik']['Zubna']['title'] = "Zubna protetika";
-$lang['page']['onama']['cijenovnik']['Zubna']['inline'] = "In.Line krunica";
-$lang['page']['onama']['cijenovnik']['Zubna']['press'] = "Press keramička krunica";
-$lang['page']['onama']['cijenovnik']['Zubna']['cirkonijum'] = "Cirkonijum dioksid krunica";
-$lang['page']['onama']['cijenovnik']['Zubna']['reparatura4'] = "Reparatura keramike na krunici";
-$lang['page']['onama']['cijenovnik']['Zubna']['uklanjanje'] = "Uklanjanje krunice";
-$lang['page']['onama']['cijenovnik']['Zubna']['cementiranje'] = "Cementiranje stare krunice";
-$lang['page']['onama']['cijenovnik']['Zubna']['pressinlej'] = "Press keramički inlej";
-$lang['page']['onama']['cijenovnik']['Zubna']['privremena'] = "Privremena akrilatna krunica, ordinacijska izrada";
-$lang['page']['onama']['cijenovnik']['Zubna']['privremena2'] = "Privremena akrilatna krunica, tehnička izrada";
-$lang['page']['onama']['cijenovnik']['Zubna']['privremena3'] = "Privremena kompozitna krunica";
-$lang['page']['onama']['cijenovnik']['Zubna']['livena'] = "Livena metalna nadogradnja, jednokorjena";
-$lang['page']['onama']['cijenovnik']['Zubna']['livena2'] = "Livena metalna nadogradnja, višekorjena";
-$lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja'] = "Nadogradnja fiberglas kočićem";
-$lang['page']['onama']['cijenovnik']['Zubna']['konfekcijskikocic'] = "Nadogradnja konfekcijskim kočićem";
-$lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja2'] = "Nadogradnja krune kompozitom, frontalna regija";
-$lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja3'] = "Nadogradnja krune kompozitom, molarna regija";
-$lang['page']['onama']['cijenovnik']['Zubna']['skeletirana'] = "Skeletirana proteza";
-$lang['page']['onama']['cijenovnik']['Zubna']['atecmen'] = "Atečmen";
-$lang['page']['onama']['cijenovnik']['Zubna']['akrilatna'] = "Akrilatna parcijalna proteza";
-$lang['page']['onama']['cijenovnik']['Zubna']['akrilatna2'] = "Akrilatna totalna proteza";
-$lang['page']['onama']['cijenovnik']['Zubna']['akrilatna3'] = "Akrilatna totalna proteza sa mrežicom";
-$lang['page']['onama']['cijenovnik']['Zubna']['reparatura'] = "Reparatura proteze, prelom ploče";
-$lang['page']['onama']['cijenovnik']['Zubna']['reparatura2'] = "Reparatura proteze, dodatak zuba/kukice sa otiskom";
-$lang['page']['onama']['cijenovnik']['Zubna']['reparatura3'] = "Reparatura proteze, dodatak zuba/kukice bez otiska";
-$lang['page']['onama']['cijenovnik']['Zubna']['podlaganje'] = "Podlaganje proteze, direktno";
-$lang['page']['onama']['cijenovnik']['Zubna']['podlaganje2'] = "Podlaganje proteze, indirektno";
-$lang['page']['onama']['cijenovnik']['Zubna']['periodontalni'] = "Periodontalni splint fiberglas vlaknima";
-$lang['page']['onama']['cijenovnik']['Zubna']['athezivni'] = "Athezivni most od tri zuba";
+$lang['page']['onama']['cijenovnik']['Zubna']['title'] = "Dental prosthetics";
+$lang['page']['onama']['cijenovnik']['Zubna']['inline'] = "In.Line crown";
+$lang['page']['onama']['cijenovnik']['Zubna']['press'] = "Press ceramic crown";
+$lang['page']['onama']['cijenovnik']['Zubna']['cirkonijum'] = "Zirconium dioxide crown";
+$lang['page']['onama']['cijenovnik']['Zubna']['reparatura4'] = "Repair of crown ceramic";
+$lang['page']['onama']['cijenovnik']['Zubna']['uklanjanje'] = "Crown removal ";
+$lang['page']['onama']['cijenovnik']['Zubna']['cementiranje'] = "Old crown cementing";
+$lang['page']['onama']['cijenovnik']['Zubna']['pressinlej'] = "Press ceramic inlay";
+$lang['page']['onama']['cijenovnik']['Zubna']['privremena'] = "Temporary acrylic crown, clinic preparation";
+$lang['page']['onama']['cijenovnik']['Zubna']['privremena2'] = "Temporary acrylic crown, technical production";
+$lang['page']['onama']['cijenovnik']['Zubna']['privremena3'] = "Temporary composite crown";
+$lang['page']['onama']['cijenovnik']['Zubna']['livena'] = "Cast metal buildup, single root";
+$lang['page']['onama']['cijenovnik']['Zubna']['livena2'] = "Cast metal buildup, multiple root";
+$lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja'] = "Fiberglass pegs	buildup";
+$lang['page']['onama']['cijenovnik']['Zubna']['konfekcijskikocic'] = "Confection peg buildup";
+$lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja2'] = "Composite crown buildup, frontal region";
+$lang['page']['onama']['cijenovnik']['Zubna']['nadogradnja3'] = "Composite crown buildup, molar region";
+$lang['page']['onama']['cijenovnik']['Zubna']['skeletirana'] = "Skeleton denture";
+$lang['page']['onama']['cijenovnik']['Zubna']['atecmen'] = "Attachment";
+$lang['page']['onama']['cijenovnik']['Zubna']['akrilatna'] = "Acrylic partial denture";
+$lang['page']['onama']['cijenovnik']['Zubna']['akrilatna2'] = "Acrylic complete denture";
+$lang['page']['onama']['cijenovnik']['Zubna']['akrilatna3'] = "Acrylic complete denture with mesh";
+$lang['page']['onama']['cijenovnik']['Zubna']['reparatura'] = "Denture repair, plate fracture";
+$lang['page']['onama']['cijenovnik']['Zubna']['reparatura2'] = "Denture repair, tooth supplement/hook with imprint";
+$lang['page']['onama']['cijenovnik']['Zubna']['reparatura3'] = "Denture repair, tooth supplement/hook without imprint";
+$lang['page']['onama']['cijenovnik']['Zubna']['podlaganje'] = "Denture relining, direct";
+$lang['page']['onama']['cijenovnik']['Zubna']['podlaganje2'] = "Denture relining, indirect";
+$lang['page']['onama']['cijenovnik']['Zubna']['periodontalni'] = "Periodontal splint with fiberglass fibers";
+$lang['page']['onama']['cijenovnik']['Zubna']['athezivni'] = "Adhesive bridge with three teeth";
 //cijene
-$lang['cijenovnik']['Zubna']['inline']['cijena'] = "140 KM";
-$lang['cijenovnik']['Zubna']['press']['cijena'] = "300 KM";
-$lang['cijenovnik']['Zubna']['cirkonijum']['cijena'] = "320 KM";
-$lang['cijenovnik']['Zubna']['reparatura4']['cijena'] = "40 KM";
-$lang['cijenovnik']['Zubna']['uklanjanje']['cijena'] = "10 KM";
-$lang['cijenovnik']['Zubna']['cementiranje']['cijena'] = "30 KM";
-$lang['cijenovnik']['Zubna']['pressinlej']['cijena'] = "300 KM";
-$lang['cijenovnik']['Zubna']['privremena']['cijena'] = "30 KM";
-$lang['cijenovnik']['Zubna']['privremena2']['cijena'] = "40 KM";
-$lang['cijenovnik']['Zubna']['privremena3']['cijena'] = "60 KM";
-$lang['cijenovnik']['Zubna']['livena']['cijena'] = "60 KM";
-$lang['cijenovnik']['Zubna']['livena2']['cijena'] = "70 KM";
-$lang['cijenovnik']['Zubna']['nadogradnja']['cijena'] = "80 KM";
-$lang['cijenovnik']['Zubna']['konfekcijskikocic']['cijena'] = "20 KM";
-$lang['cijenovnik']['Zubna']['nadogradnja2']['cijena'] = "65 KM";
-$lang['cijenovnik']['Zubna']['nadogradnja3']['cijena'] = "60 KM";
-$lang['cijenovnik']['Zubna']['skeletirana']['cijena'] = "480 KM";
-$lang['cijenovnik']['Zubna']['atecmen']['cijena'] = "55 KM";
-$lang['cijenovnik']['Zubna']['akrilatna']['cijena'] = "280 KM";
-$lang['cijenovnik']['Zubna']['akrilatna2']['cijena'] = "310 KM";
-$lang['cijenovnik']['Zubna']['akrilatna3']['cijena'] = "330 KM";
-$lang['cijenovnik']['Zubna']['reparatura']['cijena'] = "25 KM";
-$lang['cijenovnik']['Zubna']['reparatura2']['cijena'] = "35 KM";
-$lang['cijenovnik']['Zubna']['reparatura3']['cijena'] = "20 KM";
-$lang['cijenovnik']['Zubna']['podlaganje']['cijena'] = "50 KM";
-$lang['cijenovnik']['Zubna']['podlaganje2']['cijena'] = "60 KM";
-$lang['cijenovnik']['Zubna']['periodontalni']['cijena'] = "30 KM";
-$lang['cijenovnik']['Zubna']['athezivni']['cijena'] = "150 KM";
+$lang['cijenovnik']['Zubna']['inline']['cijena'] = "140 KM (72 €)";
+$lang['cijenovnik']['Zubna']['press']['cijena'] = "300 KM (153 €)";
+$lang['cijenovnik']['Zubna']['cirkonijum']['cijena'] = "320 KM (164 €)";
+$lang['cijenovnik']['Zubna']['reparatura4']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['Zubna']['uklanjanje']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Zubna']['cementiranje']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Zubna']['pressinlej']['cijena'] = "300 KM (153 €)";
+$lang['cijenovnik']['Zubna']['privremena']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Zubna']['privremena2']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['Zubna']['privremena3']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Zubna']['livena']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Zubna']['livena2']['cijena'] = "70 KM (35 €)";
+$lang['cijenovnik']['Zubna']['nadogradnja']['cijena'] = "80 KM (40 €)";
+$lang['cijenovnik']['Zubna']['konfekcijskikocic']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Zubna']['nadogradnja2']['cijena'] = "65 KM (33 €)";
+$lang['cijenovnik']['Zubna']['nadogradnja3']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Zubna']['skeletirana']['cijena'] = "480 KM (245 €)";
+$lang['cijenovnik']['Zubna']['atecmen']['cijena'] = "55 KM (28 €) ";
+$lang['cijenovnik']['Zubna']['akrilatna']['cijena'] = "280 KM (143 €)";
+$lang['cijenovnik']['Zubna']['akrilatna2']['cijena'] = "310 KM (159 €)";
+$lang['cijenovnik']['Zubna']['akrilatna3']['cijena'] = "330 KM (169 €)";
+$lang['cijenovnik']['Zubna']['reparatura']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Zubna']['reparatura2']['cijena'] = "35 KM (18 €)";
+$lang['cijenovnik']['Zubna']['reparatura3']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Zubna']['podlaganje']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Zubna']['podlaganje2']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Zubna']['periodontalni']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Zubna']['athezivni']['cijena'] = "150 KM (77 €)";
 // kraj cijena zubna protetika
 
-$lang['page']['onama']['cijenovnik']['Implantologija']['title'] = "Implantologija";
-$lang['page']['onama']['cijenovnik']['Implantologija']['dentalni'] = "Dentalni implantat Straumann";
-$lang['page']['onama']['cijenovnik']['Implantologija']['abatment'] = "Abatment za dentalni implantat";
-$lang['page']['onama']['cijenovnik']['Implantologija']['metalkeramicka'] = "Metalkeramička krunica za dentalni implantat";
-$lang['page']['onama']['cijenovnik']['Implantologija']['mdiimplantati'] = "MDI mini dentalni implantat";
+$lang['page']['onama']['cijenovnik']['Implantologija']['title'] = "Implantology";
+$lang['page']['onama']['cijenovnik']['Implantologija']['dentalni'] = "Dental implant Straumann";
+$lang['page']['onama']['cijenovnik']['Implantologija']['abatment'] = "Dental implant abutment";
+$lang['page']['onama']['cijenovnik']['Implantologija']['metalkeramicka'] = "Metal-ceramic crown for dental implant";
+$lang['page']['onama']['cijenovnik']['Implantologija']['mdiimplantati'] = "MDI mini dental implant";
 
-$lang['page']['onama']['cijenovnik']['Implantologija']['augmentacija'] = "Augmentacija vilične kosti vještačkom kosti i kolagenom membranom";
-$lang['page']['onama']['cijenovnik']['Implantologija']['podizanje'] = "Podizanje poda sinusa";
+$lang['page']['onama']['cijenovnik']['Implantologija']['augmentacija'] = "Augmentation of jaw bone (mandible) by artificial bone and collagen membrane";
+$lang['page']['onama']['cijenovnik']['Implantologija']['podizanje'] = "Sinus floor lift";
 // cijene implantologija
-$lang['cijenovnik']['Implantologija']['dentalni']['cijena'] = "1200 KM";
-$lang['cijenovnik']['Implantologija']['abatment']['cijena'] = "200 KM";
-$lang['cijenovnik']['Implantologija']['metalkeramicka']['cijena'] = "150 KM";
-$lang['cijenovnik']['Implantologija']['mdiimplantati']['cijena'] = "495 KM";
-$lang['cijenovnik']['Implantologija']['augmentacija']['cijena'] = "800 KM";
-$lang['cijenovnik']['Implantologija']['podizanje']['cijena'] = "1200 KM";
+$lang['cijenovnik']['Implantologija']['dentalni']['cijena'] = "1200 KM (614 €)";
+$lang['cijenovnik']['Implantologija']['abatment']['cijena'] = "200 KM (102 €)";
+$lang['cijenovnik']['Implantologija']['metalkeramicka']['cijena'] = "150 KM (77 €)";
+$lang['cijenovnik']['Implantologija']['mdiimplantati']['cijena'] = "495 KM (253 €)";
+$lang['cijenovnik']['Implantologija']['augmentacija']['cijena'] = "800 KM (409 €)";
+$lang['cijenovnik']['Implantologija']['podizanje']['cijena'] = "1200 KM (614 €)";
 
 // oralna 
-$lang['page']['onama']['cijenovnik']['Oralna']['title'] = "Oralna hirurgija";
-$lang['page']['onama']['cijenovnik']['Oralna']['lokalna'] = "Lokalna anestezija, lidokain";
-$lang['page']['onama']['cijenovnik']['Oralna']['lokalna2'] = "Lokalna anestezija, ubistezin";
-$lang['page']['onama']['cijenovnik']['Oralna']['infiltraciona'] = "Infiltraciona anestezija, lidokain";
-$lang['page']['onama']['cijenovnik']['Oralna']['infiltraciona2'] = "Infiltraciona anestezija, ubistezin";
-$lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija'] = "Ekstrakcija mliječnog zuba";
-$lang['page']['onama']['cijenovnik']['Oralna']['rutinska'] = "Rutinska ekstrakcija zuba";
-$lang['page']['onama']['cijenovnik']['Oralna']['komplikovana'] = "Komplikovana ekstrakcija zuba";
-$lang['page']['onama']['cijenovnik']['Oralna']['hirurska'] = "Hirurška ekstrakcija stalnog zuba";
-$lang['page']['onama']['cijenovnik']['Oralna']['hirurska2'] = "Hirurška ekstrakcija umnjaka";
-$lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren-komplikovan'] = "Komplikovana ekstrakcija zaostalnog korjena";
-$lang['page']['onama']['cijenovnik']['Oralna']['rutinska2'] = "Rutinska ekstrakcija zaostalog korjena";
-$lang['page']['onama']['cijenovnik']['Oralna']['hirurska3'] = "Hirurška ekstrakcija zaostalog korjena";
-$lang['page']['onama']['cijenovnik']['Oralna']['hirurimpaktiranog'] = "Hirurška ekstrakcija impaktiranog zuba";
-$lang['page']['onama']['cijenovnik']['Oralna']['terapija'] = "Terapija alveolitisa";
-$lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2'] = "Ekstrakcija poluimpaktiranog zuba";
-$lang['page']['onama']['cijenovnik']['Oralna']['rutinsko'] = "Rutinsko zaustavljanje krvarenja";
-$lang['page']['onama']['cijenovnik']['Oralna']['usivanje'] = "Ušivanje rane";
-$lang['page']['onama']['cijenovnik']['Oralna']['apikotomija'] = "Apikotomija";
-$lang['page']['onama']['cijenovnik']['Oralna']['cistektomija'] = "Cistektomija";
-$lang['page']['onama']['cijenovnik']['Oralna']['gingivektomija'] = "Gingivektomija";
-$lang['page']['onama']['cijenovnik']['Oralna']['cirkumcizija'] = "Cirkumcizija";
-$lang['page']['onama']['cijenovnik']['Oralna']['incizija'] = "Incizija apscesa";
-$lang['page']['onama']['cijenovnik']['Oralna']['frenulektomija'] = "Frenulektomija";
-$lang['page']['onama']['cijenovnik']['Oralna']['rezanj'] = "Režanj operacija";
-$lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Nivelacija grebena jednog kvadranta";
-$lang['page']['onama']['cijenovnik']['Oralna']['primarno'] = "Primarno zatvaranje sinusa";
+$lang['page']['onama']['cijenovnik']['Oralna']['title'] = "Oral surgery";
+$lang['page']['onama']['cijenovnik']['Oralna']['lokalna'] = "Local anesthesia, lidocaine";
+$lang['page']['onama']['cijenovnik']['Oralna']['lokalna2'] = "Local anesthesia, ubistesin";
+$lang['page']['onama']['cijenovnik']['Oralna']['infiltraciona'] = "Infiltration anesthesia, lidocaine";
+$lang['page']['onama']['cijenovnik']['Oralna']['infiltraciona2'] = "Infiltration anesthesia, ubistesin";
+$lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija'] = "Milk tooth extraction";
+$lang['page']['onama']['cijenovnik']['Oralna']['rutinska'] = "Routine tooth extraction";
+$lang['page']['onama']['cijenovnik']['Oralna']['komplikovana'] = "Complicated tooth extraction";
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurska'] = "Surgical extraction of a permanent tooth";
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurska2'] = "Surgical extraction of a wisdom tooth";
+$lang['page']['onama']['cijenovnik']['Oralna']['zaostalikoren-komplikovan'] = "Complicated extraction of residual root";
+$lang['page']['onama']['cijenovnik']['Oralna']['rutinska2'] = "Routine extraction of residual root";
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurska3'] = "Surgical extraction of residual root";
+$lang['page']['onama']['cijenovnik']['Oralna']['hirurimpaktiranog'] = "Surgical extraction of  impacted tooth";
+$lang['page']['onama']['cijenovnik']['Oralna']['terapija'] = "Alveolitis therapy";
+$lang['page']['onama']['cijenovnik']['Oralna']['ekstrakcija2'] = "Extraction of partially impacted tooth";
+$lang['page']['onama']['cijenovnik']['Oralna']['rutinsko'] = "Routine bleeding cessation";
+$lang['page']['onama']['cijenovnik']['Oralna']['usivanje'] = "Wound stitching";
+$lang['page']['onama']['cijenovnik']['Oralna']['apikotomija'] = "Apicotomy";
+$lang['page']['onama']['cijenovnik']['Oralna']['cistektomija'] = "Cystectomy";
+$lang['page']['onama']['cijenovnik']['Oralna']['gingivektomija'] = "Gingivectomy";
+$lang['page']['onama']['cijenovnik']['Oralna']['cirkumcizija'] = "Circumcision";
+$lang['page']['onama']['cijenovnik']['Oralna']['incizija'] = "Abscess incision";
+$lang['page']['onama']['cijenovnik']['Oralna']['frenulektomija'] = "Frenulectomy ";
+$lang['page']['onama']['cijenovnik']['Oralna']['rezanj'] = "Flap surgery";
+$lang['page']['onama']['cijenovnik']['Oralna']['nivelacija'] = "Alveolar ridge leveling";
+$lang['page']['onama']['cijenovnik']['Oralna']['primarno'] = "Primary sinus closure";
 // cijene oralna
-$lang['cijenovnik']['Oralna']['lokalna']['cijena'] = "5 KM";
-$lang['cijenovnik']['Oralna']['lokalna2']['cijena'] = "10 KM";
-$lang['cijenovnik']['Oralna']['infiltraciona']['cijena'] = "10 KM";
-$lang['cijenovnik']['Oralna']['infiltraciona2']['cijena'] = "15 KM";
-$lang['cijenovnik']['Oralna']['ekstrakcija']['cijena'] = "10 KM";
-$lang['cijenovnik']['Oralna']['rutinska']['cijena'] = "25 KM";
-$lang['cijenovnik']['Oralna']['komplikovana']['cijena'] = "50 KM";
-$lang['cijenovnik']['Oralna']['hirurska']['cijena'] = "100 KM";
-$lang['cijenovnik']['Oralna']['hirurska2']['cijena'] = "180 KM";
-$lang['cijenovnik']['Oralna']['zaostalikoren-komplikovan']['cijena'] = "50 KM";
-$lang['cijenovnik']['Oralna']['rutinska2']['cijena'] = "25 KM";
-$lang['cijenovnik']['Oralna']['hirurska3']['cijena'] = "100 KM";
-$lang['cijenovnik']['Oralna']['hirurimpaktiranog']['cijena'] = "180 KM";
-$lang['cijenovnik']['Oralna']['terapija']['cijena'] = "40 KM";
-$lang['cijenovnik']['Oralna']['ekstrakcija2']['cijena'] = "65 KM";
-$lang['cijenovnik']['Oralna']['rutinsko']['cijena'] = "10 KM";
-$lang['cijenovnik']['Oralna']['usivanje']['cijena'] = "50 KM";
-$lang['cijenovnik']['Oralna']['apikotomija']['cijena'] = "180 KM";
-$lang['cijenovnik']['Oralna']['cistektomija']['cijena'] = "180 KM";
-$lang['cijenovnik']['Oralna']['gingivektomija']['cijena'] = "100 KM";
-$lang['cijenovnik']['Oralna']['cirkumcizija']['cijena'] = "100 KM";
-$lang['cijenovnik']['Oralna']['incizija']['cijena'] = "40 KM";
-$lang['cijenovnik']['Oralna']['frenulektomija']['cijena'] = "100 KM";
-$lang['cijenovnik']['Oralna']['rezanj']['cijena'] = "150 KM";
-$lang['cijenovnik']['Oralna']['nivelacija']['cijena'] = "150 KM";
-$lang['cijenovnik']['Oralna']['primarno']['cijena'] = "150 KM";
+$lang['cijenovnik']['Oralna']['lokalna']['cijena'] = "5 KM (3 €)";
+$lang['cijenovnik']['Oralna']['lokalna2']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Oralna']['infiltraciona']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Oralna']['infiltraciona2']['cijena'] = "15 KM (8 €)";
+$lang['cijenovnik']['Oralna']['ekstrakcija']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Oralna']['rutinska']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Oralna']['komplikovana']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Oralna']['hirurska']['cijena'] = "100 KM (51 €)";
+$lang['cijenovnik']['Oralna']['hirurska2']['cijena'] = "180 KM (92 €)";
+$lang['cijenovnik']['Oralna']['zaostalikoren-komplikovan']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Oralna']['rutinska2']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Oralna']['hirurska3']['cijena'] = "100 KM (51 €)";
+$lang['cijenovnik']['Oralna']['hirurimpaktiranog']['cijena'] = "180 KM (92 €)";
+$lang['cijenovnik']['Oralna']['terapija']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['Oralna']['ekstrakcija2']['cijena'] = "65 KM (33 €)";
+$lang['cijenovnik']['Oralna']['rutinsko']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Oralna']['usivanje']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Oralna']['apikotomija']['cijena'] = "180 KM (92 €)";
+$lang['cijenovnik']['Oralna']['cistektomija']['cijena'] = "180 KM (92 €)";
+$lang['cijenovnik']['Oralna']['gingivektomija']['cijena'] = "100 KM (51 €)";
+$lang['cijenovnik']['Oralna']['cirkumcizija']['cijena'] = "100 KM (51 €)";
+$lang['cijenovnik']['Oralna']['incizija']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['Oralna']['frenulektomija']['cijena'] = "100 KM (51 €)";
+$lang['cijenovnik']['Oralna']['rezanj']['cijena'] = "150 KM (77 €)";
+$lang['cijenovnik']['Oralna']['nivelacija']['cijena'] = "150 KM (77 €)";
+$lang['cijenovnik']['Oralna']['primarno']['cijena'] = "150 KM (77 €)";
 // kraj cijena oralna
 
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['title'] = "Ortodoncija";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni'] = "Fiksni ortodontski aparat, klasične metalne bravice	(cijena za jednu vilicu)";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni2'] = "Fiksni ortodontski aparat, estetske bravice (cijena za jednu vilicu)";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni3'] = "Fiksni ortodontski aparat, Damon sistem (cijena za jednu vilicu)";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['zamjena'] = "Zamjena bravice na fiksnom ortodontskom aparatu, klasične metalne bravice";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['zamjena2'] = "Zamjena bravice na fiksnom ortodontskom aparatu, estetske bravice";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['zamjena3'] = "Zamjena bravice na fiksnom ortodontskom aparatu, Damon sistem";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['mobilni'] = "Mobilni ortodontski aparat, Švarcova ploča";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['mobilni2'] = "Mobilni ortodontksi aparat, funkcionalni aparat";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['readaptacija'] = "Readaptacija mobilnog ortodontskog aparata";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['retenciona'] = "Retenciona folija za jednu vilicu";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['selektivno'] = "Selektivno brušenje zuba";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['izrada'] = "Izrada studijskog modela";
-$lang['page']['onama']['cijenovnik']['Ortodoncija']['bruksosplint'] = "Bruksosplint";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['title'] = "Orthodontics";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni'] = "Fixed orthodontic braces, classic metal braces (price for one jaw)";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni2'] = "Fixed orthodontic braces, aesthetic braces (price for one jaw)";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['fiksni3'] = "Fixed orthodontic braces, Damon system (price for one jaw)";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['zamjena'] = "Brace replacement on fixed orthodontic braces, classic metal braces";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['zamjena2'] = "Brace replacement on fixed orthodontic braces, aesthetic braces";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['zamjena3'] = "Brace replacement on fixed orthodontic braces, Damon system";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['mobilni'] = "Mobile orthodontic device, Schwarz plate";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['mobilni2'] = "Mobile orthodontic device, functional device";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['readaptacija'] = "Readaptation of mobile orthodontic device";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['retenciona'] = "Retention foil for one jaw";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['selektivno'] = "Selective teeth grinding";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['izrada'] = "Creation of study model";
+$lang['page']['onama']['cijenovnik']['Ortodoncija']['bruksosplint'] = "Bruxism splints";
 // cijene ortodoncija
-$lang['cijenovnik']['Ortodoncija']['fiksni']['cijena'] = "1200 KM";
-$lang['cijenovnik']['Ortodoncija']['fiksni2']['cijena'] = "1500 KM";
-$lang['cijenovnik']['Ortodoncija']['fiksni3']['cijena'] = "1800 KM";
-$lang['cijenovnik']['Ortodoncija']['zamjena']['cijena'] = "10 KM";
-$lang['cijenovnik']['Ortodoncija']['zamjena2']['cijena'] = "20 KM";
-$lang['cijenovnik']['Ortodoncija']['zamjena3']['cijena'] = "20 KM";
-$lang['cijenovnik']['Ortodoncija']['mobilni']['cijena'] = "300 KM";
-$lang['cijenovnik']['Ortodoncija']['mobilni2']['cijena'] = "400 KM";
-$lang['cijenovnik']['Ortodoncija']['readaptacija']['cijena'] = "30 KM";
-$lang['cijenovnik']['Ortodoncija']['retenciona']['cijena'] = "60 KM";
-$lang['cijenovnik']['Ortodoncija']['selektivno']['cijena'] = "10 KM";
-$lang['cijenovnik']['Ortodoncija']['izrada']['cijena'] = "50 KM";
-$lang['cijenovnik']['Ortodoncija']['bruksosplint']['cijena'] = "120 KM";
+$lang['cijenovnik']['Ortodoncija']['fiksni']['cijena'] = "1200 KM (614 €)";
+$lang['cijenovnik']['Ortodoncija']['fiksni2']['cijena'] = "1500 KM (767 €)";
+$lang['cijenovnik']['Ortodoncija']['fiksni3']['cijena'] = "1800 KM (920 €)";
+$lang['cijenovnik']['Ortodoncija']['zamjena']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Ortodoncija']['zamjena2']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Ortodoncija']['zamjena3']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Ortodoncija']['mobilni']['cijena'] = "300 KM (153 €)";
+$lang['cijenovnik']['Ortodoncija']['mobilni2']['cijena'] = "400 KM (205 €)";
+$lang['cijenovnik']['Ortodoncija']['readaptacija']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Ortodoncija']['retenciona']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Ortodoncija']['selektivno']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Ortodoncija']['izrada']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Ortodoncija']['bruksosplint']['cijena'] = "120 KM (61 €)";
 // kraj cijene ortodoncija
-$lang['page']['onama']['cijenovnik']['Endodoncija']['title'] = "Endodoncija";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska'] = "Rutinska ekstirpacija jednog kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska2'] = "Rutinska ekstirpacija dva kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska3'] = "Rutinska ekstirpacija tri kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['komplikovana'] = "Komplikovana ekstirpacija jednog kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['komplikovana2'] = "Komplikovana ekstirpacija dva kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['komplikovana3'] = "Komplikovana ekstirpacija tri kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['ekstirpacija'] = "Ekstirpacija kod abradiranog kanala, jednog kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['ekstirpacija2'] = "Ekstirpacija kod abradiranog kanala, više kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['biolosko'] = "Biološko punjenje jednog kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['biolosko2'] = "Biološko punjenje dva kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['bilosko'] = "Biloško punjenje tri kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['definitivno'] = "Definitivno punjenje jednog kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['definitivno2'] = "Definitivno punjenje dva kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['definitivno3'] = "Definitivno punjenje tri kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['direktno'] = "Direktno prekrivanje pulpe";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['indirektno'] = "Indirektno prekrivanje pulpe";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['revizija'] = "Revizija punjenja jednog kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['revizija2'] = "Revizija punjenja dva kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['revizija3'] = "Revizija punjenja tri kanala";
-$lang['page']['onama']['cijenovnik']['Endodoncija']['aplikacija'] = "Aplikacija lijeka";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['title'] = "Endodontics";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska'] = "Routine extirpation of one canal";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska2'] = "Routine extirpation of two canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['rutinska3'] = "Routine extirpation of three canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['komplikovana'] = "Complicated extirpation of one canal";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['komplikovana2'] = "Complicated extirpation of two canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['komplikovana3'] = "Complicated extirpation of three canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['ekstirpacija'] = "Extirpation with abraded canal, single canal";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['ekstirpacija2'] = "Extirpation with abraded canal, more than one canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['biolosko'] = "Biological filling of one canal";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['biolosko2'] = "Biological filling of two canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['bilosko'] = "Biological filling of three canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['definitivno'] = "Final filling of one canal";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['definitivno2'] = "Final filling of two canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['definitivno3'] = "Final filling of three canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['direktno'] = "Direct pulp capping";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['indirektno'] = "Indirect pulp capping";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['revizija'] = "Revision of filling one canal";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['revizija2'] = "Revision of filling two canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['revizija3'] = "Revision of filling three canals";
+$lang['page']['onama']['cijenovnik']['Endodoncija']['aplikacija'] = "Medicine application";
 // cijene endodoncija
-$lang['cijenovnik']['Endodoncija']['rutinska']['cijena'] = "10 KM";
-$lang['cijenovnik']['Endodoncija']['rutinska2']['cijena'] = "20 KM";
-$lang['cijenovnik']['Endodoncija']['rutinska3']['cijena'] = "30 KM";
-$lang['cijenovnik']['Endodoncija']['komplikovana']['cijena'] = "25 KM";
-$lang['cijenovnik']['Endodoncija']['komplikovana2']['cijena'] = "40 KM";
-$lang['cijenovnik']['Endodoncija']['komplikovana3']['cijena'] = "60 KM";
-$lang['cijenovnik']['Endodoncija']['ekstirpacija']['cijena'] = "20 KM";
-$lang['cijenovnik']['Endodoncija']['ekstirpacija2']['cijena'] = "50 KM";
-$lang['cijenovnik']['Endodoncija']['biolosko']['cijena'] = "10 KM";
-$lang['cijenovnik']['Endodoncija']['biolosko2']['cijena'] = "20 KM";
-$lang['cijenovnik']['Endodoncija']['bilosko']['cijena'] = "30 KM";
-$lang['cijenovnik']['Endodoncija']['definitivno']['cijena'] = "20 KM";
-$lang['cijenovnik']['Endodoncija']['definitivno2']['cijena'] = "40 KM";
-$lang['cijenovnik']['Endodoncija']['definitivno3']['cijena'] = "60 KM";
-$lang['cijenovnik']['Endodoncija']['direktno']['cijena'] = "30 KM";
-$lang['cijenovnik']['Endodoncija']['indirektno']['cijena'] = "20 KM";
-$lang['cijenovnik']['Endodoncija']['revizija']['cijena'] = "25 KM";
-$lang['cijenovnik']['Endodoncija']['revizija2']['cijena'] = "45 KM";
-$lang['cijenovnik']['Endodoncija']['revizija3']['cijena'] = "50 KM";
-$lang['cijenovnik']['Endodoncija']['aplikacija']['cijena'] = "10 KM";
+$lang['cijenovnik']['Endodoncija']['rutinska']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Endodoncija']['rutinska2']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Endodoncija']['rutinska3']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Endodoncija']['komplikovana']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Endodoncija']['komplikovana2']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['Endodoncija']['komplikovana3']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Endodoncija']['ekstirpacija']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Endodoncija']['ekstirpacija2']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Endodoncija']['biolosko']['cijena'] = "10 KM (5 €)";
+$lang['cijenovnik']['Endodoncija']['biolosko2']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Endodoncija']['bilosko']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Endodoncija']['definitivno']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Endodoncija']['definitivno2']['cijena'] = "40 KM (20 €)";
+$lang['cijenovnik']['Endodoncija']['definitivno3']['cijena'] = "60 KM (30 €)";
+$lang['cijenovnik']['Endodoncija']['direktno']['cijena'] = "30 KM (15 €)";
+$lang['cijenovnik']['Endodoncija']['indirektno']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Endodoncija']['revizija']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Endodoncija']['revizija2']['cijena'] = "45 KM (23 €)";
+$lang['cijenovnik']['Endodoncija']['revizija3']['cijena'] = "50 KM (25 €)";
+$lang['cijenovnik']['Endodoncija']['aplikacija']['cijena'] = "10 KM (5 €)";
 // kraj endodoncija
 
-$lang['page']['onama']['cijenovnik']['Parodontologija']['title'] = "Parodontologija";
-$lang['page']['onama']['cijenovnik']['Parodontologija']['obrada'] = "Obrada parodontalnog džepa";
-$lang['page']['onama']['cijenovnik']['Parodontologija']['uklanjanje'] = "Uklanjanje zubnog kamenca na jednoj vilici";
-$lang['page']['onama']['cijenovnik']['Parodontologija']['smanjenje'] = "Smanjenje osjetljivosti korjena";
+$lang['page']['onama']['cijenovnik']['Parodontologija']['title'] = "Periodontology";
+$lang['page']['onama']['cijenovnik']['Parodontologija']['obrada'] = "Treatment of periodontal pocket";
+$lang['page']['onama']['cijenovnik']['Parodontologija']['uklanjanje'] = "Tartal removal on one jaw";
+$lang['page']['onama']['cijenovnik']['Parodontologija']['smanjenje'] = "Reduction of root sensitivity";
 // cijene
-$lang['cijenovnik']['Parodontologija']['obrada']['cijena'] = "25 KM";
-$lang['cijenovnik']['Parodontologija']['uklanjanje']['cijena'] = "25 KM";
-$lang['cijenovnik']['Parodontologija']['smanjenje']['cijena'] = "10 KM";
+$lang['cijenovnik']['Parodontologija']['obrada']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Parodontologija']['uklanjanje']['cijena'] = "25 KM (12 €)";
+$lang['cijenovnik']['Parodontologija']['smanjenje']['cijena'] = "10 KM (5 €)";
 
-$lang['page']['onama']['cijenovnik']['Pedodoncija']['zalijevanje'] = "Pedodoncija";
-$lang['page']['onama']['cijenovnik']['Pedodoncija']['zalijevanje'] = "Zalijevanje (pečaćenje) fisure";
-$lang['page']['onama']['cijenovnik']['Pedodoncija']['lokalna'] = "Lokalna aplikacija koncentrovanih fluorida";
-$lang['page']['onama']['cijenovnik']['Pedodoncija']['aplikacija'] = "Aplikacija koncentrovanih fluorida na cijelu vilicu";
+$lang['page']['onama']['cijenovnik']['Pedodoncija']['zalijevanje'] = "Pediatric dentistry";
+$lang['page']['onama']['cijenovnik']['Pedodoncija']['zalijevanje'] = "Fissure sealing";
+$lang['page']['onama']['cijenovnik']['Pedodoncija']['lokalna'] = "Local application of concentrated fluorine";
+$lang['page']['onama']['cijenovnik']['Pedodoncija']['aplikacija'] = "Application of concentrated fluorine on the whole jaw";
 //cijene
-$lang['cijenovnik']['Pedodoncija']['zalijevanje']['cijena'] = "20 KM";
-$lang['cijenovnik']['Pedodoncija']['lokalna']['cijena'] = "15 KM";
-$lang['cijenovnik']['Pedodoncija']['aplikacija']['cijena'] = "50 KM";
+$lang['cijenovnik']['Pedodoncija']['zalijevanje']['cijena'] = "20 KM (10 €)";
+$lang['cijenovnik']['Pedodoncija']['lokalna']['cijena'] = "15 KM (8 €)";
+$lang['cijenovnik']['Pedodoncija']['aplikacija']['cijena'] = "50 KM (25 €)";
 
-$lang['page']['onama']['partneri']['title'] = "Partnerski program";
-$lang['page']['onama']['partneri']['content'] = "Zdravstveni turizam je fenomen koji podrazumijeva putovanje van granica mjesta u kom boravite u cilju dobijanja povoljnije ali jednako kvalitetne medicinske terapije. Usljed ubrzanog rasta cijena stomatoloških usluga u zemljama Evropske unije, dentalni turizam, jedna od grana medicinskog  turizma, doživljava veliku ekspanziju pri tom povezujući medicinu i stomatologiju sa ekonomijom i turizmom. Svima koji žele da pošire ponudu na svom tržištu nudimo program poslovne saradnje baziran na dentalnom turizmu. Poziv je otvoren za turističke agencije i prevoznike ali i za sve ostale koji žele dodatno da zarade. Ako ste zainteresovani za saradnju budite slobodni da nas kontaktirate putem našeg online obrazca.";
-$lang['page']['onama']['partneri']['form']['imeprezime'] = "Ime i prezime";
-$lang['page']['onama']['partneri']['form']['kotakttel'] = "Kontakt telefon";
-$lang['page']['onama']['partneri']['form']['submit'] = "Pošalji";
+$lang['page']['onama']['partneri']['title'] = "Partnership program";
+$lang['page']['onama']['partneri']['content'] = "Health tourism is a phenomenon that includes travelling outside your residence location with the aim of receiving high quality and more cost effective therapy. During the fast rise in costs of dentistry among the countries of the European Union, dental tourism, as one of the branches in medical tourism, is undergoing expansion, connecting medicine and dentistry with economy and tourism. We offer a program of business cooperation based on dental tourism to everyone who wants to expand the offer on the market. The invitation is open to travel agencies and carriers, as well as everybody else who wants to earn more. If you are interested in cooperation, feel free to contact us through our online form.";
+$lang['page']['onama']['partneri']['form']['imeprezime'] = "First and last name";
+$lang['page']['onama']['partneri']['form']['kotakttel'] = "Telephone";
+$lang['page']['onama']['partneri']['form']['submit'] = "Send";
 
 $lang['page']['onama']['karijera']['title'] = "Karijera";
 $lang['page']['onama']['karijera']['content'] = "Uspješnu organizaciju čine njeni kadrovi. Baš zato, Stomatologija Kecman posebnu pažnju poklanja izboru kvalitetnih kadrova. Njegujemo atmosferu timskog rada, međusobnog poštovanja i uvažavanja. Naša praksa mnogo puta je potvrdila da je pozitivna energija u timu od presudnog značaja za uspješnu realizaciju poslovnih zadataka. Iz tog razloga dajemo priliku otvorenim, fleksibilnim, timski orijentisanim osobama, spremnim da individualne interese prilagode interesima kolektiva. Ako navedene vrijednosti prepoznajete kao svoje nalazite se na pravom mjestu. <br>Popunjavanjem našeg obrazca, u nekoliko jednostavnih koraka nas upoznajte sa Vašim kvalitetima. ";
@@ -705,79 +700,60 @@ $lang['karijera']['form']['captcha']['error'] = "Molimo Vas unesite captcha";
 
 
 // Kontakt
-$lang['page']['kontakt']['title'] = "Kontakti";
-$lang['page']['kontakt']['widget']['title'] = "Kontakt detalji";
-$lang['page']['kontakt']['naziv'] = "Zdravstvena ustanova \"Stomatologija Kecman\"";
-$lang['page']['kontakt']['adresa'] = "Kralja Alfonsa XIII broj 46a<br>78 000 Banjaluka, BiH";
-$lang['page']['kontakt']['telefoni']['title'] = "Telefoni";
-$lang['page']['kontakt']['telefoni1'] = "Tel. +387 51 215 215";
-$lang['page']['kontakt']['telefoni2'] = "Besplatni info tel. 080 05 02 19";
-$lang['page']['kontakt']['radnovrijeme']['title'] = "Radno vrijeme";
-$lang['page']['kontakt']['radnovrijeme']['radnidani'] = "pon-pet 11-19h";
-$lang['page']['kontakt']['radnovrijeme']['vikend'] = "Vikendom radimo po dogovoru";
-$lang['page']['kontakt']['widget']['mapa'] = "Mapa";
+$lang['page']['kontakt']['title'] = "Contact";
+$lang['page']['kontakt']['widget']['title'] = "Contact details";
+$lang['page']['kontakt']['naziv'] = "Health care institution \"Stomatologija Kecman\"";
+$lang['page']['kontakt']['adresa'] = "Kralja Alfonsa XIII 46a<br>78 000 Banjaluka, BiH";
+$lang['page']['kontakt']['telefoni']['title'] = "Telephone";
+$lang['page']['kontakt']['telefoni1'] = "T. +387 51 215 215";
+$lang['page']['kontakt']['telefoni2'] = "Toll free tel. 080 05 02 19";
+$lang['page']['kontakt']['radnovrijeme']['title'] = "Working hours:";
+$lang['page']['kontakt']['radnovrijeme']['radnidani'] = "Monday - Friday : 11-19h";
+$lang['page']['kontakt']['radnovrijeme']['vikend'] = "Working weekends by appointments";
+$lang['page']['kontakt']['widget']['mapa'] = "Map";
 
 $lang['page']['kontakt']['narucise']['title'] = "Naruči se odmah preko našeg online obrasca";
-//$lang['page']['kontakt']['narucise']['content'] = "Rezervišite svoj termin za besplatni pregled i konsultacije ili profesionalno čišćenje i poliranje zuba preko našeg obrazca za rezervacije. Naše osoblje će vas kontaktirati u roku od 24 sata putem telefona i ponuditi vam termin koji vam najviše odgovara.";
-$lang['page']['kontakt']['narucise']['content'] = "Ako imate određeni prijedlog, pohvalu ili primjedbu budite slobodni da nam pišete";
+$lang['page']['kontakt']['narucise']['content'] = "If you have a certain suggestion, compliment or complaint please feel free to write to us";
 
-$lang['page']['kontakt']['forma']['label']['ime'] = "Ime i prezime";
-$lang['page']['kontakt']['forma']['label']['email'] = "Vaš email";
-$lang['page']['kontakt']['forma']['label']['telefon'] = "Vaš telefon";
-$lang['page']['kontakt']['forma']['label']['subject'] = "Tema";
-$lang['page']['kontakt']['forma']['label']['message'] = "Poruka";
-$lang['page']['kontakt']['forma']['label']['submit'] = "Pošalji";
+$lang['page']['kontakt']['forma']['label']['ime'] = "First and last name";
+$lang['page']['kontakt']['forma']['label']['email'] = "E-mail";
+$lang['page']['kontakt']['forma']['label']['telefon'] = "Telephone";
+$lang['page']['kontakt']['forma']['label']['subject'] = "Subject";
+$lang['page']['kontakt']['forma']['label']['message'] = "Message";
+$lang['page']['kontakt']['forma']['label']['submit'] = "Send";
 
-$lang['kontakt']['forma']['error']['ime'] = "Molimo Vas unesite ime i prezime";
-$lang['kontakt']['forma']['error']['email'] = "Molimo Vas unesite validnu email adresu";
-$lang['kontakt']['forma']['error']['telefon'] = "Molimo Vas unesite telefon";
-$lang['kontakt']['forma']['error']['poruka'] = "Molimo Vas unesite Vašu poruku";
-$lang['kontakt']['forma']['error']['captcha'] = "Verifikacioni kod koji ste unijeli je pogrešan!";
+$lang['kontakt']['forma']['error']['ime'] = "Please enter your first and last name";
+$lang['kontakt']['forma']['error']['email'] = "Please enter valid e-mail address";
+$lang['kontakt']['forma']['error']['telefon'] = "Please enter your telephone";
+$lang['kontakt']['forma']['error']['poruka'] = "Please enter your message";
+$lang['kontakt']['forma']['error']['captcha'] = "Verification code you entered is incorrec!";
 // FOOTER CONTENT
 
-////// QUICK ORDER ///////
-$lang['quickorder']['legend'] = "Narudžba";
-$lang['quickorder']['order4what'] = "Želim se naručiti za";
-$lang['quickorder']['option']['value1'] = "Opšti stomatološki pregled i konsultacije";
-$lang['quickorder']['option']['value2'] = "Pregled za protetsko zbrinjavanje";
-$lang['quickorder']['option']['value3'] = "Pregled za ortodontsku terapiju";
-$lang['quickorder']['option']['value4'] = "Pregled za oralnohirurški zahvat";
-$lang['quickorder']['option']['value5'] = "Pregled za ugradnju implantata";
-$lang['quickorder']['option']['value6'] = "Pregled za biljeljenje zuba";
-$lang['quickorder']['option']['value7'] = "Profesionalno čišćenje i poliranje zuba";
-$lang['quickorder']['option']['value8'] = "Pregled za izradu keramičkih faseta (venira)";
-$lang['quickorder']['forma']['label']['submit'] = "Pošalji";
-$lang['quickorder']['forma']['opener'] = "Naruči se";
-
-$lang['quickorder']['forma']['success'] = "Uspješno poslato";
-////// QUICK ORDER ///////
-
-
 
 ////// ASK US WIDGET ///////
-$lang['askus']['legend'] = "Pitajte doktora";
-$lang['askus']['placeholders']['imeprezime'] = "Ime i Prezime";
-$lang['askus']['placeholders']['datrodj'] = "Datum Rođenja";
-$lang['askus']['placeholders']['email'] = "Email Adresa";
-$lang['askus']['placeholders']['tel'] = "Telefon";
-$lang['askus']['placeholders']['pitanje'] = "Pitanje";
-$lang['askus']['form']['submit'] = "Pošalji pitanje";
-$lang['askus']['form']['success'] = "Uspješno ste postavili pitanje doktoru!";
+$lang['askus']['legend'] = "Ask the doctor";
+$lang['askus']['placeholders']['imeprezime'] = "First and last name";
+$lang['askus']['placeholders']['datrodj'] = "Birthday";
+$lang['askus']['placeholders']['email'] = "E-mail address ";
+$lang['askus']['placeholders']['tel'] = "Telephone";
+$lang['askus']['placeholders']['pitanje'] = "Question";
+$lang['askus']['form']['submit'] = "Send";
+$lang['askus']['form']['success'] = "Question successfully sent";
 
-$lang['askus']['form']['ime']['error'] = "Unesite Vaše ime i prezime";
-$lang['askus']['form']['email']['error'] = "Unesite validnu email adresu";
-$lang['askus']['form']['tel']['error'] = "Unesite validan broj telefona";
-$lang['askus']['form']['poruka']['error'] = "Molimo Vas unesite poruku";
-$lang['askus']['form']['fajl']['mime']['error'] = "Pogrešan tip fajla";
-$lang['askus']['form']['fajl']['size']['error'] = "Fajl je pogrešne veličine";
-$lang['askus']['form']['fajl']['error'] = "Molimo Vas odaberite fajl";
+$lang['askus']['form']['ime']['error'] = "Enter your first and last name";
+$lang['askus']['form']['email']['error'] = "Enter your e-mail address";
+$lang['askus']['form']['tel']['error'] = "Enter your telephone number";
+$lang['askus']['form']['poruka']['error'] = "Enter your question";
+$lang['askus']['form']['fajl']['mime']['error'] = "Incorrect file type";
+$lang['askus']['form']['fajl']['size']['error'] = "incorrect file size";
+$lang['askus']['form']['fajl']['error'] = "Please select the file";
 ////// ASK US WIDGET ///////
 
-$lang['page']['footer']['copyright'] = "Sadržaj ovog internet sajta štite autorska prava čiji je nosilac i koje zadržava Zdravstvena ustanova “Stomatologija Kecman”, Kralja Alfonsa XIII broj 46a, 78 000 Banjaluka, BiH. Svi korisnici slobodni su da čitaju sadržaj. Svaka druga upotreba i umnožavanje sadržaja ovog internet sajta zabranjeni su. Dio sadržaja ovog internet sajta je prikupljen putem javnih izvora na internetu. Ukoliko autorska prava bilo kojeg sadržaja ovog internet sajta pripadaju Vama, kontaktirajte nas i mi ćemo ih ukloniti. ";
+$lang['page']['footer']['copyright'] = "The content of this website is protected by copyright held by Health institution \"Stomatologija Kecman\", Kralja Alfonsa XIII no. 46a, 78 000 Banjaluka, Bosnia and Herzegovina. All users are free to read the content. Any other use and multiplication of this website content is forbidden. A part of the content on this website is gathered by means of public sources on the Internet. If the copyright of any part of the content on this website belongs to you, please contact us and they will be removed. ";
 
-$lang['page']['footer']['responsability'] = 'Sve informacije koje se nalaze na ovom internet sajtu služe isključivo za svrhu davanja opštih informacija, te kao takve ne predstavljaju konkretan medicinski savijet. Zdravstvena ustanova “Stomatologija Kecman” ne prihvata bilo kakvu odgovornost ya štetu koja eventualno nastane pristupanjem informacijama sadržanim na ovom internet sajtu ili oslanjanjem na iste.';
+$lang['page']['footer']['responsability'] = 'Limitation of liability: Each data on this website is aimed exclusively at providing general information, and as such it represents a concrete medical advice. Health institution "Stomatologija Kecman" does not accept any liability for the damage that can possibly occur by approaching the information contained on this website or relying on the very same.';
 
 
  /* obdje ide ono za stranice za rezervaciju, ispod stranica na estetskoj i ostalim */
-$lang['rezervacija']['content'] = "Rezervišite Vaš termin za besplatan opšti stomatološki pregled i konsultacije.";
-$lang['rezervacija']['content2'] = "Besplatan info telefon: 080 05 02 19, telefon +387 51 215 215";
+$lang['rezervacija']['content'] = "Book your appointment for a free general dental examination and consultation";
+$lang['rezervacija']['content2'] = "Free info telephone: 080 05 02 19, telephone +387 51 215 215";
