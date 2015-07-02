@@ -176,7 +176,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni prekovremeni rad</strong>" . ": " . $prekovremenoRad . "\r\n";
                 $pre_messagebody_info.="<strong>Spreman/na sam na plaćeni rad vikendom i praznikom</strong>" . ": " . $vikednomRadim . "\r\n";
                 $pre_messagebody_info .= "\r\n U prilogu je fotografija.";
-                echo $pre_messagebody_info;exit();
+                
                 $mail->isHTML(false);
                 $mail->AddAddress($karijeraEmail, 'Stomatologija Kecman'); // adresa gdje se salju podaci sa forme
                 $mail->SetFrom($noreplyAddressForEmail, 'Stomatologija Kecman'); // ovo je adresa koja salje na gornju email adresu
