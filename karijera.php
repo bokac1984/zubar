@@ -28,6 +28,7 @@ $formNamesKeys = array(
 );
 $form_names = $csrf->form_names($formNamesKeys, false);
 $posted = false;
+$formSent = false;
     
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $ourMail = $emailAddress; //Insert your email address here
@@ -186,6 +187,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $mail->AddAttachment($data[$form_names['portret']]['tmp_name'], htmlspecialchars($data[$form_names['portret']]['name']));      // attachment
                 $mail->Send();
                 $success['message'] = $lang['page']['inernacionala']['email']['success'];
+                $formSent = true;
             } catch (phpmailerException $e) {
                 $errors['mail'] = $e->errorMessage(); //Pretty error messages from PHPMailer
             } catch (Exception $e) {
@@ -262,6 +264,7 @@ function check_email_address($email) {
         <link rel="stylesheet" type="text/css" href="css/color-cyan.css">
         <link rel="stylesheet" type="text/css" href="css/onama.css">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
         <!--/ styles -->
 
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -706,6 +709,14 @@ function check_email_address($email) {
         </div>
         <!-- copyrights -->
         <?php include("includes/javascripts.php"); ?>
+                <script type="text/javascript">
+        <?php if ($formSent) {
+            echo "$(\"#careerform\").find('input:not(input[type=\"submit\"], button), textarea, select').val('').attr('checked', false).removeClass('wrong-data');";
+        } else {
+            echo "var formSent = false;";
+        }
+        ?>
+        </script>
         <!--/ copyrights -->
     </body>
 </html>

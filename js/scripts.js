@@ -18,6 +18,13 @@
 		$(document).scroll(progress_bar_loader);
 		$(document).scroll(chart_circle_init);
 		/* retina-animating-blocks */
+                
+                if (formSent) {
+                    console.log("ima vrijednost");
+                    $("#careerform").find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
+                } else {
+                    console.log("nema nista");
+                }
 		if (!is_mobile())
 			{
 				window.scrollTo(0,1);
