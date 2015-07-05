@@ -70,7 +70,7 @@ else
         <li><a href="nasi-kanali-komunikacije"><?php echo $lang['menu']['nasi-kom-kanali'] ?></a></li>
         <li><a href="cjenovnik"><?php echo $lang['menu']['cjenovnik'] ?></a></li>
         <li><a href="partnerski-program"><?php echo $lang['menu']['partner-prog'] ?></a></li>
-        <?php $langg = get_lang_id();  if ($langg != 'en') { ?><li><a href="karijera"><?php echo $lang['menu']['karijera'] ?></a></li><?php } ?>
+        <?php if ($lang['menu']['home'] != 'Home') { ?><li><a href="karijera"><?php echo $lang['menu']['karijera'] ?></a></li><?php } ?>
     </ul>
 </li>							
 <li>
@@ -80,6 +80,8 @@ else
 </nav>
 
 <div class="flags">
-    <a href="?lang=en">ENG</a>
-    <a href="?lang=sr">BHS</a>
+    <ul>
+        <li><a href="?lang=en">ENG</a></li>
+        <li><a href="?lang=sr">BHS</a></li>
+    </ul>
 </div>

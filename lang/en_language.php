@@ -728,7 +728,15 @@ $lang['kontakt']['forma']['error']['telefon'] = "Please enter your telephone";
 $lang['kontakt']['forma']['error']['poruka'] = "Please enter your message";
 $lang['kontakt']['forma']['error']['captcha'] = "Verification code you entered is incorrec!";
 // FOOTER CONTENT
-
+////// QUICK ORDER ///////
+$lang['quickorder']['legend'] = "Order";
+$lang['quickorder']['order4what'] = "Želim se naručiti za";
+$lang['quickorder']['forma']['label']['submit'] = "Send";
+$lang['quickorder']['forma']['opener'] = "Make order";
+$lang['quickorder']['forma']['palceholder']['name'] = "Your name";
+$lang['quickorder']['forma']['palceholder']['telefon'] = "Telephone";
+$lang['quickorder']['forma']['success'] = "Successfully sent";
+////// QUICK ORDER ///////
 
 ////// ASK US WIDGET ///////
 $lang['askus']['legend'] = "Ask the doctor";

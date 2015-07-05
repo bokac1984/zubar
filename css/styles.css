@@ -1140,8 +1140,8 @@ textarea {
 .logo {
   position: absolute;
   top: 0;
-  left: 50%;
-  margin-left: -585px;
+  left: 0;
+  margin-left: 1%;
   font-size: 0;
   height: 100%;
   z-index: 1;
@@ -1169,17 +1169,41 @@ textarea {
 }
 @media screen and (max-width: 1190px) { /* laptop */
   .logo {
-    margin-left: -470px;
+/*    margin-left: -486px;*/
+  }
+  
+  .logo img {
+      
   }
 }
 @media screen and (max-width: 980px) { /* pad */
   .logo {
-    margin-left: -369px;
+/*    margin-left: -408px;*/
+  }
+  
+  .logo div {
+        height: 92%;
+        padding: 14px 0;
+        box-sizing: border-box;
+        margin-top: 17px;
+  }
+  
+.logo img {
+        height: 45%;
+        margin-top: 6%;
+  }
+  
+  .flags ul li {
+      display: block;
+  }
+  
+  .flags {
+      right: 0;
   }
 }
 @media screen and (max-width: 767px) { /* phone */
   .logo {
-    height: 50px;
+    height: 60px;
     position: static;
     margin: 0;
   }
@@ -1188,6 +1212,13 @@ textarea {
     display: block;
     height: 100%;
     text-align: center;
+    margin-top: 0;
+  }
+  
+.logo img {
+        height: 100%;
+        margin-top: 0;
+        margin-left: 9%;
   }
 }
 
@@ -1382,22 +1413,27 @@ nav p{
 }
 @media screen and (max-width: 1190px) { /* laptop */
   .main-nav {
-    margin-right: -470px;
+    margin-right: -421px;
   }
   .main-nav li a {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 980px) { /* pad */
   .main-nav {
-    margin-right: -369px;
+    margin-right: -345px;
   }
   .main-nav li a {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
     font-size: 13px;
     font-weight: 400;
+  }
+  
+  .main-nav li a.two-row {
+    padding: 41px 8px 22px;
   }
 }
 @media screen and (max-width: 767px) { /* phone */
@@ -6879,6 +6915,17 @@ margin-left: 70px;
     top: 3em;
 }
 
+.sticky-flags {
+    width: 63px;
+    position: absolute;
+    right: 25px;
+    top: 1.45em;
+}
+
+.sticky-flags ul li, .flags ul li {
+    display: inline;
+}
+
 .show .flags {
     top: 1.45em;
 }
@@ -6890,6 +6937,28 @@ margin-left: 70px;
 .flags a:last-child {
     padding-left: 0.3em;
     font-size: 13px;
+}
+
+@media screen and (max-width:1190px) { 
+  .flags ul li {
+      display: block;
+  }
+  
+  .flags {
+      right: -16px;
+      top: 35px;
+  }
+}
+
+@media screen and (max-width: 980px) { /* pad */
+  .flags ul li {
+      display: block;
+  }
+  
+  .flags {
+      right: -16px;
+      top: 35px;
+  }
 }
 
 @media screen and (max-width: 767px) { /* phone */
@@ -6909,6 +6978,7 @@ margin-left: 70px;
         margin-left: auto;
         margin-right: auto;
     }
+    
     .flags a:first-child {
         font-size: 20px;
     }
@@ -6917,6 +6987,9 @@ margin-left: 70px;
         padding-left: 0.53em;
         font-size: 20px;
     }
+    .flags ul li {
+      display: inline;
+  }
 }
 
 @media screen and (min-width: 960px) and (max-width: 1190px) { /* phone */
