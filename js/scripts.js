@@ -19,12 +19,6 @@
 		$(document).scroll(chart_circle_init);
 		/* retina-animating-blocks */
                 
-                if (formSent) {
-                    console.log("ima vrijednost");
-                    $("#careerform").find('input:not(input[type="submit"], button), textarea, select').val('').attr('checked', false);
-                } else {
-                    console.log("nema nista");
-                }
 		if (!is_mobile())
 			{
 				window.scrollTo(0,1);
@@ -1551,6 +1545,7 @@ function sticky (){
 			$(sticky).append($(sticky_container)[0].outerHTML)
 		}
 		$(sticky).find(">.sticky-container").addClass("second-sticky");
+                $(sticky).find(".flags").eq(1).addClass("sticky-flags").removeClass("flags");
 		$(window).scroll(function (){
 			if (jQuery(document).scrollTop()>(offset_top_sticky + (2*sticky_height))) {
 				$(sticky).addClass("show");
