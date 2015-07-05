@@ -740,7 +740,8 @@ $lang['quickorder']['legend'] = "Narudžba";
 $lang['quickorder']['order4what'] = "Želim se naručiti za";
 $lang['quickorder']['forma']['label']['submit'] = "Pošalji";
 $lang['quickorder']['forma']['opener'] = "Naruči se";
-
+$lang['quickorder']['forma']['palceholder']['name'] = "Ime i prezime";
+$lang['quickorder']['forma']['palceholder']['telefon'] = "Telefon";
 $lang['quickorder']['forma']['success'] = "Uspješno poslato";
 ////// QUICK ORDER ///////
 
