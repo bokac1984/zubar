@@ -1,5 +1,5 @@
 <nav id="mobile-main-nav" class="mobile-main-nav">
-<i class="fa fa-bars"></i><a href="#" class="opener"><?php echo $lang['menu']['title'] = 'Navigacija'; ?></a>
+<i class="fa fa-bars"></i><a href="#" class="opener"><?php echo $lang['menu']['title']; ?></a>
 <ul>
 <li>
     <i></i><a href="#" <?php echo $typeActive == 1 ? 'class="active two-row"' : 'class="two-row"' ?>><?php echo $lang['menu']['estetska'] ?></a>
