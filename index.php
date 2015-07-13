@@ -77,9 +77,7 @@ include_once("lang/lang.php");
 
             <!-- page content -->
             <main class="page-content">	
-                <?php $langg = get_lang_id(); 
-                    if ($langg != 'en') {
-                ?>
+                <?php if ($lang['menu']['home'] != 'Home') { ?>
                 <div class="grid-row">
                     <!-- services -->
                     <section class="services">

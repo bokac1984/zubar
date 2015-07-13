@@ -18,7 +18,7 @@ $lang['menu']['antiaging'] = 'Anti-aging dentistry';
 $lang['menu']['kreiranje-osmijeha'] = 'Smile design';
 
 // Zubna protetika
-$lang['menu']['zubna-protetika'] = 'Dental prosthetics';
+$lang['menu']['zubna-protetika'] = 'Dental</br>prosthetics';
 $lang['menu']['cornice'] = 'In.Line metal ceramic crowns';
 $lang['menu']['pres-bezmetalne'] = 'Press ceramic crowns';
 $lang['menu']['cirkonijum'] = 'Zirconium dioxide crowns';
@@ -34,7 +34,7 @@ $lang['menu']['straumann'] = 'Straumann implant';
 $lang['menu']['mdiimplantati'] = 'MDI mini implants';
 
 // Oralna hirurgija
-$lang['menu']['oralna-hirurgija'] = 'Oral surgery ';
+$lang['menu']['oralna-hirurgija'] = 'Oral</br>surgery ';
 $lang['menu']['ekstrakcija-zuba'] = 'Tooth extraction';
 $lang['menu']['apikotomija'] = 'Apicotomy';
 $lang['menu']['cistektomija'] = 'Cystectomy';

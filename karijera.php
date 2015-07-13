@@ -19,10 +19,7 @@ $formNamesKeys = array(
     "opstina",
     "emailadr",
     "srednja",
-    "faks",
-    "spec", 
     "tel",
-    'zadnjeradno',
     'verify-career',
     'portret'
 );
@@ -42,10 +39,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $form_names["opstina"] => $lang['karijera']['form']['opstina']['error'],
         $form_names["emailadr"] => $lang['karijera']['form']['emailadr']['error'],
         $form_names["srednja"] => $lang['karijera']['form']['srednja']['error'],
-        $form_names["faks"] => $lang['karijera']['form']['faks']['error'],
-        $form_names["spec"] => $lang['karijera']['form']['spec']['error'], 
+        //$form_names["faks"] => $lang['karijera']['form']['faks']['error'],
+        //$form_names["spec"] => $lang['karijera']['form']['spec']['error'], 
         $form_names["tel"] => $lang['karijera']['form']['tel']['error'],
-        $form_names['zadnjeradno'] => $lang['karijera']['form']['zadnjeradno']['error'],
+        //$form_names['zadnjeradno'] => $lang['karijera']['form']['zadnjeradno']['error'],
         $form_names['verify-career'] => $lang['karijera']['form']['captcha']['error'],
         $form_names['portret'] => $lang['karijera']['form']['portret']['error'],
     );
@@ -66,10 +63,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $form_names["opstina"] => trim(htmlspecialchars($_POST[$form_names['opstina']])),
             $form_names["emailadr"] => trim(htmlspecialchars($_POST[$form_names['emailadr']])),
             $form_names["srednja"] => trim(htmlspecialchars($_POST[$form_names['srednja']])),
-            $form_names["faks"] => trim(htmlspecialchars($_POST[$form_names['faks']])),
-            $form_names["spec"] => trim(htmlspecialchars($_POST[$form_names['spec']])),
+            //$form_names["faks"] => trim(htmlspecialchars($_POST[$form_names['faks']])),
+            //$form_names["spec"] => trim(htmlspecialchars($_POST[$form_names['spec']])),
             $form_names["tel"] => trim(htmlspecialchars($_POST[$form_names['tel']])),
-            $form_names['zadnjeradno'] => trim(htmlspecialchars($_POST[$form_names['zadnjeradno']])),
+            //$form_names['zadnjeradno'] => trim(htmlspecialchars($_POST[$form_names['zadnjeradno']])),
             $form_names['verify-career'] => trim(htmlspecialchars($_POST[$form_names['verify-career']])),
         );
         $data=array_map('trim',$data);
@@ -450,13 +447,13 @@ function check_email_address($email) {
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['onama']['karijera']['form']['faks']; ?></label>
-                                            <textarea wrap="physical" rows="6" name="<?php echo $form_names['faks']; ?>" <?php echo (!empty($dataForValues['faks']) || !$posted) ? "" : 'class="wrong-data"'; ?>><?php echo $dataForValues['faks']; ?></textarea>
+                                            <textarea wrap="physical" rows="6" name="<?php echo $form_names['faks']; ?>" ><?php echo $dataForValues['faks']; ?></textarea>
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                         <div class="input">
                                             <label><?php echo $lang['page']['onama']['karijera']['form']['spec']; ?></label>
-                                            <textarea wrap="physical" rows="6" name="<?php echo $form_names['spec']; ?>" <?php echo (!empty($dataForValues['spec']) || !$posted) ? "" : 'class="wrong-data"'; ?>><?php echo $dataForValues['spec']; ?> </textarea>
+                                            <textarea wrap="physical" rows="6" name="<?php echo $form_names['spec']; ?>" ><?php echo $dataForValues['spec']; ?> </textarea>
                                         </div>
                                     </div>
                                     <div class="clearfix">
@@ -636,7 +633,7 @@ function check_email_address($email) {
                                     <div class="clearfix">
                                         <div class="input lista-poslova">
                                             <label><?php echo $lang['page']['onama']['karijera']['form']['zadnjeradno']; ?>:</label>
-                                            <textarea rows="6" name="<?php echo $form_names['zadnjeradno']; ?>" <?php echo (!empty($dataForValues['zadnjeradno']) || !$posted) ? "" : 'class="wrong-data"'; ?>><?php echo $dataForValues['zadnjeradno']; ?> </textarea>
+                                            <textarea rows="6" name="<?php echo $form_names['zadnjeradno']; ?>" ><?php echo $dataForValues['zadnjeradno']; ?> </textarea>
                                         </div>
                                     </div>
 

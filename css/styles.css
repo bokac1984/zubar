@@ -711,6 +711,7 @@ input[type="url"],
 input[type="tel"],
 input[type="text"],
 input[type="email"],
+input[type="file"],
 input[type="password"] {
   width: 100%;
   height: 40px;
@@ -1234,7 +1235,7 @@ nav p{
   position: absolute;
   top: 0;
   right: 50%;
-  margin-right: -585px;
+  margin-right: -550px;
 }
 .main-nav li {
   position: relative;
@@ -1433,7 +1434,7 @@ nav p{
   }
   
   .main-nav li a.two-row {
-    padding: 41px 8px 22px;
+    padding: 41px 2px 22px;
   }
 }
 @media screen and (max-width: 767px) { /* phone */
@@ -1616,10 +1617,35 @@ nav p{
   font-weight: 900;
   color: #fff;
 }
+
+.quick-search .srpski button[type="button"], .quick-search .engleski button[type="button"] {
+    width: 26%;
+    height: 50px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    text-shadow: 0 -1px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+}
 .quick-search .switcher {
   position: absolute;
   top: 100%;
   right: 0;
+  width: 120px;
+  height: 70px;
+}
+.quick-search .switcher.engleski{
+  position: absolute;
+  top: 100%;
+  right: -131px;
+  width: 120px;
+  height: 70px;
+}
+.quick-search .switcher.srpski {
+  position: absolute;
+  top: 100%;
+  right: -167px;
   width: 120px;
   height: 70px;
 }
@@ -6846,9 +6872,12 @@ margin-left: 70px;
 
 .socijalne.copy-resp nav a.soc-icon.soc-icon-alt {
     background: rgba(255, 255, 255, 0);
-    margin-left: 4em;
+    margin-left: 3em;
 }
-
+.socijalne nav {
+    margin: 0 auto;
+    width: 50%;
+}
 .socijalne nav ul, .socijalne-ikone nav ul  {
     margin-left: auto;
     margin-right: auto;
@@ -6911,20 +6940,20 @@ margin-left: 70px;
 .flags {
     width: 63px;
     position: absolute;
-    right: 25px;
-    top: 3em;
+    right: -1%;
+    top: 2em;
 }
 
 .sticky-flags {
     width: 63px;
     position: absolute;
-    right: 25px;
-    top: 1.45em;
+    right: -10px;
+    top: 0.45em;
 }
 
-.sticky-flags ul li, .flags ul li {
+/*.sticky-flags ul li, .flags ul li {
     display: inline;
-}
+}*/
 
 .show .flags {
     top: 1.45em;
@@ -6956,7 +6985,7 @@ margin-left: 70px;
   }
   
   .flags {
-      right: -16px;
+      right: -28px;
       top: 35px;
   }
 }
@@ -6996,6 +7025,9 @@ margin-left: 70px;
     .footer-nav li.first-level-nav {
         width: 5.45em;
     }
+        .socijalne.copy-resp nav a.soc-icon.soc-icon-alt {
+        margin: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) { /* phone */
@@ -7006,6 +7038,10 @@ margin-left: 70px;
     
     .footer-nav li.first-level-nav {
         width: 8%;
+    }
+    
+    .socijalne.copy-resp nav a.soc-icon.soc-icon-alt {
+        margin: 16px;
     }
 }
 

@@ -100,7 +100,7 @@ include_once("lang/lang.php");
                         <div class="materijal">
                             <b><?php echo $lang['page']['implantologija']['mdiimplantati']['materijali']['title']; ?></b>
                         </div>
-                        <p><?php echo $lang['page']['implantologija']['straumann']['materijali']['content']; ?></p><br>	
+                        <p><?php echo $lang['page']['implantologija']['mdiimplantati']['materijali']['content']; ?></p><br>	
                         <!-- rezervacije -->
                         <?php include("includes/make-reservation.php"); ?>
                         <!--/ rezervacije -->                         

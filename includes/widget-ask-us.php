@@ -19,7 +19,7 @@
                 <i class="fa fa-phone"></i>
             </div>-->
             <div class="row">
-                <input style="height: 25px;" type="file" name="fajl" id="fajl">
+                <input type="file" name="fajl" id="fajl">
                 <i class="fa fa-file"></i>
             </div>
             <div class="row">

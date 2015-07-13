@@ -20,7 +20,7 @@ else
     </ul>
 </li>
 <li>
-    <a href="#" <?php echo $typeActive == 2 ? 'class="active "' : 'class=""' ?>><?php echo $lang['menu']['zubna-protetika'] ?></a>
+    <a href="#" <?php echo $typeActive == 2 ? 'class="active  two-row"' : 'class=" two-row"' ?>><?php echo $lang['menu']['zubna-protetika'] ?></a>
     <ul>
         <li><a href="metalkeramicke-krunice"><?php echo $lang['menu']['cornice'] ?></a></li>
         <li><a href="press-bezmetalne-krunice"><?php echo $lang['menu']['pres-bezmetalne'] ?></a></li>
@@ -40,7 +40,7 @@ else
     </ul>
 </li>
 <li>
-    <a href="#" <?php echo $typeActive == 4 ? 'class="active"' : 'class=""' ?>><?php echo $lang['menu']['oralna-hirurgija'] ?></a>		
+    <a href="#" <?php echo $typeActive == 4 ? 'class="active two-row"' : 'class=" two-row"' ?>><?php echo $lang['menu']['oralna-hirurgija'] ?></a>		
      <ul>
         <li><a href="ekstrakcija-zuba"><?php echo $lang['menu']['ekstrakcija-zuba'] ?></a></li>
         <li><a href="apikotomija"><?php echo $lang['menu']['apikotomija'] ?></a></li>
